@@ -10,13 +10,17 @@
   <LastAuthor>Ollie Raymond</LastAuthor>
   <Created>2012-03-28T18:35:34Z</Created>
   <LastSaved>2016-12-06T05:00:13Z</LastSaved>
-  <Version>14.00</Version>
+  <Version>16.00</Version>
  </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>6690</WindowHeight>
-  <WindowWidth>17205</WindowWidth>
-  <WindowTopX>270</WindowTopX>
-  <WindowTopY>60</WindowTopY>
+  <WindowHeight>12045</WindowHeight>
+  <WindowWidth>18270</WindowWidth>
+  <WindowTopX>930</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ActiveSheet>1</ActiveSheet>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
  </ExcelWorkbook>
@@ -6244,7 +6248,6 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Zoom>90</Zoom>
-   <Selected/>
    <Panes>
     <Pane>
      <Number>3</Number>
@@ -6257,25 +6260,34 @@
   </WorksheetOptions>
  </Worksheet>
  <Worksheet ss:Name="Vocabulary Terms">
-  <Table ss:ExpandedColumnCount="61" ss:ExpandedRowCount="69" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="86" ss:ExpandedRowCount="69" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s83" ss:DefaultColumnWidth="79.5"
    ss:DefaultRowHeight="15">
    <Column ss:StyleID="s83" ss:Width="145.5"/>
    <Column ss:StyleID="s83" ss:Width="143.25"/>
-   <Column ss:StyleID="s83" ss:AutoFitWidth="0" ss:Width="425.25"/>
-   <Column ss:StyleID="s83" ss:Width="78"/>
-   <Column ss:StyleID="s83" ss:Width="62.25"/>
-   <Column ss:StyleID="s83" ss:Width="51.75" ss:Span="1"/>
-   <Column ss:Index="8" ss:StyleID="s83" ss:Width="59.25"/>
-   <Column ss:StyleID="s83" ss:Width="33.75"/>
-   <Column ss:StyleID="s83" ss:AutoFitWidth="0" ss:Width="307.5"/>
-   <Column ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="11.25" ss:Span="3"/>
-   <Column ss:Index="15" ss:StyleID="s83" ss:AutoFitWidth="0" ss:Width="75.75"/>
-   <Column ss:StyleID="s83" ss:Width="56.25" ss:Span="7"/>
-   <Column ss:Index="24" ss:StyleID="s83" ss:Width="62.25" ss:Span="19"/>
-   <Column ss:Index="44" ss:StyleID="s83" ss:Width="53.25" ss:Span="3"/>
-   <Column ss:Index="48" ss:StyleID="s83" ss:Width="62.25"/>
-   <Column ss:StyleID="s83" ss:Width="88.5"/>
+   <Column ss:StyleID="s83" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="425.25"/>
+   <Column ss:StyleID="s83" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="78"/>
+   <Column ss:StyleID="s83" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="62.25"/>
+   <Column ss:StyleID="s83" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="51.75"
+    ss:Span="1"/>
+   <Column ss:Index="8" ss:StyleID="s83" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="59.25"/>
+   <Column ss:StyleID="s83" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="33.75"/>
+   <Column ss:StyleID="s83" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="307.5"/>
+   <Column ss:StyleID="s84" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="11.25"
+    ss:Span="3"/>
+   <Column ss:Index="15" ss:StyleID="s83" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="75.75"/>
+   <Column ss:StyleID="s83" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="56.25"
+    ss:Span="7"/>
+   <Column ss:Index="24" ss:StyleID="s83" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="62.25" ss:Span="19"/>
+   <Column ss:Index="44" ss:StyleID="s83" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="53.25" ss:Span="3"/>
+   <Column ss:Index="48" ss:StyleID="s83" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="62.25"/>
+   <Column ss:StyleID="s83" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="88.5"/>
+   <Column ss:StyleID="s83" ss:Width="362.25"/>
    <Row ss:AutoFitHeight="0" ss:StyleID="s85">
     <Cell ss:StyleID="s86"><Data ss:Type="String">ConceptID</Data></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">PrefLabel</Data></Cell>
@@ -6326,18 +6338,43 @@
     <Cell ss:StyleID="s87"><Data ss:Type="String">Synonym4</Data></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">PrefLabel_fr</Data></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">AbbreviatedLabel</Data></Cell>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">TARGET_CONCEPT</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">PrefLabel_De</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">PrefLabel_Es</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">PrefLabel_Fi</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">PrefLabel_Fr</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">PrefLabel_Id</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">PrefLabel_It</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">PrefLabel_Ja</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">PrefLabel_Km</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">PrefLabel_Ko</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">PrefLabel_Lo</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">PrefLabel_Ms</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">PrefLabel_Nl</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">PrefLabel_Ru</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">PrefLabel_Sv</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">PrefLabel_Th</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">PrefLabel_Us</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">PrefLabel_Vi</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">PrefLabel_Zh</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">Synonym_De</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">Synonym_Es</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">Synonym_Fi</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">Synonym_Fr</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">Synonym_Id</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">Synonym_It</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">Synonym_Ja</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">Synonym_Km</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">Synonym_Ko</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">Synonym_Lo</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">Synonym_Ms</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">Synonym_Nl</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">Synonym_Ru</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">Synonym_Sv</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">Synonym_Th</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">Synonym_Us</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">Synonym_Vi</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">Synonym_Zh</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell ss:StyleID="s90"><Data ss:Type="String">concordant</Data></Cell>
@@ -6359,6 +6396,43 @@
     <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">01.1</Data></Cell>
     <Cell ss:Index="15" ss:StyleID="s90"><Data ss:Type="String">stratiform</Data></Cell>
     <Cell ss:StyleID="s90"/>
+    <Cell ss:Index="50" ss:StyleID="s92"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/earth-resource-form/stratabound</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">schichtgebundene Lagerstaette</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">yacimiento estratoide</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">kerrossidonnaiset esiintyma&quot;t</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">gîte stratoïde</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">endapan min dibatasi oleh unit stratigrafi</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">giacimento stratoide</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">層準規制鉱床</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">CRmkEr:mansNæanCaRsTab;²</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">층경계상 광상</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">Á¹Èì¤Á»ÈÁ®®¦½ªë¾ª¾®¾¸</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">longgokan strata bebat&#10;</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">mestorozhdenie stratifitsirovannoe</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">stratabunden fyndighet</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">แหล่งแร่แบบสแทรทาบาวด์</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">tụ khoáng phân tầng</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">层控矿床</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">mendapan strata bebat</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell ss:StyleID="s90"><Data ss:Type="String">stratiform</Data></Cell>
@@ -6367,6 +6441,43 @@
     <Cell ss:StyleID="s90"><Data ss:Type="String">this vocabulary</Data></Cell>
     <Cell ss:StyleID="s90"><Data ss:Type="String">stratabound</Data></Cell>
     <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">01.1.1</Data></Cell>
+    <Cell ss:Index="50" ss:StyleID="s92"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/earth-resource-form/stratiform</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">stratiformer Erzkoerper</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">yacimiento estratiforme</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">kerrosmyo&quot;ta&quot;iset esiintyma&quot;t</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">gîte stratiforme</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">lapisan endapan mineral</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">giacimento stratiforme</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">層状鉱床</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">CRmkEr:RsTab;</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">층상광상</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">Á¹Èì¤Á»È´ó»ø®»È¾¤À¯ñ­§˜­</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">longgokan stratifom&#10;</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">mestorozhdenie stratiformnoe</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">stratiform fyndighet</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">แหล่งแร่แบบสแทรทิฟอร์ม</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">tụ khoáng dạng tầng</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">层状矿床</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">mendapan stratifom</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell ss:StyleID="s90"><Data ss:Type="String">discordant</Data></Cell>
@@ -6375,6 +6486,43 @@
     <Cell ss:StyleID="s90"><Data ss:Type="String">this vocabulary</Data></Cell>
     <Cell><Data ss:Type="String">top</Data></Cell>
     <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">02</Data></Cell>
+    <Cell ss:Index="50" ss:StyleID="s92"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/earth-resource-form/discordant</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">diskordant</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">discordante</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">epa&quot;jatkuva</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">discordant</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">timpang</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">discordante</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">非調和的&#10;</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">EdlminRsbKña</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">부정합적&#10;</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">Á§¡§Éº­®Ò»È¸´Á­¸</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">tak selanjar</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">nesoglasnyj</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">diskordant</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">ไม่ร่วมแนว</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">không phù hợp</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">不一致&#10;</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">부조화적</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">不谐合</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell ss:StyleID="s90"><Data ss:Type="String">mixed-concordant-discordant</Data></Cell>
@@ -6774,19 +6922,13 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Zoom>90</Zoom>
-   <SplitHorizontal>570</SplitHorizontal>
-   <TopRowBottomPane>0</TopRowBottomPane>
-   <ActivePane>2</ActivePane>
+   <Selected/>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveCol>10</ActiveCol>
-     <RangeSelection>C11:C14</RangeSelection>
-    </Pane>
-    <Pane>
-     <Number>2</Number>
-     <ActiveRow>9</ActiveRow>
-     <ActiveCol>2</ActiveCol>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>49</ActiveCol>
+     <RangeSelection>R3C50:R4C86</RangeSelection>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
