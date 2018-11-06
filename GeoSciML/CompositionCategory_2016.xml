@@ -10,13 +10,16 @@
   <LastAuthor>Ollie Raymond</LastAuthor>
   <Created>2016-06-07T06:15:26Z</Created>
   <LastSaved>2016-12-13T06:32:20Z</LastSaved>
-  <Version>14.00</Version>
+  <Version>16.00</Version>
  </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>13905</WindowHeight>
-  <WindowWidth>14430</WindowWidth>
-  <WindowTopX>14385</WindowTopX>
-  <WindowTopY>-15</WindowTopY>
+  <WindowHeight>8370</WindowHeight>
+  <WindowWidth>18240</WindowWidth>
+  <WindowTopX>930</WindowTopX>
+  <WindowTopY>0</WindowTopY>
   <TabRatio>364</TabRatio>
   <ActiveSheet>1</ActiveSheet>
   <ProtectStructure>False</ProtectStructure>
@@ -170,6 +173,9 @@
   <Style ss:ID="s89">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s90">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Color="#000000"/>
   </Style>
  </Styles>
  <Names>
@@ -6346,26 +6352,29 @@
   </WorksheetOptions>
  </Worksheet>
  <Worksheet ss:Name="Vocabulary Terms">
-  <Table ss:ExpandedColumnCount="48" ss:ExpandedRowCount="76" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="73" ss:ExpandedRowCount="76" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s66" ss:DefaultColumnWidth="79.5"
    ss:DefaultRowHeight="15">
    <Column ss:StyleID="s77" ss:Width="189"/>
    <Column ss:StyleID="s77" ss:Width="180"/>
-   <Column ss:StyleID="s78" ss:AutoFitWidth="0" ss:Width="590.25"/>
-   <Column ss:StyleID="s66" ss:Width="243"/>
-   <Column ss:StyleID="s66" ss:Width="62.25"/>
-   <Column ss:StyleID="s66" ss:Width="88.5"/>
-   <Column ss:StyleID="s66" ss:Width="171"/>
-   <Column ss:StyleID="s66" ss:Width="51.75"/>
-   <Column ss:StyleID="s66" ss:Width="339.75"/>
-   <Column ss:StyleID="s66" ss:Width="186"/>
-   <Column ss:StyleID="s66" ss:Width="189"/>
-   <Column ss:StyleID="s66" ss:Width="105"/>
-   <Column ss:StyleID="s66" ss:Width="129.75"/>
-   <Column ss:StyleID="s66" ss:Width="56.25" ss:Span="4"/>
-   <Column ss:Index="19" ss:StyleID="s66" ss:Width="62.25" ss:Span="13"/>
-   <Column ss:Index="33" ss:StyleID="s66" ss:Width="53.25" ss:Span="3"/>
-   <Column ss:Index="37" ss:StyleID="s66" ss:AutoFitWidth="0" ss:Width="42"/>
+   <Column ss:StyleID="s78" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="590.25"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="243"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="62.25"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="88.5"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="171"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="51.75"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="339.75"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="186"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="189"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="105"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="129.75"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="56.25"
+    ss:Span="4"/>
+   <Column ss:Index="19" ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="62.25" ss:Span="13"/>
+   <Column ss:Index="33" ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="53.25" ss:Span="3"/>
+   <Column ss:Index="37" ss:StyleID="s66" ss:Width="375"/>
    <Column ss:StyleID="s66" ss:AutoFitWidth="0" ss:Width="36.75" ss:Span="2"/>
    <Row ss:AutoFitHeight="0" ss:StyleID="s79">
     <Cell ss:StyleID="s80"><Data ss:Type="String">ConceptID</Data></Cell>
@@ -6404,18 +6413,43 @@
     <Cell ss:StyleID="s81"><Data ss:Type="String">Synonym2</Data></Cell>
     <Cell ss:StyleID="s81"><Data ss:Type="String">Synonym3</Data></Cell>
     <Cell ss:StyleID="s81"><Data ss:Type="String">Synonym4</Data></Cell>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s81"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">TARGET_CONCEPT</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">PrefLabel_De</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">PrefLabel_Es</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">PrefLabel_Fi</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">PrefLabel_Fr</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">PrefLabel_Id</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">PrefLabel_It</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">PrefLabel_Ja</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">PrefLabel_Km</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">PrefLabel_Ko</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">PrefLabel_Lo</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">PrefLabel_Ms</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">PrefLabel_Nl</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">PrefLabel_Ru</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">PrefLabel_Sv</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">PrefLabel_Th</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">PrefLabel_Us</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">PrefLabel_Vi</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">PrefLabel_Zh</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Synonym_De</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Synonym_Es</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Synonym_Fi</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Synonym_Fr</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Synonym_Id</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Synonym_It</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Synonym_Ja</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Synonym_Km</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Synonym_Ko</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Synonym_Lo</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Synonym_Ms</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Synonym_Nl</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Synonym_Ru</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Synonym_Sv</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Synonym_Th</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Synonym_Us</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Synonym_Vi</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Synonym_Zh</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">argillic</Data></Cell>
@@ -6487,6 +6521,43 @@
     <Cell ss:StyleID="s86"><Data ss:Type="String">NADM SLTTm 2004</Data></Cell>
     <Cell ss:Index="7" ss:StyleID="s86"><Data ss:Type="String">carbonate_bearing</Data></Cell>
     <Cell ss:Index="9" ss:StyleID="s87"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compositioncategory/0006</Data></Cell>
+    <Cell ss:Index="37" ss:StyleID="s90"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compositioncategory/calcareous</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">composition carbonatée</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">bersusunan gampingan</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">石灰質組成&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">smasFatufµkMe)ar</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">석회질 조성</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">¦ú¸­¯½¡º®À­œº¯ø­</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">komposisi berkapur</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ส่วนประกอบแบบคาร์บอเนต&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">thành phần vôi</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">砂屑石灰岩</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">石灰質成分</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">เนื้อปูน</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell><Data ss:Type="String">calcareous_monomeralic_carbonate</Data></Cell>
@@ -6528,6 +6599,43 @@
     <Cell ss:Index="7"><Data ss:Type="String">top</Data></Cell>
     <Cell ss:Index="9" ss:StyleID="s87"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compositioncategory/0011</Data></Cell>
     <Cell ss:StyleID="s86"><Data ss:Type="String">asphaltic</Data></Cell>
+    <Cell ss:Index="37" ss:StyleID="s90"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compositioncategory/carbonaceous</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">composition carbonée&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">komposisi berarang&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">炭素質組成&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">smaFatupSMkabUn&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">탄소질 조성&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">¦ú¸­¯½¡º®´ó£¾¡®º­&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">komposisi berkarbon&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ส่วนประกอบมีคาร์บอน&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">thành phần carbon&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">碳质组成&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">susunan berarang</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="45">
     <Cell><Data ss:Type="String">carbonaceous_chemistry</Data></Cell>
@@ -6548,6 +6656,43 @@
     <Cell ss:Index="9" ss:StyleID="s87"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compositioncategory/0013</Data></Cell>
     <Cell ss:StyleID="s86"><Data ss:Type="String">barium_bearing_carbonate_chemistry</Data></Cell>
     <Cell ss:StyleID="s86"><Data ss:Type="String">monomineralic_carbonate</Data></Cell>
+    <Cell ss:Index="37" ss:StyleID="s90"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compositioncategory/carbonate</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Karbonat</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">carbonato</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">karbonaatit</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">carbonate&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">karbonat&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">carbonati</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">炭酸塩&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">kabUNat&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">탄산염&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">£¾¡Â®À­ª&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">karbonat&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Karbonaty</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">karbonat\r</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">คาร์บอเนต&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">carbonat&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">碳酸岩&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">炭酸塩岩</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">carbonate_bearing</Data></Cell>
@@ -6650,6 +6795,43 @@
     <Cell ss:StyleID="s86"><Data ss:Type="String">This vocabulary</Data></Cell>
     <Cell ss:Index="7"><Data ss:Type="String">top</Data></Cell>
     <Cell ss:Index="9" ss:StyleID="s87"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compositioncategory/0025</Data></Cell>
+    <Cell ss:Index="37" ss:StyleID="s90"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compositioncategory/ferruginous</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">composition ferrugineuse</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">komposisi berbesi</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">鉄錆組成</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">bnSMsilaCamYyEdkG‘uksIut</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">철질조성</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">¦ú¸­¯½¡º®ê†´óÀ¹ùñ¡¯‰­</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">komposisi feruginus</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ส่วนประกอบมีเหล็กปน</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">thành phần sắt</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">铁质成分</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">fluoride_chemistry</Data></Cell>
@@ -6764,6 +6946,43 @@
     <Cell ss:StyleID="s86"><Data ss:Type="String">NADM SLTTm 2004</Data></Cell>
     <Cell ss:Index="7" ss:StyleID="s86"><Data ss:Type="String">ferromagnesian</Data></Cell>
     <Cell ss:Index="9" ss:StyleID="s87"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compositioncategory/0039</Data></Cell>
+    <Cell ss:Index="37" ss:StyleID="s90"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compositioncategory/mafic</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">basischer Chemismus</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">composicio!n ma!fica</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ema&quot;ksinen koostumus</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">composition mafique</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">komposisi mafik&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">composizione mafica</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">苦鉄質組成</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">smasFatuma:hVik</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">고철질 조성</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">¦ú¸­¯½¡º®À´±ò¡</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">komposisi mafik</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">maficheskij</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">mafisk sammansättning</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ส่วนประกอบเมฟิก</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">thành phần mafic</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">铁镁质成分</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">susunan mafik</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">magnesium_rich_carbonate_chemistry</Data></Cell>
@@ -6846,6 +7065,43 @@
     <Cell ss:StyleID="s86"><Data ss:Type="String">This vocabulary</Data></Cell>
     <Cell ss:Index="7"><Data ss:Type="String">top</Data></Cell>
     <Cell ss:Index="9" ss:StyleID="s87"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compositioncategory/0049</Data></Cell>
+    <Cell ss:Index="37" ss:StyleID="s90"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compositioncategory/oxide</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Oxid</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">o!xido</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">oksidit</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ossidi</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Okisly</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">oxid</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell><Data ss:Type="String">pelitic</Data></Cell>
@@ -6854,6 +7110,43 @@
     <Cell ss:StyleID="s86"><Data ss:Type="String">NADM SLTTm 2004</Data></Cell>
     <Cell ss:Index="7" ss:StyleID="s86"><Data ss:Type="String">quartz_feldspar_pelitic</Data></Cell>
     <Cell ss:Index="9" ss:StyleID="s87"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compositioncategory/0050</Data></Cell>
+    <Cell ss:Index="37" ss:StyleID="s90"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compositioncategory/pelitic</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Pelit-Gefuege</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">textura peli!tica</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">peliittinen tekstuuri</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">texture pélitique</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">tekstur pelit&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">tessitura pelitica</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">泥質構造</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">vaynP½NÐsilaPk;</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">이토질 조직</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">À­œº¹ó­À´ñ©Áì®</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">tekstur pelit</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">pelitovyj</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">pelitisk textur</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ที่มาจากเพไลต์</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">kiến trúc dạng bùn</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">泥质结构</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">rajut pelit</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">peralkaline</Data></Cell>
@@ -6870,6 +7163,43 @@
     <Cell ss:StyleID="s86"><Data ss:Type="String">Shand 1947</Data></Cell>
     <Cell ss:Index="7"><Data ss:Type="String">top</Data></Cell>
     <Cell ss:Index="9" ss:StyleID="s87"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compositioncategory/0052</Data></Cell>
+    <Cell ss:Index="37" ss:StyleID="s90"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compositioncategory/peraluminous</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">hyperaluminiumhaltiger Chemismus</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">composicio!n hiperaluminosa</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">peralumiininen koostumus</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">composition hyperalumineuse</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">komposisi peraluminium</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">composizione peralluminosa</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">過アルミニウム組成</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">smasFatuEBra:l;lUmIenIs</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">과알루미늄 조성</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">¦ú¸­¯½¡º®ê†´óê¾©º¾ìø´ó­¼´Í¾¨</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">kandungan peralumina&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">plyumazitovyj (sostav)</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">peraluminös sammansättning</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ส่วนประกอบเพอร์อะลูมินัส</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">thành phần bão hoà nhôm</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">过铝质成分</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">komposisi peralumina</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">petroliferous</Data></Cell>
@@ -6902,6 +7232,43 @@
     <Cell ss:StyleID="s86"><Data ss:Type="String">Jackson, 1997, p. 501</Data></Cell>
     <Cell ss:Index="7"><Data ss:Type="String">top</Data></Cell>
     <Cell ss:Index="9" ss:StyleID="s87"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compositioncategory/0056</Data></Cell>
+    <Cell ss:Index="37" ss:StyleID="s90"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compositioncategory/polymictic</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">polymiktes Gefuege</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">polimicto</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">polymiktinen rakenne</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">tessitura polimittica</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">polimiktovyj</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">polymikt textur</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">quartz_feldspar_pelitic</Data></Cell>
@@ -6998,6 +7365,43 @@
     <Cell ss:StyleID="s86"><Data ss:Type="String">This vocabulary</Data></Cell>
     <Cell ss:Index="7"><Data ss:Type="String">top</Data></Cell>
     <Cell ss:Index="9" ss:StyleID="s87"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compositioncategory/0067</Data></Cell>
+    <Cell ss:Index="37" ss:StyleID="s90"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compositioncategory/sulfate</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Sulfat</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">sulfato</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">sulfaatit</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">sulfate</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">sulfat</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">solfati</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">硫酸</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">s‘ulhVat</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">황산염</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">§ñìÀ³ª</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">sulfat</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Sul'faty</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">sulfat</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ซัลเฟต</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">sulfat</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">硫酸盐&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">硫酸脂</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">sulfate_chemistry</Data></Cell>
@@ -7014,6 +7418,43 @@
     <Cell ss:StyleID="s86"><Data ss:Type="String">This vocabulary</Data></Cell>
     <Cell ss:Index="7" ss:StyleID="s86"><Data ss:Type="String">sulfide_bearing</Data></Cell>
     <Cell ss:Index="9" ss:StyleID="s87"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compositioncategory/0069</Data></Cell>
+    <Cell ss:Index="37" ss:StyleID="s90"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compositioncategory/sulfide</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Sulfid</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">sulfuro</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">sulfidit</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">zone sulfure&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">sulfida&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">solfuri</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">硫化物&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">s‘ulhVIt&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">황화물&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">§ñìÄ³©&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">sulfida&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Sul'fidy</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">sulfid</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ซัลไฟด์&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">sulfides</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">sulfua&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">硫化物&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">sulfide_bearing</Data></Cell>
@@ -7048,6 +7489,43 @@
     <Cell ss:StyleID="s86"><Data ss:Type="String">NADM SLTTm 2004</Data></Cell>
     <Cell ss:Index="7" ss:StyleID="s86"><Data ss:Type="String">ferromagnesian</Data></Cell>
     <Cell ss:Index="9" ss:StyleID="s87"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compositioncategory/0073</Data></Cell>
+    <Cell ss:Index="37" ss:StyleID="s90"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compositioncategory/ultramafic</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">Ultrabasit</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ultrabasita</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ultramafiitit</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ultrabasite</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ultramafik</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">roccia ultrafemica</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">超苦鉄質岩</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">G‘ulRtama:hVIs</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">초고철질물</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">¹ó­ºøªù¾À´³ò¡</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ultramafik&#10;</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ul'tramafit</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">ultramafisk bergart</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">อัลตราเมฟิก</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">đá siêu mafic</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">超镁铁质</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">lampau mafik</Data></Cell>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:StyleID="s90"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="45">
     <Cell><Data ss:Type="String">very_low_silica_chemistry</Data></Cell>
@@ -7084,15 +7562,24 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>55</TopRowBottomPane>
-   <ActivePane>2</ActivePane>
+   <TopRowBottomPane>59</TopRowBottomPane>
+   <SplitVertical>36</SplitVertical>
+   <LeftColumnRightPane>36</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
    <Panes>
     <Pane>
      <Number>3</Number>
     </Pane>
     <Pane>
+     <Number>1</Number>
+    </Pane>
+    <Pane>
      <Number>2</Number>
-     <ActiveRow>76</ActiveRow>
+     <ActiveRow>1</ActiveRow>
+    </Pane>
+    <Pane>
+     <Number>0</Number>
+     <ActiveRow>78</ActiveRow>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -7103,392 +7590,392 @@
   <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="78" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
    <Column ss:Width="648"/>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:Collection rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;&quot;&quot;&quot;&amp;&quot;&gt;&quot;"><Data
       ss:Type="String">&lt;skos:Collection rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory&quot;&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;dcterms:title xml:lang=&quot;&quot;en&quot;&quot;&gt;&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_prefLabel&amp;&quot; - All Concepts&lt;/dcterms:title&gt;&quot;"><Data
       ss:Type="String">&lt;dcterms:title xml:lang=&quot;en&quot;&gt;Composition Category - All Concepts&lt;/dcterms:title&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/argillic&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/arkosic_detrital_mode&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/asphaltic&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/barium_bearing_carbonate_chemistry&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/bioclastic&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/calcareous&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/calcareous_monomeralic_carbonate&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/calcium_rich_carbonate_chemistry&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/calcsilicate&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/calcsilicate_bearing&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/carbonaceous&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/carbonaceous_chemistry&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/carbonate&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/carbonate_bearing&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/carbonate_chemistry&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/chloride_chemistry&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/chloritic&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/composition_not_specified&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/dolomite_monomineralic_carbonate&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/dolomitic&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/feldspathic&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/feldspathic_detrital_mode&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/feldspathic_lithic_detrital_mode&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/ferromagnesian&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/ferruginous&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/fluoride_chemistry&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/halide_chemistry&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/high_silica_chemistry&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/impure_calcsilicate_or_carbonate&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/intermediate_silica_chemistry&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/intraclastic&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/iron_bearing_carbonate_chemistry&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/iron_rich_carbonate_chemistry&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/lithic&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/lithic_arkosic_detrital_mode&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/lithic_detrital_mode&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/lithic_rich_detrital_mode&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/low_silica_chemistry&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/mafic&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/magnesium_rich_carbonate_chemistry&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/metallic_oxide_bearing&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/metaluminous&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/micaceous&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/mono_mineralic&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/monomictic&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/monomineralic_carbonate&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/nitrate_chemistry&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/other_composition&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/oxide&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/pelitic&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/peralkaline&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/peraluminous&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/petroliferous&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/phosphate_chemistry&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/phosphatic&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/polymictic&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/quartz_feldspar_pelitic&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/quartzo_feldspathic&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/quartzose&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/quartzose_detrital_mode&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/semi_pelitic&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/silicate_chemistry&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/silicic&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/sub_feldspathic_detrital_mode&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/sub_lithic_detrital_mode&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/subaluminous&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/sulfate&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/sulfate_chemistry&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/sulfide&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/sulfide_bearing&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/sulfide_chemistry&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/sulfosalt_chemistry&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/ultramafic&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/very_low_silica_chemistry&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompositionCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompositionCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compositioncategory/volcanic_lithic&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">&lt;/skos:Collection&gt;</Data></Cell>
    </Row>
   </Table>
@@ -7498,6 +7985,7 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
+   <Unsynced/>
    <Print>
     <ValidPrinterInfo/>
     <PaperSizeIndex>9</PaperSizeIndex>
