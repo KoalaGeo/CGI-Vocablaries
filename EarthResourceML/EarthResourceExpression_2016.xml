@@ -10,36 +10,18 @@
   <LastAuthor>Ollie Raymond</LastAuthor>
   <Created>2014-02-23T18:19:40Z</Created>
   <LastSaved>2014-02-23T18:18:52Z</LastSaved>
-  <Version>14.00</Version>
+  <Version>16.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
   <AllowPNG/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <SupBook>
-   <Path>EarthResourceForm_2016.xml</Path>
-   <SheetName>Notes</SheetName>
-   <SheetName>Vocabulary Terms</SheetName>
-   <SheetName>collection</SheetName>
-   <Xct>
-    <Count>0</Count>
-    <SheetIndex>0</SheetIndex>
-   </Xct>
-   <Xct>
-    <Count>0</Count>
-    <SheetIndex>1</SheetIndex>
-   </Xct>
-   <Xct>
-    <Count>0</Count>
-    <SheetIndex>2</SheetIndex>
-   </Xct>
-  </SupBook>
-  <WindowHeight>6990</WindowHeight>
-  <WindowWidth>14550</WindowWidth>
-  <WindowTopX>1605</WindowTopX>
-  <WindowTopY>165</WindowTopY>
+  <WindowHeight>12045</WindowHeight>
+  <WindowWidth>18270</WindowWidth>
+  <WindowTopX>930</WindowTopX>
+  <WindowTopY>0</WindowTopY>
   <TabRatio>805</TabRatio>
-  <ActiveSheet>2</ActiveSheet>
+  <ActiveSheet>1</ActiveSheet>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
  </ExcelWorkbook>
@@ -6354,42 +6336,43 @@
     <Cell ss:StyleID="s85"><Data ss:Type="String">Narrower1</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Definition</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">SourceNote</Data></Cell>
-    <Cell ss:StyleID="s84"/>
-    <Cell ss:Index="11" ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">TARGET_CONCEPT</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">PrefLabel_De</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">PrefLabel_Es</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">PrefLabel_Fi</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">PrefLabel_Fr</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">PrefLabel_Id</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">PrefLabel_It</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">PrefLabel_Ja</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">PrefLabel_Km</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">PrefLabel_Ko</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">PrefLabel_Lo</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">PrefLabel_Ms</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">PrefLabel_Nl</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">PrefLabel_Ru</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">PrefLabel_Sv</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">PrefLabel_Th</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">PrefLabel_Us</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">PrefLabel_Vi</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">PrefLabel_Zh</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Synonym_De</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Synonym_Es</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Synonym_Fi</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Synonym_Fr</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Synonym_Id</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Synonym_It</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Synonym_Ja</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Synonym_Km</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Synonym_Ko</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Synonym_Lo</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Synonym_Ms</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Synonym_Nl</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Synonym_Ru</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Synonym_Sv</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Synonym_Th</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Synonym_Us</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Synonym_Vi</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Synonym_Zh</Data></Cell>
     <Cell ss:StyleID="s85"/>
     <Cell ss:StyleID="s85"/>
     <Cell ss:StyleID="s85"/>
@@ -6437,6 +6420,43 @@
       ss:Name="Definition"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">Australia/New Zealand Government Geoscience Information Committee (GGIC)</Data><NamedCell
       ss:Name="SourceNote"/></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/earth-resource-expression/gossan</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">eiserner Hut</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">montera hierro</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">rautahilkka</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">chapeau fer</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">tudung besi</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">cappello di ferro</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">焼け&#10;</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">hÁÚsan</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">산화대</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Á»ÈÂ¡¦§¾­</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">gosan</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">shlyapa zheleznaya</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">gossan</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">กอสแซน</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">mũ sắt</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">铁帽</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">ゴッサン</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
    </Row>
    <Row>
     <Cell ss:StyleID="s87"><Data ss:Type="String">02..</Data><NamedCell
@@ -6485,6 +6505,43 @@
       ss:Name="Definition"/></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">Australia/New Zealand Government Geoscience Information Committee (GGIC)</Data><NamedCell
       ss:Name="SourceNote"/></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/earth-resource-expression/geophysical-anomaly</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">geophysikalische Anomalie</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">anomali!a geofi!sica</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">geofysikaalinen anomalia</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">anomalia geofisica</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">anomaliya geofizicheskaya</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">geofysisk anomali</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:StyleID="s87"><Data ss:Type="String">05..</Data><NamedCell
@@ -6529,11 +6586,14 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
+   <Selected/>
+   <LeftColumnVisible>6</LeftColumnVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>12</ActiveRow>
-     <ActiveCol>4</ActiveCol>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>8</ActiveCol>
+     <RangeSelection>R3C9:R3C55</RangeSelection>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -6606,7 +6666,6 @@
     <HorizontalResolution>600</HorizontalResolution>
     <VerticalResolution>600</VerticalResolution>
    </Print>
-   <Selected/>
    <Panes>
     <Pane>
      <Number>3</Number>

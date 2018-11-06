@@ -10,13 +10,16 @@
   <LastAuthor>Ollie Raymond</LastAuthor>
   <Created>2016-06-07T06:15:26Z</Created>
   <LastSaved>2016-06-22T03:27:08Z</LastSaved>
-  <Version>14.00</Version>
+  <Version>16.00</Version>
  </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>13845</WindowHeight>
-  <WindowWidth>14430</WindowWidth>
-  <WindowTopX>14385</WindowTopX>
-  <WindowTopY>45</WindowTopY>
+  <WindowHeight>12045</WindowHeight>
+  <WindowWidth>18270</WindowWidth>
+  <WindowTopX>930</WindowTopX>
+  <WindowTopY>0</WindowTopY>
   <TabRatio>364</TabRatio>
   <ActiveSheet>1</ActiveSheet>
   <ProtectStructure>False</ProtectStructure>
@@ -190,6 +193,9 @@
   </Style>
   <Style ss:ID="s95">
    <Alignment ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s96">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Color="#000000"/>
   </Style>
  </Styles>
  <Names>
@@ -6317,7 +6323,7 @@
   </WorksheetOptions>
  </Worksheet>
  <Worksheet ss:Name="Vocabulary Terms">
-  <Table ss:ExpandedColumnCount="48" ss:ExpandedRowCount="75" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="73" ss:ExpandedRowCount="75" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s70" ss:DefaultColumnWidth="79.5"
    ss:DefaultRowHeight="15">
    <Column ss:StyleID="s79" ss:AutoFitWidth="0" ss:Width="108"/>
@@ -6392,18 +6398,43 @@
     <Cell ss:StyleID="s83"><Data ss:Type="String">Synonym2</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">Synonym3</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">Synonym4</Data></Cell>
-    <Cell ss:StyleID="s83"/>
-    <Cell ss:StyleID="s83"/>
-    <Cell ss:StyleID="s83"/>
-    <Cell ss:StyleID="s83"/>
-    <Cell ss:StyleID="s83"/>
-    <Cell ss:StyleID="s83"/>
-    <Cell ss:StyleID="s83"/>
-    <Cell ss:StyleID="s83"/>
-    <Cell ss:StyleID="s83"/>
-    <Cell ss:StyleID="s83"/>
-    <Cell ss:StyleID="s83"/>
-    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">TARGET_CONCEPT</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">PrefLabel_De</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">PrefLabel_Es</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">PrefLabel_Fi</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">PrefLabel_Fr</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">PrefLabel_Id</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">PrefLabel_It</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">PrefLabel_Ja</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">PrefLabel_Km</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">PrefLabel_Ko</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">PrefLabel_Lo</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">PrefLabel_Ms</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">PrefLabel_Nl</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">PrefLabel_Ru</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">PrefLabel_Sv</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">PrefLabel_Th</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">PrefLabel_Us</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">PrefLabel_Vi</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">PrefLabel_Zh</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">Synonym_De</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">Synonym_Es</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">Synonym_Fi</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">Synonym_Fr</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">Synonym_Id</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">Synonym_It</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">Synonym_Ja</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">Synonym_Km</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">Synonym_Ko</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">Synonym_Lo</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">Synonym_Ms</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">Synonym_Nl</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">Synonym_Ru</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">Synonym_Sv</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">Synonym_Th</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">Synonym_Us</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">Synonym_Vi</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">Synonym_Zh</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell ss:StyleID="s86"><Data ss:Type="String">mixed_brittle_ductile</Data></Cell>
@@ -6436,6 +6467,43 @@
     <Cell ss:Index="9" ss:StyleID="s88"/>
     <Cell ss:StyleID="s87"/>
     <Cell ss:StyleID="s87"/>
+    <Cell ss:Index="37" ss:StyleID="s96"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/deformationstyle/ductile</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">Dehnungsverformung</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">deformacio!n du!ctil</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">duktiilideformaatio</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">déformation ductile</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">deformasi teregang&#10;</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">deformazione duttile</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">延性変形</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">karxUcRTg;RtayénPaByWt</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">연성변형</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">¡¾­¯¼ú­Á¯¤µõ©Ä©É</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">canggaan mulur</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">deformatsiya tyaguchaya</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">plastisk deformation</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">การเปลี่ยนรูปแบบยืดเป็นเส้น</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">biến dạng dẻo (đá)</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">塑性变形&#10;</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">periukan teregang</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">延性变形</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s87"/>
@@ -6930,7 +6998,7 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitVertical>1</SplitVertical>
-   <LeftColumnRightPane>1</LeftColumnRightPane>
+   <LeftColumnRightPane>25</LeftColumnRightPane>
    <ActivePane>1</ActivePane>
    <Panes>
     <Pane>
@@ -6938,7 +7006,9 @@
     </Pane>
     <Pane>
      <Number>1</Number>
-     <ActiveRow>35</ActiveRow>
+     <ActiveRow>3</ActiveRow>
+     <ActiveCol>36</ActiveCol>
+     <RangeSelection>R4C37:R4C73</RangeSelection>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -6948,32 +7018,32 @@
  <Worksheet ss:Name="Collection">
   <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="6" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:Collection rdf:about=&quot;&quot;&quot;&amp;DeformationStyle_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;DeformationStyle_2016.xml!ConceptScheme_ID&amp;&quot;&quot;&quot;&quot;&amp;&quot;&gt;&quot;"><Data
       ss:Type="String">&lt;skos:Collection rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/deformationstyle&quot;&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;dcterms:title xml:lang=&quot;&quot;en&quot;&quot;&gt;&quot;&amp;DeformationStyle_2016.xml!ConceptScheme_prefLabel&amp;&quot; - All Concepts&lt;/dcterms:title&gt;&quot;"><Data
       ss:Type="String">&lt;dcterms:title xml:lang=&quot;en&quot;&gt;Deformation Style - All Concepts&lt;/dcterms:title&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;DeformationStyle_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;DeformationStyle_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/deformationstyle/mixed_brittle_ductile&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;DeformationStyle_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;DeformationStyle_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/deformationstyle/brittle&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;DeformationStyle_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;DeformationStyle_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/deformationstyle/ductile&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">&lt;/skos:Collection&gt;</Data></Cell>
    </Row>
   </Table>
@@ -6983,6 +7053,7 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
+   <Unsynced/>
    <Print>
     <ValidPrinterInfo/>
     <PaperSizeIndex>9</PaperSizeIndex>

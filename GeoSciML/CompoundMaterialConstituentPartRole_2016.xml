@@ -10,13 +10,16 @@
   <LastAuthor>Ollie Raymond</LastAuthor>
   <Created>2016-06-07T06:15:26Z</Created>
   <LastSaved>2016-07-14T05:13:38Z</LastSaved>
-  <Version>14.00</Version>
+  <Version>16.00</Version>
  </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>13905</WindowHeight>
-  <WindowWidth>14430</WindowWidth>
-  <WindowTopX>14385</WindowTopX>
-  <WindowTopY>-15</WindowTopY>
+  <WindowHeight>12045</WindowHeight>
+  <WindowWidth>18270</WindowWidth>
+  <WindowTopX>930</WindowTopX>
+  <WindowTopY>0</WindowTopY>
   <TabRatio>364</TabRatio>
   <ActiveSheet>1</ActiveSheet>
   <ProtectStructure>False</ProtectStructure>
@@ -182,6 +185,9 @@
   </Style>
   <Style ss:ID="s92">
    <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="9" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s93">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Color="#000000"/>
   </Style>
  </Styles>
  <Names>
@@ -5309,7 +5315,7 @@
   </WorksheetOptions>
  </Worksheet>
  <Worksheet ss:Name="Vocabulary Terms">
-  <Table ss:ExpandedColumnCount="48" ss:ExpandedRowCount="76" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="73" ss:ExpandedRowCount="76" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s66" ss:DefaultColumnWidth="79.5"
    ss:DefaultRowHeight="15">
    <Column ss:StyleID="s77" ss:Width="171.75"/>
@@ -5332,7 +5338,7 @@
    <Column ss:StyleID="s66" ss:Width="86.25"/>
    <Column ss:StyleID="s66" ss:Width="62.25" ss:Span="13"/>
    <Column ss:Index="33" ss:StyleID="s66" ss:Width="53.25" ss:Span="3"/>
-   <Column ss:Index="37" ss:StyleID="s66" ss:AutoFitWidth="0" ss:Width="42"/>
+   <Column ss:Index="37" ss:StyleID="s66" ss:Width="458.25"/>
    <Column ss:StyleID="s66" ss:AutoFitWidth="0" ss:Width="36.75" ss:Span="2"/>
    <Row ss:AutoFitHeight="0" ss:StyleID="s79">
     <Cell ss:StyleID="s80"><Data ss:Type="String">ConceptID</Data></Cell>
@@ -5371,18 +5377,43 @@
     <Cell ss:StyleID="s81"><Data ss:Type="String">Synonym2</Data></Cell>
     <Cell ss:StyleID="s81"><Data ss:Type="String">Synonym3</Data></Cell>
     <Cell ss:StyleID="s81"><Data ss:Type="String">Synonym4</Data></Cell>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s81"/>
-    <Cell ss:StyleID="s81"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">TARGET_CONCEPT</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_De</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Es</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Fi</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Fr</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Id</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_It</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Ja</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Km</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Ko</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Lo</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Ms</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Nl</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Ru</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Sv</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Th</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Us</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Vi</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Zh</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_De</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Es</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Fi</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Fr</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Id</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_It</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Ja</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Km</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Ko</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Lo</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Ms</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Nl</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Ru</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Sv</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Th</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Us</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Vi</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Zh</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s66"><Data ss:Type="String">armoured_relict_crystal</Data></Cell>
@@ -5536,6 +5567,43 @@
     <Cell ss:Index="7"><Data ss:Type="String">structural_part</Data></Cell>
     <Cell ss:Index="9" ss:StyleID="s86"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/0015</Data></Cell>
     <Cell><Data ss:Type="String">armoured_relict_inclusion</Data></Cell>
+    <Cell ss:Index="37" ss:StyleID="s93"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/inclusion</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Einschluss</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">inclusión</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">sulkeumat</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">inclusion</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">kepungan</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">inclusione</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">包有物</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">karbBa©Úl</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">포유물</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String"> À¥õº-¯ö­</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">kepungan</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">insluiting</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">vklyuchenie</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">inneslutning</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">การเจือปน</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">bao thể</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">包裹体&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">夹杂物</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s66"><Data ss:Type="String">interstitial_constituent</Data></Cell>
@@ -5563,6 +5631,43 @@
     <Cell ss:StyleID="s84"><Data ss:Type="String">Williams,Turner and Gilbert,1954, Fettes and Desmons,2007</Data></Cell>
     <Cell ss:Index="7"><Data ss:Type="String">corona</Data></Cell>
     <Cell ss:Index="9" ss:StyleID="s86"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/0018</Data></Cell>
+    <Cell ss:Index="37" ss:StyleID="s93"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/kelyphitic_rim</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Kelyphitrinde</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">corona quelifi!tica</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">kelyfiittinen reuna</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">anello chelifitico</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">kajma kelifitovaya</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">kelyfitisk bård</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell ss:StyleID="s66"><Data ss:Type="String">layer</Data></Cell>
@@ -5571,6 +5676,43 @@
     <Cell ss:StyleID="s84"><Data ss:Type="String">This vocabulary</Data></Cell>
     <Cell ss:Index="7" ss:StyleID="s88"><Data ss:Type="String">structural_part</Data></Cell>
     <Cell ss:Index="9" ss:StyleID="s86"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/0019</Data></Cell>
+    <Cell ss:Index="37" ss:StyleID="s93"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/layer</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Schicht</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">estrato</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">kerrokset</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">strato</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">sloj</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">lager</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="60">
     <Cell ss:StyleID="s66"><Data ss:Type="String">matrix</Data></Cell>
@@ -5583,6 +5725,43 @@
     <Cell><Data ss:Type="String">orthomatrix</Data></Cell>
     <Cell><Data ss:Type="String">protomatrix</Data></Cell>
     <Cell><Data ss:Type="String">pseudomatrix</Data></Cell>
+    <Cell ss:Index="37" ss:StyleID="s93"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/matrix</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">matrice roche&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">matriks&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">基質&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">ma:RTIk&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">기질&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">À´ñ©À­œº²œ­&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">matriks&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">เนื้อพื้น&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">khối nền đá&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">矩阵&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">zat dasar</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell ss:StyleID="s66"><Data ss:Type="String">megacryst</Data></Cell>
@@ -5622,6 +5801,43 @@
     <Cell ss:Index="9" ss:StyleID="s86"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/0024</Data></Cell>
     <Cell ss:StyleID="s89"/>
     <Cell ss:StyleID="s88"/>
+    <Cell ss:Index="37" ss:StyleID="s93"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/overgrowth</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Ueberwachsung</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">supercrecimiento</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">pa&quot;a&quot;llekasvettumat</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">surcroissance</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">tumbuh timpal</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">sovracrescita</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">二次成長&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">karlUtlas;hYskarkMNt;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">과성장&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">¯‰¤ºº¡À¡ò­Â²©</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">tumbuh-tambah</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">narost</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">överväxt</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">การตกผลึกซ้อน</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">tăng trưởng quá mức</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">繁茂&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">オーバーグロース</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">표면연정</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">生长过度</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s66"><Data ss:Type="String">particulate_constituent</Data></Cell>
@@ -5654,6 +5870,43 @@
     <Cell ss:Index="7"><Data ss:Type="String">megacryst</Data></Cell>
     <Cell ss:Index="9" ss:StyleID="s86"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/0027</Data></Cell>
     <Cell ss:StyleID="s89"/>
+    <Cell ss:Index="37" ss:StyleID="s93"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/phenocryst</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Einsprengling</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">fenocristal</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">hajarakeet</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">phénocristal</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">fenokris&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">fenocristallo</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">斑晶</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">ehVNURKIsÞ</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">반정</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Á»ú©º¡&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">fenokris</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">fenokristall</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">fenokrist</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">แร่ดอก</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">ban tinh</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">斑晶</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">hablur awal/sulung</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">À´ñ©´½­ó©º¡</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s66"><Data ss:Type="String">porphyroblast</Data></Cell>
@@ -5730,6 +5983,43 @@
     <Cell ss:StyleID="s84"><Data ss:Type="String">This vocabulary</Data></Cell>
     <Cell ss:Index="7" ss:StyleID="s88"><Data ss:Type="String">structural_part</Data></Cell>
     <Cell ss:Index="9" ss:StyleID="s86"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/0035</Data></Cell>
+    <Cell ss:Index="37" ss:StyleID="s93"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/vein</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Gang</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">filo!n</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">suonet</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">filone</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">zhila</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">åder</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s91"/>
@@ -5976,7 +6266,7 @@
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitVertical>1</SplitVertical>
-   <LeftColumnRightPane>1</LeftColumnRightPane>
+   <LeftColumnRightPane>36</LeftColumnRightPane>
    <ActivePane>1</ActivePane>
    <Panes>
     <Pane>
@@ -5984,8 +6274,8 @@
     </Pane>
     <Pane>
      <Number>1</Number>
-     <ActiveRow>13</ActiveRow>
-     <ActiveCol>2</ActiveCol>
+     <ActiveRow>35</ActiveRow>
+     <RangeSelection>R36C37:R36C78</RangeSelection>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -5996,192 +6286,192 @@
   <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="38" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
    <Column ss:StyleID="s92" ss:Width="869.25"/>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:Collection rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;&quot;&quot;&quot;&amp;&quot;&gt;&quot;"><Data
       ss:Type="String">&lt;skos:Collection rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole&quot;&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;dcterms:title xml:lang=&quot;&quot;en&quot;&quot;&gt;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_prefLabel&amp;&quot; - All Concepts&lt;/dcterms:title&gt;&quot;"><Data
       ss:Type="String">&lt;dcterms:title xml:lang=&quot;en&quot;&gt;Compound Material Constituent Part - All Concepts&lt;/dcterms:title&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/armoured_relict_crystal&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/armoured_relict_inclusion&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/chadacryst&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/clast_supporting_orthomatrix&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/clot&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/constituent_role_not_specified&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/corona&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/corrosion_rim&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/crystalline_framework_constituent&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/dropstone&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/epimatrix&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/floating_clast&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/granular_framework_constituent&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/groundmass_constituent&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/inclusion&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/interstitial_constituent&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/irregular_part&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/kelyphitic_rim&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/layer&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/matrix&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/megacryst&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/oikocryst&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/orthomatrix&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/overgrowth&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/particulate_constituent&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/phenoclast&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/phenocryst&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/porphyroblast&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/porphyroclast&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/protomatrix&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/pseudomatrix&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/sedimentary_rock_cement&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/small_concretion&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/structural_part&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;CompoundMaterialConstituentPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/compoundmaterialconstituentpartrole/vein&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">&lt;/skos:Collection&gt;</Data></Cell>
    </Row>
   </Table>
@@ -6191,6 +6481,7 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
+   <Unsynced/>
    <Print>
     <ValidPrinterInfo/>
     <PaperSizeIndex>9</PaperSizeIndex>
