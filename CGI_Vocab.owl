@@ -1,0 +1,571 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#"
+     xml:base="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_032c5b7e_7f61_4dc8_864b_63be030cb20b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_032c5b7e_7f61_4dc8_864b_63be030cb20b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_89c1889f_b8d8_4bf4_bdf9_7094bdccd1b0"/>
+        <rdfs:label xml:lang="en">Hydraulic_Rotary_Drilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_0431f91a_9849_4044_b329_15475cd0949d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_0431f91a_9849_4044_b329_15475cd0949d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_10488836_3749_4efd_aee0_dd630e6a119c"/>
+        <rdfs:label xml:lang="en">System</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_044bc473_e045_440b_b151_86acfccde65c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_044bc473_e045_440b_b151_86acfccde65c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_43b7d1cf_dc5d_47eb_bfbc_be45ba410a31"/>
+        <rdfs:label xml:lang="en">Sidewall_Core_Drilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_0f6907d9_fdcf_4fdf_817d_2818fc0de8d8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_0f6907d9_fdcf_4fdf_817d_2818fc0de8d8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_4ad26518_de17_491c_afc4_49f3483076aa"/>
+        <rdfs:label xml:lang="en">Chronostratigraphy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_10488836_3749_4efd_aee0_dd630e6a119c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_10488836_3749_4efd_aee0_dd630e6a119c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_49544616_7c34_446c_909e_fc29f29c418f"/>
+        <rdfs:label xml:lang="en">Erathem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_39ad73e0_74c1_44f6_9420_ab554bc6a5a3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_39ad73e0_74c1_44f6_9420_ab554bc6a5a3">
+        <rdfs:label xml:lang="en">Geology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_3e556d49_8bd9_41a6_a6fd_89314965b2d0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_3e556d49_8bd9_41a6_a6fd_89314965b2d0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_43b7d1cf_dc5d_47eb_bfbc_be45ba410a31"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ae3532bc_69a8_476a_a85b_25597333e646"/>
+        <rdfs:label xml:lang="en">Direct_Push_Drilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_43a7763e_71da_48d1_977c_f4a998120c30 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_43a7763e_71da_48d1_977c_f4a998120c30">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_3e556d49_8bd9_41a6_a6fd_89314965b2d0"/>
+        <rdfs:label xml:lang="en">Kasten_Core_Drilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_43b7d1cf_dc5d_47eb_bfbc_be45ba410a31 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_43b7d1cf_dc5d_47eb_bfbc_be45ba410a31">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_89c1889f_b8d8_4bf4_bdf9_7094bdccd1b0"/>
+        <rdfs:label xml:lang="en">Core_Drilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_44bfe2db_78c4_4ded_b3b4_a1d924d409e7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_44bfe2db_78c4_4ded_b3b4_a1d924d409e7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_89c1889f_b8d8_4bf4_bdf9_7094bdccd1b0"/>
+        <rdfs:label xml:lang="en">Precussion_Drilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_45a13704_3301_482a_b05a_06d975c71421 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_45a13704_3301_482a_b05a_06d975c71421">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_3e556d49_8bd9_41a6_a6fd_89314965b2d0"/>
+        <rdfs:label xml:lang="en">Window_Sampler_Drilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_466ea2f2_19b9_44d8_8a49_6bec28818968 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_466ea2f2_19b9_44d8_8a49_6bec28818968">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_0431f91a_9849_4044_b329_15475cd0949d"/>
+        <rdfs:label xml:lang="en">Series</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_46af1872_f34e_4f44_8b16_b2cf3539f5ec -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_46af1872_f34e_4f44_8b16_b2cf3539f5ec">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_58f773ab_ad88_4a82_ade0_e92027f516e6"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_0f6907d9_fdcf_4fdf_817d_2818fc0de8d8"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_58f773ab_ad88_4a82_ade0_e92027f516e6"/>
+        <rdfs:label xml:lang="en">Supereonotherm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_47022b75_d5d3_45da_bba8_314adf8454ae -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_47022b75_d5d3_45da_bba8_314adf8454ae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_044bc473_e045_440b_b151_86acfccde65c"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_4ae04be5_029e_44b6_8b60_5e03d2a79aa8"/>
+        <rdfs:label xml:lang="en">Sidewell_Core_Mechanical_Drilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_49544616_7c34_446c_909e_fc29f29c418f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_49544616_7c34_446c_909e_fc29f29c418f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_46af1872_f34e_4f44_8b16_b2cf3539f5ec"/>
+        <rdfs:label xml:lang="en">Eonothem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_4ad26518_de17_491c_afc4_49f3483076aa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_4ad26518_de17_491c_afc4_49f3483076aa">
+        <rdfs:label xml:lang="en">Geological_Time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_4ae04be5_029e_44b6_8b60_5e03d2a79aa8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_4ae04be5_029e_44b6_8b60_5e03d2a79aa8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_044bc473_e045_440b_b151_86acfccde65c"/>
+        <rdfs:label xml:lang="en">Sidewell_Core_Bullet_Drilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_550ced3b_356e_4211_bd24_af5b4e01b7ec -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_550ced3b_356e_4211_bd24_af5b4e01b7ec">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_43b7d1cf_dc5d_47eb_bfbc_be45ba410a31"/>
+        <rdfs:label xml:lang="en">Box_Core_Drilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_58f773ab_ad88_4a82_ade0_e92027f516e6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_58f773ab_ad88_4a82_ade0_e92027f516e6">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_46af1872_f34e_4f44_8b16_b2cf3539f5ec"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_72fc76cd_54c4_4ee0_977f_1a9490e9a16e"/>
+        <rdfs:label xml:lang="en">Supereon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_63ce151a_89e6_4945_907e_bac4027d3a6b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_63ce151a_89e6_4945_907e_bac4027d3a6b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_44bfe2db_78c4_4ded_b3b4_a1d924d409e7"/>
+        <rdfs:label xml:lang="en">Cable_Tool_Drilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_6f061725_76f0_4c2d_a752_842acabf04bf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_6f061725_76f0_4c2d_a752_842acabf04bf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_f960f2bb_c233_434b_b416_88b32012db13"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b03b6bee_4de5_47de_84f2_e362a4efea24"/>
+        <rdfs:label xml:lang="en">Mackintosh_Probe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_72fc76cd_54c4_4ee0_977f_1a9490e9a16e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_72fc76cd_54c4_4ee0_977f_1a9490e9a16e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_4ad26518_de17_491c_afc4_49f3483076aa"/>
+        <rdfs:label xml:lang="en">Geochronology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_74444543_dab2_428c_b43a_ca784c93e6c2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_74444543_dab2_428c_b43a_ca784c93e6c2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_dfc15cf3_fd49_49d4_b8be_22d630f35ccd"/>
+        <rdfs:label xml:lang="en">Period</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_7b01c7da_b12f_473e_9b43_53fa9dcbe3b8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_7b01c7da_b12f_473e_9b43_53fa9dcbe3b8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_d65ffba7_909b_432e_b0a4_4ab8adbbf2b1"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_f066f2d6_1146_4df4_9182_18bec8beeaff"/>
+        <rdfs:label xml:lang="en">Power_Auger_Drilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_89c1889f_b8d8_4bf4_bdf9_7094bdccd1b0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_89c1889f_b8d8_4bf4_bdf9_7094bdccd1b0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_adef9daf_da44_433c_b72c_1fcb6587f06e"/>
+        <rdfs:label xml:lang="en">Drilling_Method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_8e0c1ba1_f251_49ca_8db1_39cbd80ea6ce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_8e0c1ba1_f251_49ca_8db1_39cbd80ea6ce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_43b7d1cf_dc5d_47eb_bfbc_be45ba410a31"/>
+        <rdfs:label xml:lang="en">Air_Core_Drilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_91b1b8ba_750f_4a71_98b4_112fa3f570ae -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_91b1b8ba_750f_4a71_98b4_112fa3f570ae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_3e556d49_8bd9_41a6_a6fd_89314965b2d0"/>
+        <rdfs:label xml:lang="en">Delft_Sampler_Drilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_98d77ef8_9a86_4d25_9398_fd8eb89f1cd3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_98d77ef8_9a86_4d25_9398_fd8eb89f1cd3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_3e556d49_8bd9_41a6_a6fd_89314965b2d0"/>
+        <rdfs:label xml:lang="en">Piston_Core_Drilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a5cf92f4_0323_43a8_80cc_a586491847de -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a5cf92f4_0323_43a8_80cc_a586491847de">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_74444543_dab2_428c_b43a_ca784c93e6c2"/>
+        <rdfs:label xml:lang="en">Epochs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a8efe6ad_4442_4ce6_b45d_28ebd4c6bb67 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a8efe6ad_4442_4ce6_b45d_28ebd4c6bb67">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_44bfe2db_78c4_4ded_b3b4_a1d924d409e7"/>
+        <rdfs:label xml:lang="en">Reverse_Circulation_Drilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_adef9daf_da44_433c_b72c_1fcb6587f06e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_adef9daf_da44_433c_b72c_1fcb6587f06e">
+        <rdfs:label xml:lang="en">Drilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ae3532bc_69a8_476a_a85b_25597333e646 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ae3532bc_69a8_476a_a85b_25597333e646">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_43b7d1cf_dc5d_47eb_bfbc_be45ba410a31"/>
+        <rdfs:label xml:lang="en">Diamond_Core_Drilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b03b6bee_4de5_47de_84f2_e362a4efea24 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b03b6bee_4de5_47de_84f2_e362a4efea24">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_f960f2bb_c233_434b_b416_88b32012db13"/>
+        <rdfs:label xml:lang="en">Cone_Penetrometer_Test_Probe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b05aea6e_5c2f_49f8_8ee0_9c5db20b8288 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b05aea6e_5c2f_49f8_8ee0_9c5db20b8288">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_3e556d49_8bd9_41a6_a6fd_89314965b2d0"/>
+        <rdfs:label xml:lang="en">Geoprobe_Core_Drilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b2951d6a_4d3f_4da0_8094_64b4a27c0c30 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b2951d6a_4d3f_4da0_8094_64b4a27c0c30">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_89c1889f_b8d8_4bf4_bdf9_7094bdccd1b0"/>
+        <rdfs:label xml:lang="en">Sonic_Drilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_cd0243c9_cdb9_481f_ab2f_d0d8bcbe4ef3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_cd0243c9_cdb9_481f_ab2f_d0d8bcbe4ef3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_466ea2f2_19b9_44d8_8a49_6bec28818968"/>
+        <rdfs:label xml:lang="en">Stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_d65ffba7_909b_432e_b0a4_4ab8adbbf2b1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_d65ffba7_909b_432e_b0a4_4ab8adbbf2b1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_89c1889f_b8d8_4bf4_bdf9_7094bdccd1b0"/>
+        <rdfs:label xml:lang="en">Auger_Drilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_d75a7f6d_603d_4930_a3ec_6d5ee2ca6c7b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_d75a7f6d_603d_4930_a3ec_6d5ee2ca6c7b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_44bfe2db_78c4_4ded_b3b4_a1d924d409e7"/>
+        <rdfs:label xml:lang="en">Rotary_Air_Blast_Drilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_d8d1835a_244a_442f_b62b_b1d7d0bb5b6f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_d8d1835a_244a_442f_b62b_b1d7d0bb5b6f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_44bfe2db_78c4_4ded_b3b4_a1d924d409e7"/>
+        <rdfs:label xml:lang="en">Rotary_Hammer_Drilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_df7d760c_2ffb_4a63_b66d_8a3435bd0838 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_df7d760c_2ffb_4a63_b66d_8a3435bd0838">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_3e556d49_8bd9_41a6_a6fd_89314965b2d0"/>
+        <rdfs:label xml:lang="en">Mackereth_Core_Drilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_dfc15cf3_fd49_49d4_b8be_22d630f35ccd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_dfc15cf3_fd49_49d4_b8be_22d630f35ccd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_f993c110_fbcc_4c70_9cda_91b1b8910895"/>
+        <rdfs:label xml:lang="en">Era</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_e0b7d71e_a3e7_4ca4_b064_eabf808fa786 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_e0b7d71e_a3e7_4ca4_b064_eabf808fa786">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a5cf92f4_0323_43a8_80cc_a586491847de"/>
+        <rdfs:label xml:lang="en">Ages</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_e6eab35e_2e7f_4e67_a24d_9e8d9324c78b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_e6eab35e_2e7f_4e67_a24d_9e8d9324c78b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_3e556d49_8bd9_41a6_a6fd_89314965b2d0"/>
+        <rdfs:label xml:lang="en">Gravity_Core_Drilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_e9dabd1e_49a9_4589_91c5_96ca08914abb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_e9dabd1e_49a9_4589_91c5_96ca08914abb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ae3532bc_69a8_476a_a85b_25597333e646"/>
+        <rdfs:label xml:lang="en">Conventional_Core_Drilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_f066f2d6_1146_4df4_9182_18bec8beeaff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_f066f2d6_1146_4df4_9182_18bec8beeaff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_d65ffba7_909b_432e_b0a4_4ab8adbbf2b1"/>
+        <rdfs:label xml:lang="en">Hand_Auger_Drilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_f195f874_70d8_4947_868e_77836751d22d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_f195f874_70d8_4947_868e_77836751d22d">
+        <rdfs:label xml:lang="en">Earth_Resource</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_f9116bc8_e363_421c_baaf_1f86341118aa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_f9116bc8_e363_421c_baaf_1f86341118aa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b2951d6a_4d3f_4da0_8094_64b4a27c0c30"/>
+        <rdfs:label xml:lang="en">Vibrocore_Drilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_f960f2bb_c233_434b_b416_88b32012db13 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_f960f2bb_c233_434b_b416_88b32012db13">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_89c1889f_b8d8_4bf4_bdf9_7094bdccd1b0"/>
+        <rdfs:label xml:lang="en">Probe_Drilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_f993c110_fbcc_4c70_9cda_91b1b8910895 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_f993c110_fbcc_4c70_9cda_91b1b8910895">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_58f773ab_ad88_4a82_ade0_e92027f516e6"/>
+        <rdfs:label xml:lang="en">Eon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLNamedIndividual_27295eaa_7eaf_49f7_b144_d54dc66d7624 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLNamedIndividual_27295eaa_7eaf_49f7_b144_d54dc66d7624">
+        <rdf:type rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_58f773ab_ad88_4a82_ade0_e92027f516e6"/>
+        <rdfs:label xml:lang="en">Precambrian</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_032c5b7e_7f61_4dc8_864b_63be030cb20b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_43b7d1cf_dc5d_47eb_bfbc_be45ba410a31"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_44bfe2db_78c4_4ded_b3b4_a1d924d409e7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b2951d6a_4d3f_4da0_8094_64b4a27c0c30"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_d65ffba7_909b_432e_b0a4_4ab8adbbf2b1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_f960f2bb_c233_434b_b416_88b32012db13"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_044bc473_e045_440b_b151_86acfccde65c"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_3e556d49_8bd9_41a6_a6fd_89314965b2d0"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_550ced3b_356e_4211_bd24_af5b4e01b7ec"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_8e0c1ba1_f251_49ca_8db1_39cbd80ea6ce"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ae3532bc_69a8_476a_a85b_25597333e646"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_0f6907d9_fdcf_4fdf_817d_2818fc0de8d8"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_46af1872_f34e_4f44_8b16_b2cf3539f5ec"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_58f773ab_ad88_4a82_ade0_e92027f516e6"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_72fc76cd_54c4_4ee0_977f_1a9490e9a16e"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_39ad73e0_74c1_44f6_9420_ab554bc6a5a3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_4ad26518_de17_491c_afc4_49f3483076aa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_adef9daf_da44_433c_b72c_1fcb6587f06e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_f195f874_70d8_4947_868e_77836751d22d"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_43a7763e_71da_48d1_977c_f4a998120c30"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_45a13704_3301_482a_b05a_06d975c71421"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_91b1b8ba_750f_4a71_98b4_112fa3f570ae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_98d77ef8_9a86_4d25_9398_fd8eb89f1cd3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b05aea6e_5c2f_49f8_8ee0_9c5db20b8288"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_df7d760c_2ffb_4a63_b66d_8a3435bd0838"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_e6eab35e_2e7f_4e67_a24d_9e8d9324c78b"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_63ce151a_89e6_4945_907e_bac4027d3a6b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a8efe6ad_4442_4ce6_b45d_28ebd4c6bb67"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_d75a7f6d_603d_4930_a3ec_6d5ee2ca6c7b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_d8d1835a_244a_442f_b62b_b1d7d0bb5b6f"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+
