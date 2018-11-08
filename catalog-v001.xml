@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://www.igsint.com/ontology/Lithology" uri="file:/C:/Users/edlew/Documents/GitHub/Geology-Ontology/Lithology.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1541589356336" name="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab" uri="CGI_Vocab.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1541676694108" name="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab" uri="CGI_Vocab.owl"/>
     </group>
 </catalog>
