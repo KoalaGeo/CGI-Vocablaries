@@ -10,13 +10,17 @@
   <LastAuthor>Ollie Raymond</LastAuthor>
   <Created>2012-03-28T18:35:34Z</Created>
   <LastSaved>2016-11-28T04:30:09Z</LastSaved>
-  <Version>14.00</Version>
+  <Version>16.00</Version>
  </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>6690</WindowHeight>
-  <WindowWidth>17205</WindowWidth>
-  <WindowTopX>270</WindowTopX>
-  <WindowTopY>60</WindowTopY>
+  <WindowHeight>12045</WindowHeight>
+  <WindowWidth>18270</WindowWidth>
+  <WindowTopX>930</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <TabRatio>443</TabRatio>
   <ActiveSheet>1</ActiveSheet>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
@@ -336,6 +340,9 @@
    <Alignment ss:Vertical="Top"/>
    <Interior/>
    <NumberFormat ss:Format="m/d/yyyy;@"/>
+  </Style>
+  <Style ss:ID="s117">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Color="#000000"/>
   </Style>
  </Styles>
  <Names>
@@ -6381,38 +6388,45 @@
   </WorksheetOptions>
  </Worksheet>
  <Worksheet ss:Name="Vocabulary Terms">
-  <Table ss:ExpandedColumnCount="65" ss:ExpandedRowCount="69" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="90" ss:ExpandedRowCount="69" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s84" ss:DefaultColumnWidth="79.5"
    ss:DefaultRowHeight="15">
    <Column ss:StyleID="s84" ss:Width="145.5"/>
    <Column ss:StyleID="s84" ss:Width="143.25"/>
-   <Column ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="425.25"/>
-   <Column ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="359.25"/>
-   <Column ss:StyleID="s84" ss:Width="144"/>
-   <Column ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="106.5"/>
-   <Column ss:StyleID="s84" ss:Width="51.75"/>
-   <Column ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="95.25"/>
-   <Column ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="47.25"/>
-   <Column ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="54.75"/>
-   <Column ss:StyleID="s85" ss:AutoFitWidth="0" ss:Width="11.25" ss:Span="3"/>
-   <Column ss:Index="15" ss:StyleID="s84" ss:Width="132.75"/>
-   <Column ss:StyleID="s84" ss:Width="117.75"/>
-   <Column ss:StyleID="s84" ss:Width="110.25"/>
-   <Column ss:StyleID="s84" ss:Width="68.25"/>
-   <Column ss:StyleID="s84" ss:Width="56.25"/>
-   <Column ss:StyleID="s84" ss:Width="71.25"/>
-   <Column ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="94.5"/>
-   <Column ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="60.75" ss:Span="3"/>
-   <Column ss:Index="26" ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="15"
-    ss:Span="12"/>
-   <Column ss:Index="39" ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="15.75"
+   <Column ss:StyleID="s84" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="425.25"/>
+   <Column ss:StyleID="s84" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="359.25"/>
+   <Column ss:StyleID="s84" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="144"/>
+   <Column ss:StyleID="s84" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="106.5"/>
+   <Column ss:StyleID="s84" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="51.75"/>
+   <Column ss:StyleID="s84" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="95.25"/>
+   <Column ss:StyleID="s84" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="47.25"/>
+   <Column ss:StyleID="s84" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="54.75"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="11.25"
+    ss:Span="3"/>
+   <Column ss:Index="15" ss:StyleID="s84" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="132.75"/>
+   <Column ss:StyleID="s84" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="117.75"/>
+   <Column ss:StyleID="s84" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="110.25"/>
+   <Column ss:StyleID="s84" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="68.25"/>
+   <Column ss:StyleID="s84" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="56.25"/>
+   <Column ss:StyleID="s84" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="71.25"/>
+   <Column ss:StyleID="s84" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="94.5"/>
+   <Column ss:StyleID="s84" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="60.75"
+    ss:Span="3"/>
+   <Column ss:Index="26" ss:StyleID="s84" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="15" ss:Span="12"/>
+   <Column ss:Index="39" ss:StyleID="s84" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="15.75" ss:Span="4"/>
+   <Column ss:Index="44" ss:StyleID="s84" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="81"/>
+   <Column ss:StyleID="s84" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="105.75"/>
+   <Column ss:StyleID="s84" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="108.75"/>
+   <Column ss:StyleID="s84" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="53.25"
     ss:Span="4"/>
-   <Column ss:Index="44" ss:StyleID="s84" ss:Width="81"/>
-   <Column ss:StyleID="s84" ss:Width="105.75"/>
-   <Column ss:StyleID="s84" ss:Width="108.75"/>
-   <Column ss:StyleID="s84" ss:Width="53.25" ss:Span="4"/>
-   <Column ss:Index="52" ss:StyleID="s84" ss:Width="62.25"/>
-   <Column ss:StyleID="s84" ss:Width="88.5"/>
+   <Column ss:Index="52" ss:StyleID="s84" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="62.25"/>
+   <Column ss:StyleID="s84" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="88.5"/>
+   <Column ss:StyleID="s84" ss:Width="408"/>
    <Row ss:AutoFitHeight="0" ss:Height="22.5">
     <Cell ss:StyleID="s86"><Data ss:Type="String">ConceptID</Data></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">PrefLabel</Data></Cell>
@@ -6467,20 +6481,239 @@
     <Cell ss:StyleID="s87"><Data ss:Type="String">Synonym8</Data></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">PrefLabel_fr</Data></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">AbbreviatedLabel</Data></Cell>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">TARGET_CONCEPT</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">PrefLabel_De</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">PrefLabel_Es</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">PrefLabel_Fi</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">PrefLabel_Fr</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">PrefLabel_Id</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">PrefLabel_It</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">PrefLabel_Ja</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">PrefLabel_Km</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">PrefLabel_Ko</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">PrefLabel_Lo</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">PrefLabel_Ms</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">PrefLabel_Nl</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">PrefLabel_Ru</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">PrefLabel_Sv</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">PrefLabel_Th</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">PrefLabel_Us</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">PrefLabel_Vi</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">PrefLabel_Zh</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">Synonym_De</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">Synonym_Es</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">Synonym_Fi</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">Synonym_Fr</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">Synonym_Id</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">Synonym_It</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">Synonym_Ja</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">Synonym_Km</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">Synonym_Ko</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">Synonym_Lo</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">Synonym_Ms</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">Synonym_Nl</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">Synonym_Ru</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">Synonym_Sv</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">Synonym_Th</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">Synonym_Us</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">Synonym_Vi</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">Synonym_Zh</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="63.75">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">acid-mine-drainage</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">acid mine drainage</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Mine drainage that has a pH value of less than 7.0.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">BAT/BREF of mining tailings and waste rock (European Commission 2004). http://eippcb.jrc.ec.europa.eu/reference/BREF/mmr_adopted_0109.pdf</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">mine-drainage</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">01.2.1.2.1.1</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+    <Cell ss:Index="54" ss:StyleID="s117"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/environmental-impact/acid-mine-drainage</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">saures Grubenwasser</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">desagu&quot;e a!cido mina</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">hapan kaivosvaluma</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">exhaure mine acide</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">aliran tambang asam</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">drenaggio acido</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">酸性鉱山排水</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">karbgðÚrecjsarFatuGasuItBIGNþÚgEr:</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">산성 광산배수</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String"> ¡¾­-ì½-®¾¨-­ÕÀ¦¨ê†À¯ñ­¡ö©¥¾¡ÁÍÈ¤¢÷©£í­Á»È</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">saliran asid lombong</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">drenirovanie vod shakhtnykh sernokislykh</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">försurat gruvdränage</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">น้ำเสียจากเหมืองที่เป็นกรด</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">thoát nước axit mỏ</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">酸性矿坑排水&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">酸性矿山排水</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">aqueous-liquid-emission</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">aqueous liquid emission</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Emission of liquids in which water is the most abundant constituent.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">liquid-emission</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">01.2.1</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:Index="15" ss:StyleID="s91"><Data ss:Type="String">subsurface-aqueous-liquid-discharge</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">surface-aqueous-liquid-discharge</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="102">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">basic-mine-drainage</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">basic mine drainage</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Mine drainage that has a pH value of greater than 7.0.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">mine-drainage</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">01.2.1.2.1.2</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">collapse</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">collapse</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Collapse of surface material into underground excavations, resulting in major surface subsidence and disruption.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">subsidence</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">02.3.1..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+    <Cell ss:Index="54" ss:StyleID="s117"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/environmental-impact/collapse</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">Einsturz</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">hundimiento</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">sortuminen</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">sprofondamento</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">obrushenie</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">kollaps</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">dam-failure</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">dam failure</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Breach or destruction of a large water or tailing containment structure and release of contained water that could result in downstream damage or pollution.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">physical-impact</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">02.4..</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s94"/>
+    <Cell ss:StyleID="s94"/>
+    <Cell ss:StyleID="s94"/>
+    <Cell ss:StyleID="s94"/>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">dust</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">dust</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Emission of dust into the air. Dust is defines as small solid particles with a diameter less than 75 µm. The particles are small enough to remain suspended in the air for some time, but settle out under their own weight in still air.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ISO 4225 (ISO, 1994), quoted in http://www.who.int/occupational_health/publications/en/oehairbornedust3.pdf;  http://ecorestoration.montana.edu/mineland/guide/problem/impacts/fugitive.htm</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">particulate-emission</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">01.1.2..</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+    <Cell ss:Index="54" ss:StyleID="s117"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/environmental-impact/dust</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">Staub</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">polvo</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">po&quot;ly</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">poussière</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">debu&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">polvere</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">ダスト</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">FUlI</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">재</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">±÷È­</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">debu</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">pyl'</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">damm</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">ฝุ่น</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">bụi</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">尘&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">jenis batubara</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">煤尘</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25">
     <Cell ss:StyleID="s91"><Data ss:Type="String">emission</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">emission</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Any release or disposal of a substance into the environment</Data></Cell>
@@ -6497,22 +6730,272 @@
     <Cell ss:StyleID="s91"><Data ss:Type="String">health-impact</Data></Cell>
     <Cell ss:Index="44" ss:StyleID="s91"/>
    </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">particulate-emission</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">particulate emission</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Emission of suspended particulate material into the air or water</Data></Cell>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">erosion</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">erosion</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Impact due to loss of material shaped by mining activities through water or wind action.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">IGH International Glossary of Hydrology. WMO - UNESCO, 1992. 413 p.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">physical-impact</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">02.1..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+    <Cell ss:Index="54" ss:StyleID="s117"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/environmental-impact/erosion</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">Erosion</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">erosio!n</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">eroosio</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">érosion&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">erosi&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">erosione</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">浸食作用&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">sMNwk&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">침식&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">¡¾­À§¾½À¥ˆº­&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">hakisan&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">ehroziya</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">erosion</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">การกร่อน&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">xói mòn&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">侵蚀&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">pengikisan</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">浸食</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">冲蚀</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">gaseous-emission</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">gaseous emission</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Emission of gaseous substance, including steam or release of gas resulting from mining activity.</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">emission</Data></Cell>
     <Cell ss:StyleID="s92"/>
     <Cell ss:StyleID="s92"/>
     <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">01.1..</Data></Cell>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:Index="15" ss:StyleID="s91"><Data ss:Type="String">dust</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">mineral-fiber-emission</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">01.3..</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s91"><Data ss:Type="String">odour</Data></Cell>
     <Cell ss:Index="44" ss:StyleID="s91"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="102">
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">habitat-modification</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">habitat modification</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Impact due to modification of landscape and ecosystem on or adjacent to the resource extraction site.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ISPRA - mining structural problems database and classification of underground mining sites by means of a risk index. Reference to a ISPRA document: Berry P., Bandini A., Dacquino C. (2011) classification of underground mining sites by means of a risk index, V.3, pp. 31-44, Quad. Ambiente e Società. [http://www.isprambiente.gov.it/contentfiles/00009100/9196-qas-3-ultimo-corretto.pdf];   Dacquino C. et al. (2006) - Italian Mining sites inventory. APAT, 2006. [http://www.isprambiente.gov.it/files/miniere/i-siti-minerari-italiani-1870-2006.pdf]; http://ecorestoration.montana.edu/mineland/guide/problem/impacts/habitat.htm</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">top</Data></Cell>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">05..</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s91"><Data ss:Type="String">visual-disturbance</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">health-impact</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">health impact</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Resource extraction activity directly or indirectly impacts the health of living organisms (human, other animals, plants...)</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ISPRA - mining structural problems database and classification of underground mining sites by means of a risk index.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">top</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">03…</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s91"><Data ss:Type="String">radioactive-emission</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">mineral-fiber-emission</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">radiation</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">heat</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">heat</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Impact includes noticable thermal release from mining activity (e.g. warm water discharge, exothermic mineral reactions).</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">top</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">04..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+    <Cell ss:Index="54" ss:StyleID="s117"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/environmental-impact/heat</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">Waerme</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">calor</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">la&quot;mpo&quot;</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">calore</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">teplota</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">värme</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">instability</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">instability</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Increased propensity for unpredictable surface displacements</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">physical-impact</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">02.2..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">landslide</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">landslide</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Downslope displacement of material due to excavation related to resource extraction. Includes slope failure on waste or tailings heaps.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ISPRA - mining structural problems database and classification of underground mining sites by means of a risk index.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">physical-impact</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">02.5..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s91"><Data ss:Type="String">slope failure</Data></Cell>
+    <Cell ss:Index="54" ss:StyleID="s117"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/environmental-impact/landslide</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">Erdrutsch</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">deslizamiento terreno</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">maanvierema&quot;t</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">glissement terrain</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">longsoran</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">frana</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">地滑り&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">bMNak;dI</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">산사태</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">©ò­-À¥ˆº­</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">gelongsoran tanah</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">opolzen'</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">skred</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">ดินถล่ม</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">trượt đất</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">滑坡&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">斜面崩壊</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">山崩</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">liquid-emission</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">liquid emission</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Emission of liquids from resource extraction site; principal concern is likely to be toxic chemical constituents in the liquids, but these are too varied to enumerate in this vocabulary</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">emission</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">01.2..</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:Index="15" ss:StyleID="s91"><Data ss:Type="String">aqueous-liquid-emission</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">non-aqueous-liquid-emission</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">mine-drainage</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">mine drainage</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Surface discharge of aqueous liquid that has interacted with mineralized rock disturbed by Earth Resource extraction activities</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">surface-aqueous-liquid-discharge</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">01.2.1.2.1</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s91"><Data ss:Type="String">acid-mine-drainage</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">basic-mine-drainage</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">neutral-mine-drainage</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+    <Cell ss:Index="54" ss:StyleID="s117"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/environmental-impact/mine-drainage</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">exhaure mine</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">penyaliran pertambangan</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">坑廃水</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">bgðÚrEr:</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">광산배수</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">¡¾­ì½®¾¨­ÕµøÈ®Ò¢÷©£í­</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">saliran lombong</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">การระบายน้ำในเหมือง</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">thoát nước mỏ</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">矿山排水</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:StyleID="s91"><Data ss:Type="String">mineral-fiber-emission</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">mineral fiber emission</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Emission of mineral fiber particulates that are threats to respiratory health.</Data></Cell>
@@ -6531,50 +7014,306 @@
     <Cell ss:StyleID="s92"/>
     <Cell ss:Index="44" ss:StyleID="s91"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="38.25">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">dust</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">dust</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Emission of dust into the air. Dust is defines as small solid particles with a diameter less than 75 µm. The particles are small enough to remain suspended in the air for some time, but settle out under their own weight in still air.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">ISO 4225 (ISO, 1994), quoted in http://www.who.int/occupational_health/publications/en/oehairbornedust3.pdf;  http://ecorestoration.montana.edu/mineland/guide/problem/impacts/fugitive.htm</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">particulate-emission</Data></Cell>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">neutral-mine-drainage</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">neutral mine drainage</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Mine drainage that has a pH value of 7.0.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">mine-drainage</Data></Cell>
     <Cell ss:StyleID="s92"/>
     <Cell ss:StyleID="s92"/>
     <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">01.1.2..</Data></Cell>
-    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">01.2.1.2.1.3</Data></Cell>
     <Cell ss:Index="44" ss:StyleID="s91"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">noise</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">noise</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Noticable sound resulting from a mining activity, usually from machinery, processing plant or blasting.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">vibration</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">06.1..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+    <Cell ss:Index="54" ss:StyleID="s117"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/environmental-impact/noise</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">Rauschen</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">ruido fondo</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">taustaha&quot;irio&quot;</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">bruit fond</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">suara riuh</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">rumore di fondo</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">ノイズ</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">sUsMelg/sUr</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">잡음</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">¦¼¤ìö®¡¸­</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">bunyi bising&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">shum</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">brus</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">เสี่ยง&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">nhiễu</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">杂波&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">hingar</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">สัญญาณรบกวน</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">噪音</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">non-aqueous-liquid-emission</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">non-aqueous liquid emission</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Emission of liquid in which water is not the most abundant constituent.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">liquid-emission</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">liquid emission</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Emission of liquids from resource extraction site; principal concern is likely to be toxic chemical constituents in the liquids, but these are too varied to enumerate in this vocabulary</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">01.2.2..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">odour</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">odour</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Impact includes unpleasant smell resulting from a mining activity.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">gaseous-emission</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">01.3.1</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s94"/>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">particulate-emission</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">particulate emission</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Emission of suspended particulate material into the air or water</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">emission</Data></Cell>
     <Cell ss:StyleID="s92"/>
     <Cell ss:StyleID="s92"/>
     <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">01.2..</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">01.1..</Data></Cell>
     <Cell ss:StyleID="s93"/>
-    <Cell ss:Index="15" ss:StyleID="s91"><Data ss:Type="String">aqueous-liquid-emission</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">non-aqueous-liquid-emission</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s91"><Data ss:Type="String">dust</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">mineral-fiber-emission</Data></Cell>
     <Cell ss:Index="44" ss:StyleID="s91"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">aqueous-liquid-emission</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">aqueous liquid emission</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Emission of liquids in which water is the most abundant constituent.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">physical-impact</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">physical impact</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Impact due to direct physical effects of natural processes resulting from mining activity.</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">liquid-emission</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">top</Data></Cell>
     <Cell ss:StyleID="s92"/>
     <Cell ss:StyleID="s92"/>
     <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">01.2.1</Data></Cell>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:Index="15" ss:StyleID="s91"><Data ss:Type="String">subsurface-aqueous-liquid-discharge</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">surface-aqueous-liquid-discharge</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">02..</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s91"><Data ss:Type="String">erosion</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">instability</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">subsidence</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">dam-failure</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">landslide</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">sedimentation</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">visual-disturbance</Data></Cell>
     <Cell ss:Index="44" ss:StyleID="s91"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="38.25">
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">radiation</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">radiation</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Emission on air of radionuclides substance gangerous for many health situation</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">ISPRA - mining structural problems database and classification of underground mining sites by means of a risk index.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">radioactive-emission</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">01.4.1</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+    <Cell ss:Index="54" ss:StyleID="s117"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/environmental-impact/radiation</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">Strahlung</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">radiacio!n</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">sa&quot;teily</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">rayonnement</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">radiasi</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">radiazione</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">放射</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">karbeB©ajkMedA</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">방사&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">¡¾­Á°Èìñ¤¦ó</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">sinaran&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">radiatsiya</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">strålning</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">การแผ่รังสี</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">bức xạ</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">辐射&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">복사</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">penyebaran</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">发散</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">radioactive-emission</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">radioactive emission</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Emission of radioactive material or energy radiation due to radioactive decay of uncoverning of minerals.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">emission</Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">health-impact</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">01.4..</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s91"><Data ss:Type="String">radiation</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">runoff-water</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">runoff water</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Surface discharge of aqueous liquid sourced by rainfall that has not interacted with mineralized rock.</Data></Cell>
+    <Cell ss:StyleID="s91"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">surface-aqueous-liquid-discharge</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">01.2.1.2.2</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:Index="44" ss:StyleID="s91"><Data ss:Type="String">surface water effluents</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">sedimentation</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">sedimentation</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Deposition of sediment eroded from resource extraction site in undesirable locations</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">http://ecorestoration.montana.edu/mineland/guide/problem/impacts/erosion.htm</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">physical-impact</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">02.6..</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+    <Cell ss:Index="54" ss:StyleID="s117"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/environmental-impact/sedimentation</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">Sedimentation</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">sedimentacio!n</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">sedimentaatio</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">sédimentation&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">sedimentasi&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">sedimentazione</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">堆積作用&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">dMeNIrénkMeTckMN&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">퇴적작용&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">¡¾­ªö¡ª½¡º­&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">pensedimenan&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">sedimentatsiya</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">sedimentation</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">การเกิดหินตะกอน&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">trầm tích (quá trình)&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">沉积&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">proses pengendapan</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">堆積</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">pengendapan</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">การตกตะกอน</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">沉降</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">subsidence</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">subsidence</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Settlement of land or soil through compaction of loose or excavated material</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">physical-impact</Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">02.3..</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s91"><Data ss:Type="String">collapse</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+    <Cell ss:Index="54" ss:StyleID="s117"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/environmental-impact/subsidence</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">Senkung</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">subsidencia</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">vajoaminen</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">subsidence&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">amblasan&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">subsidenza</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">沈降&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">dMeNIrs¶b;s¶at;&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">침강&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">¡¾­¨÷®ªö¸ìö¤&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">penurunan&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">opuskanie</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">jordskorpesänkning</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">การยุบตัวลง&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">lún chìm&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">下沉&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">침하</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">amblesan</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">沉陷</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="114.75">
     <Cell ss:StyleID="s91"><Data ss:Type="String">subsurface-aqueous-liquid-discharge</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">subsurface aqueous liquid discharge</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Impact of subsurface aqueous fluid emission in which liquid water is the most abundant constituent.</Data></Cell>
@@ -6604,289 +7343,52 @@
     <Cell ss:StyleID="s91"><Data ss:Type="String">runoff-water</Data></Cell>
     <Cell ss:Index="44" ss:StyleID="s91"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">mine-drainage</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">mine drainage</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Surface discharge of aqueous liquid that has interacted with mineralized rock disturbed by Earth Resource extraction activities</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">surface-aqueous-liquid-discharge</Data></Cell>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">01.2.1.2.1</Data></Cell>
-    <Cell ss:Index="15" ss:StyleID="s91"><Data ss:Type="String">acid-mine-drainage</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">basic-mine-drainage</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">neutral-mine-drainage</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">acid-mine-drainage</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">acid mine drainage</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Mine drainage that has a pH value of less than 7.0.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">BAT/BREF of mining tailings and waste rock (European Commission 2004). http://eippcb.jrc.ec.europa.eu/reference/BREF/mmr_adopted_0109.pdf</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">mine-drainage</Data></Cell>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">01.2.1.2.1.1</Data></Cell>
-    <Cell ss:Index="15" ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">basic-mine-drainage</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">basic mine drainage</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Mine drainage that has a pH value of greater than 7.0.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">mine-drainage</Data></Cell>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">01.2.1.2.1.2</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">neutral-mine-drainage</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">neutral mine drainage</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Mine drainage that has a pH value of 7.0.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">mine-drainage</Data></Cell>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">01.2.1.2.1.3</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">runoff-water</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">runoff water</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Surface discharge of aqueous liquid sourced by rainfall that has not interacted with mineralized rock.</Data></Cell>
-    <Cell ss:StyleID="s91"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">surface-aqueous-liquid-discharge</Data></Cell>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">01.2.1.2.2</Data></Cell>
-    <Cell ss:Index="15" ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:Index="44" ss:StyleID="s91"><Data ss:Type="String">surface water effluents</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">non-aqueous-liquid-emission</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">non-aqueous liquid emission</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Emission of liquid in which water is not the most abundant constituent.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">liquid-emission</Data></Cell>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">01.2.2..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">gaseous-emission</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">gaseous emission</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Emission of gaseous substance, including steam or release of gas resulting from mining activity.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">emission</Data></Cell>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">01.3..</Data></Cell>
-    <Cell ss:Index="15" ss:StyleID="s91"><Data ss:Type="String">odour</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">odour</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">odour</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Impact includes unpleasant smell resulting from a mining activity.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">gaseous-emission</Data></Cell>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">01.3.1</Data></Cell>
-    <Cell ss:Index="15" ss:StyleID="s94"/>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">radioactive-emission</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">radioactive emission</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Emission of radioactive material or energy radiation due to radioactive decay of uncoverning of minerals.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">emission</Data></Cell>
-    <Cell ss:StyleID="s92"><Data ss:Type="String">health-impact</Data></Cell>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">01.4..</Data></Cell>
-    <Cell ss:Index="15" ss:StyleID="s91"><Data ss:Type="String">radiation</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">radiation</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">radiation</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Emission on air of radionuclides substance gangerous for many health situation</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">ISPRA - mining structural problems database and classification of underground mining sites by means of a risk index.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">radioactive-emission</Data></Cell>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">01.4.1</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">physical-impact</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">physical impact</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Impact due to direct physical effects of natural processes resulting from mining activity.</Data></Cell>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">vibration</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">vibration</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Ground and airborne vibration (airblast) caused by resource extraction activity or by transportation associated with the mining activity or related transportation&quot; (eg large lorries through narrow village roads).</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">top</Data></Cell>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">02..</Data></Cell>
-    <Cell ss:Index="15" ss:StyleID="s91"><Data ss:Type="String">erosion</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">instability</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">subsidence</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">dam-failure</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">landslide</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">sedimentation</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">visual-disturbance</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">06..</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s91"><Data ss:Type="String">noise</Data></Cell>
     <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">erosion</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">erosion</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Impact due to loss of material shaped by mining activities through water or wind action.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">IGH International Glossary of Hydrology. WMO - UNESCO, 1992. 413 p.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">physical-impact</Data></Cell>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">02.1..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">instability</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">instability</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Increased propensity for unpredictable surface displacements</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">physical-impact</Data></Cell>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">02.2..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">subsidence</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">subsidence</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Settlement of land or soil through compaction of loose or excavated material</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">physical-impact</Data></Cell>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">02.3..</Data></Cell>
-    <Cell ss:Index="15" ss:StyleID="s91"><Data ss:Type="String">collapse</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">collapse</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">collapse</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Collapse of surface material into underground excavations, resulting in major surface subsidence and disruption.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">subsidence</Data></Cell>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">02.3.1..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">dam-failure</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">dam failure</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Breach or destruction of a large water or tailing containment structure and release of contained water that could result in downstream damage or pollution.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">physical-impact</Data></Cell>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">02.4..</Data></Cell>
-    <Cell ss:Index="15" ss:StyleID="s94"/>
-    <Cell ss:StyleID="s94"/>
-    <Cell ss:StyleID="s94"/>
-    <Cell ss:StyleID="s94"/>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">landslide</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">landslide</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Downslope displacement of material due to excavation related to resource extraction. Includes slope failure on waste or tailings heaps.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">ISPRA - mining structural problems database and classification of underground mining sites by means of a risk index.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">physical-impact</Data></Cell>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">02.5..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"><Data ss:Type="String">slope failure</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">sedimentation</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">sedimentation</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Deposition of sediment eroded from resource extraction site in undesirable locations</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">http://ecorestoration.montana.edu/mineland/guide/problem/impacts/erosion.htm</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">physical-impact</Data></Cell>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">02.6..</Data></Cell>
-    <Cell ss:Index="15" ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">health-impact</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">health impact</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Resource extraction activity directly or indirectly impacts the health of living organisms (human, other animals, plants...)</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">ISPRA - mining structural problems database and classification of underground mining sites by means of a risk index.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">top</Data></Cell>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">03…</Data></Cell>
-    <Cell ss:Index="15" ss:StyleID="s91"><Data ss:Type="String">radioactive-emission</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">mineral-fiber-emission</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">radiation</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">heat</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">heat</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Impact includes noticable thermal release from mining activity (e.g. warm water discharge, exothermic mineral reactions).</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">top</Data></Cell>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">04..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="114.75">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">habitat-modification</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">habitat modification</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Impact due to modification of landscape and ecosystem on or adjacent to the resource extraction site.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">ISPRA - mining structural problems database and classification of underground mining sites by means of a risk index. Reference to a ISPRA document: Berry P., Bandini A., Dacquino C. (2011) classification of underground mining sites by means of a risk index, V.3, pp. 31-44, Quad. Ambiente e Società. [http://www.isprambiente.gov.it/contentfiles/00009100/9196-qas-3-ultimo-corretto.pdf];   Dacquino C. et al. (2006) - Italian Mining sites inventory. APAT, 2006. [http://www.isprambiente.gov.it/files/miniere/i-siti-minerari-italiani-1870-2006.pdf]; http://ecorestoration.montana.edu/mineland/guide/problem/impacts/habitat.htm</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">top</Data></Cell>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s92"/>
-    <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">05..</Data></Cell>
-    <Cell ss:Index="15" ss:StyleID="s91"><Data ss:Type="String">visual-disturbance</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
+    <Cell ss:Index="54" ss:StyleID="s117"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/environmental-impact/vibration</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">Erschuetterung</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">vibracio!n</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">va&quot;ra&quot;htely</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">vibration</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">vibrasi&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">tremore</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">振動</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">dMeNIrj½r</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">진동</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">¡¾­¦ñ„­</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">getaran</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">vibratsiya</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">vibration</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">การสั่น</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">chấn động</Data></Cell>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">振动&#10;</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">penggetaran</Data></Cell>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"/>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">摆动</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:StyleID="s91"><Data ss:Type="String">visual-disturbance</Data></Cell>
@@ -6897,25 +7399,6 @@
     <Cell ss:StyleID="s95"><Data ss:Type="String">physical-impact</Data></Cell>
     <Cell ss:StyleID="s95"/>
     <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">05.1..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="38.25">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">vibration</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">vibration</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Ground and airborne vibration (airblast) caused by resource extraction activity or by transportation associated with the mining activity or related transportation&quot; (eg large lorries through narrow village roads).</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">top</Data></Cell>
-    <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">06..</Data></Cell>
-    <Cell ss:Index="15" ss:StyleID="s91"><Data ss:Type="String">noise</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">noise</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">noise</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Noticable sound resulting from a mining activity, usually from machinery, processing plant or blasting.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">vibration</Data></Cell>
-    <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">06.1..</Data></Cell>
     <Cell ss:Index="44" ss:StyleID="s91"/>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -7125,11 +7608,13 @@
    </Print>
    <Zoom>90</Zoom>
    <Selected/>
+   <TopRowVisible>24</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>17</ActiveRow>
-     <ActiveCol>1</ActiveCol>
+     <ActiveRow>31</ActiveRow>
+     <ActiveCol>53</ActiveCol>
+     <RangeSelection>R32C54:R32C100</RangeSelection>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -7140,177 +7625,177 @@
   <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="35" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
    <Column ss:Width="801.75"/>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:Collection rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;&quot;&quot;&quot;&amp;&quot;&gt;&quot;"><Data
       ss:Type="String">&lt;skos:Collection rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact&quot;&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;dcterms:title xml:lang=&quot;&quot;en&quot;&quot;&gt;&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_prefLabel&amp;&quot; - All Concepts&lt;/dcterms:title&gt;&quot;"><Data
       ss:Type="String">&lt;dcterms:title xml:lang=&quot;en&quot;&gt;Environmental Impact - All Concepts&lt;/dcterms:title&gt;</Data></Cell>
    </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/emission&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/particulate-emission&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/mineral-fiber-emission&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/dust&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/liquid-emission&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/aqueous-liquid-emission&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/subsurface-aqueous-liquid-discharge&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/surface-aqueous-liquid-discharge&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/mine-drainage&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/acid-mine-drainage&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/aqueous-liquid-emission&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/basic-mine-drainage&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/neutral-mine-drainage&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/runoff-water&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/non-aqueous-liquid-emission&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/gaseous-emission&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/odour&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/radioactive-emission&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/radiation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/physical-impact&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/erosion&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/instability&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/subsidence&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/collapse&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/dam-failure&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/landslide&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/dust&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/sedimentation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/emission&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/health-impact&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/erosion&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/heat&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/gaseous-emission&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/habitat-modification&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/visual-disturbance&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/health-impact&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/vibration&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/heat&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/instability&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/landslide&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/liquid-emission&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/mine-drainage&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/mineral-fiber-emission&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/neutral-mine-drainage&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/noise&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/non-aqueous-liquid-emission&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/odour&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/particulate-emission&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/physical-impact&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/radiation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/radioactive-emission&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/runoff-water&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/sedimentation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/subsidence&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/subsurface-aqueous-liquid-discharge&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/surface-aqueous-liquid-discharge&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/vibration&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EnvironmentalImpact_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EnvironmentalImpact_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/environmental-impact/visual-disturbance&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">&lt;/skos:Collection&gt;</Data></Cell>
    </Row>
   </Table>
@@ -7320,6 +7805,7 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
+   <Unsynced/>
    <Print>
     <ValidPrinterInfo/>
     <PaperSizeIndex>9</PaperSizeIndex>
