@@ -10,14 +10,16 @@
   <LastAuthor>Ollie Raymond</LastAuthor>
   <Created>2012-03-28T18:35:34Z</Created>
   <LastSaved>2016-12-09T02:49:10Z</LastSaved>
-  <Version>14.00</Version>
+  <Version>16.00</Version>
  </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>6690</WindowHeight>
-  <WindowWidth>17205</WindowWidth>
-  <WindowTopX>270</WindowTopX>
-  <WindowTopY>60</WindowTopY>
-  <ActiveSheet>2</ActiveSheet>
+  <WindowHeight>12045</WindowHeight>
+  <WindowWidth>18270</WindowWidth>
+  <WindowTopX>930</WindowTopX>
+  <WindowTopY>0</WindowTopY>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
  </ExcelWorkbook>
@@ -204,35 +206,38 @@
    <Interior/>
    <NumberFormat ss:Format="@"/>
   </Style>
-  <Style ss:ID="s94" ss:Parent="s63">
-   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
-   <Interior/>
+  <Style ss:ID="s93">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Color="#000000"/>
   </Style>
   <Style ss:ID="s95" ss:Parent="s63">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
-   <Borders/>
    <Interior/>
   </Style>
-  <Style ss:ID="s96" ss:Parent="s62">
+  <Style ss:ID="s96" ss:Parent="s63">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
-   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Borders/>
    <Interior/>
-   <NumberFormat ss:Format="@"/>
   </Style>
   <Style ss:ID="s97">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Interior/>
   </Style>
-  <Style ss:ID="s98" ss:Parent="s63">
+  <Style ss:ID="s98" ss:Parent="s62">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s99" ss:Parent="s63">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
    <Interior/>
   </Style>
-  <Style ss:ID="s99" ss:Parent="s63">
+  <Style ss:ID="s100" ss:Parent="s63">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
    <Borders/>
    <Interior/>
   </Style>
-  <Style ss:ID="s100">
+  <Style ss:ID="s101">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Borders/>
    <Interior/>
@@ -6288,6 +6293,8 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Zoom>90</Zoom>
+   <Selected/>
+   <TopRowVisible>6</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
@@ -6300,38 +6307,39 @@
   </WorksheetOptions>
  </Worksheet>
  <Worksheet ss:Name="Vocabulary Terms">
-  <Table ss:ExpandedColumnCount="65" ss:ExpandedRowCount="69" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="90" ss:ExpandedRowCount="69" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s84" ss:DefaultColumnWidth="79.5"
    ss:DefaultRowHeight="15">
    <Column ss:StyleID="s84" ss:Width="145.5"/>
    <Column ss:StyleID="s84" ss:Width="143.25"/>
    <Column ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="425.25"/>
-   <Column ss:StyleID="s85" ss:Width="216"/>
-   <Column ss:StyleID="s85" ss:Width="144"/>
+   <Column ss:StyleID="s85" ss:AutoFitWidth="0" ss:Width="216"/>
+   <Column ss:StyleID="s85" ss:AutoFitWidth="0" ss:Width="144"/>
    <Column ss:StyleID="s85" ss:AutoFitWidth="0" ss:Width="106.5"/>
-   <Column ss:StyleID="s85" ss:Width="51.75"/>
+   <Column ss:StyleID="s85" ss:AutoFitWidth="0" ss:Width="51.75"/>
    <Column ss:StyleID="s85" ss:AutoFitWidth="0" ss:Width="207"/>
-   <Column ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="47.25"/>
+   <Column ss:StyleID="s84" ss:Width="51"/>
    <Column ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="54.75"/>
    <Column ss:StyleID="s86" ss:AutoFitWidth="0" ss:Width="11.25" ss:Span="3"/>
-   <Column ss:Index="15" ss:StyleID="s84" ss:Width="119.25"/>
-   <Column ss:StyleID="s84" ss:Width="120"/>
-   <Column ss:StyleID="s84" ss:Width="144"/>
-   <Column ss:StyleID="s84" ss:Width="114"/>
-   <Column ss:StyleID="s84" ss:Width="147.75"/>
-   <Column ss:StyleID="s84" ss:Width="82.5"/>
-   <Column ss:StyleID="s84" ss:Width="56.25"/>
+   <Column ss:Index="15" ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="119.25"/>
+   <Column ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="120"/>
+   <Column ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="144"/>
+   <Column ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="114"/>
+   <Column ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="147.75"/>
+   <Column ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="82.5"/>
+   <Column ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="56.25"/>
    <Column ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="60.75" ss:Span="3"/>
    <Column ss:Index="26" ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="15"
     ss:Span="12"/>
    <Column ss:Index="39" ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="15.75"
     ss:Span="4"/>
-   <Column ss:Index="44" ss:StyleID="s84" ss:Width="81"/>
-   <Column ss:StyleID="s84" ss:Width="105.75"/>
-   <Column ss:StyleID="s84" ss:Width="108.75"/>
-   <Column ss:StyleID="s84" ss:Width="53.25" ss:Span="4"/>
-   <Column ss:Index="52" ss:StyleID="s84" ss:Width="62.25"/>
-   <Column ss:StyleID="s84" ss:Width="88.5"/>
+   <Column ss:Index="44" ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="81"/>
+   <Column ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="105.75"/>
+   <Column ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="108.75"/>
+   <Column ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="53.25" ss:Span="4"/>
+   <Column ss:Index="52" ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="62.25"/>
+   <Column ss:StyleID="s84" ss:AutoFitWidth="0" ss:Width="88.5"/>
+   <Column ss:StyleID="s84" ss:Width="432.75"/>
    <Row ss:AutoFitHeight="0" ss:Height="19.5">
     <Cell ss:StyleID="s87"><Data ss:Type="String">ConceptID</Data></Cell>
     <Cell ss:StyleID="s88"><Data ss:Type="String">PrefLabel</Data></Cell>
@@ -6386,534 +6394,892 @@
     <Cell ss:StyleID="s88"><Data ss:Type="String">Synonym8</Data></Cell>
     <Cell ss:StyleID="s88"><Data ss:Type="String">PrefLabel_fr</Data></Cell>
     <Cell ss:StyleID="s88"><Data ss:Type="String">AbbreviatedLabel</Data></Cell>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">TARGET_CONCEPT</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_De</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Es</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Fi</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Fr</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Id</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_It</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Ja</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Km</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Ko</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Lo</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Ms</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Nl</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Ru</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Sv</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Th</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Us</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Vi</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Zh</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_De</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Es</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Fi</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Fr</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Id</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_It</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Ja</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Km</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Ko</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Lo</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Ms</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Nl</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Ru</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Sv</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Th</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Us</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Vi</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Zh</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s94"><Data ss:Type="String">metal-industry</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">metal industry</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">Metal ore directly used to produce metals and minerals used in their processing</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">top</Data></Cell>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">01..</Data></Cell>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:Index="15" ss:StyleID="s94"><Data ss:Type="String">metal-ore</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">foundry-minerals</Data></Cell>
-    <Cell ss:StyleID="s97"/>
-    <Cell ss:Index="44" ss:StyleID="s94"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s94"><Data ss:Type="String">metal-ore</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">metal ore</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">Ore concentrate of specified metal</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
     <Cell ss:StyleID="s95"><Data ss:Type="String">metal-industry</Data></Cell>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">http://inspire.ec.europa.eu/codeList/EndusePotentialCode/metallicMinerals</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">01.01.</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">metal industry</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Metal ore directly used to produce metals and minerals used in their processing</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">top</Data></Cell>
     <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">01..</Data></Cell>
+    <Cell ss:StyleID="s98"/>
+    <Cell ss:Index="15" ss:StyleID="s95"><Data ss:Type="String">metal-ore</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">foundry-minerals</Data></Cell>
+    <Cell ss:StyleID="s97"/>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s95"><Data ss:Type="String">metal-ore</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">metal ore</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Ore concentrate of specified metal</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">metal-industry</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">http://inspire.ec.europa.eu/codeList/EndusePotentialCode/metallicMinerals</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">01.01.</Data></Cell>
+    <Cell ss:StyleID="s98"/>
     <Cell ss:Index="15" ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
-    <Cell ss:Index="44" ss:StyleID="s94"/>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
+    <Cell ss:Index="54" ss:StyleID="s93"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/end-use-potential/metal-ore</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Erz</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">metal sustancia</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">metallimalmit</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">métal substance&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">bijih logam&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">minerale metallico</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">金属鉱床&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Er:elah³&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">금속광석&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">ÁëÈÂì¹½&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">bijih logam&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">ruda metallicheskikh poleznykh iskopaemykh</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">malm</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">สินแร่โลหะ&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">quặng kim loại&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">金属矿&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="38.25">
-    <Cell ss:StyleID="s94"><Data ss:Type="String">construction</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">construction</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">Material used in the construction industry. Includes aggregate, dimension &amp; ornamental stones (granite, gabbro, travertine, etc.), gypsum, anhydrite, cement limestone, limestone for lime, marble, sand and gravel.</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">ProMine EU FP7 project, BGS Mines and Quarries Database</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">top</Data></Cell>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">http://inspire.ec.europa.eu/codeList/EndusePotentialCode/buildingRawMaterial</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">02..</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">construction</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">construction</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Material used in the construction industry. Includes aggregate, dimension &amp; ornamental stones (granite, gabbro, travertine, etc.), gypsum, anhydrite, cement limestone, limestone for lime, marble, sand and gravel.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ProMine EU FP7 project, BGS Mines and Quarries Database</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">top</Data></Cell>
     <Cell ss:StyleID="s96"/>
-    <Cell ss:Index="15" ss:StyleID="s94"><Data ss:Type="String">construction-aggregates</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">cement-making-material</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">plaster-and-plasterboard</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">structural-clay-products</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">building-and-dimension-stone</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">engineering-clay</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s94"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">http://inspire.ec.europa.eu/codeList/EndusePotentialCode/buildingRawMaterial</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">02..</Data></Cell>
+    <Cell ss:StyleID="s98"/>
+    <Cell ss:Index="15" ss:StyleID="s95"><Data ss:Type="String">construction-aggregates</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">cement-making-material</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">plaster-and-plasterboard</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">structural-clay-products</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">building-and-dimension-stone</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">engineering-clay</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
+    <Cell ss:Index="54" ss:StyleID="s93"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/end-use-potential/construction</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Ingenieurbau</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">obra</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">rakentaminen</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">ouvrage</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">konstruksi&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">opera ingegneristica</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">建築&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">sMNg;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">건설</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">¡¾­¡Ò¦É¾¤</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">binaan&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">sooruzhenie</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">konstruktion</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">การก่อสร้าง</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">xây dựng</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">建造&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">tafsiran</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">建造</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">pembinaan</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">结构</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="38.25">
-    <Cell ss:StyleID="s94"><Data ss:Type="String">construction-aggregates</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">construction aggregates</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">Any of several hard, inert materials, such as sand, gravel, slag, or crushed stone, used for mixing with a cementing or bituminous material to form concrete or asphalt or used alone, as in railroad ballast or graded fill. Excludes materials for cement making and plaster making.</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">adapted from Glossary of Geology. 4th Edition, AGI</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">construction</Data></Cell>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">02.01..</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">construction-aggregates</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">construction aggregates</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Any of several hard, inert materials, such as sand, gravel, slag, or crushed stone, used for mixing with a cementing or bituminous material to form concrete or asphalt or used alone, as in railroad ballast or graded fill. Excludes materials for cement making and plaster making.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">adapted from Glossary of Geology. 4th Edition, AGI</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">construction</Data></Cell>
     <Cell ss:StyleID="s96"/>
-    <Cell ss:Index="44" ss:StyleID="s94"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">02.01..</Data></Cell>
+    <Cell ss:StyleID="s98"/>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s94"><Data ss:Type="String">cement-making-material</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">cement-making material</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">Material directly used in the manufacture of cement or mortar.</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">construction</Data></Cell>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">02.02..</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">cement-making-material</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">cement-making material</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Material directly used in the manufacture of cement or mortar.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">construction</Data></Cell>
     <Cell ss:StyleID="s96"/>
-    <Cell ss:Index="44" ss:StyleID="s94"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">02.02..</Data></Cell>
+    <Cell ss:StyleID="s98"/>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s94"><Data ss:Type="String">plaster-and-plasterboard</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">plaster and plaster board</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">Material directly used in the manufacture of a plaster or plasterboard.</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">construction</Data></Cell>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">02.03..</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">plaster-and-plasterboard</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">plaster and plaster board</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Material directly used in the manufacture of a plaster or plasterboard.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">construction</Data></Cell>
     <Cell ss:StyleID="s96"/>
-    <Cell ss:Index="44" ss:StyleID="s94"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">02.03..</Data></Cell>
+    <Cell ss:StyleID="s98"/>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s94"><Data ss:Type="String">structural-clay-products</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">structural clay products</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">Material used as a raw material for the manufacture of structural clay products, i.e. Bricks, pipes and tiles.</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">construction</Data></Cell>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">02.04..</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">structural-clay-products</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">structural clay products</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Material used as a raw material for the manufacture of structural clay products, i.e. Bricks, pipes and tiles.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">construction</Data></Cell>
     <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">02.04..</Data></Cell>
+    <Cell ss:StyleID="s98"/>
     <Cell ss:Index="15" ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
-    <Cell ss:Index="44" ss:StyleID="s94"/>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s94"><Data ss:Type="String">building-and-dimension-stone</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">building and dimension stone</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">Natural Stone used in a block, flag or slate form for construction or decorative purposes, or artifacts, e.g. millstones.</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">construction</Data></Cell>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">02.05..</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">building-and-dimension-stone</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">building and dimension stone</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Natural Stone used in a block, flag or slate form for construction or decorative purposes, or artifacts, e.g. millstones.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">construction</Data></Cell>
     <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">02.05..</Data></Cell>
+    <Cell ss:StyleID="s98"/>
     <Cell ss:Index="15" ss:StyleID="s97"/>
-    <Cell ss:Index="44" ss:StyleID="s94"/>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s94"><Data ss:Type="String">engineering-clay</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">engineering clay</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">Clay or shale with particular properties, used for a civil engineering purpose other than as a fill, e.g. liner for landfill, flood defence</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">construction</Data></Cell>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">02.06..</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">engineering-clay</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">engineering clay</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Clay or shale with particular properties, used for a civil engineering purpose other than as a fill, e.g. liner for landfill, flood defence</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">construction</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">02.06..</Data></Cell>
     <Cell ss:Index="15" ss:StyleID="s97"/>
-    <Cell ss:Index="44" ss:StyleID="s94"/>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s94"><Data ss:Type="String">industrial-minerals</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">industrial minerals</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">Material used in the manufacture of a product by an industrial process, or in the treatment of a product</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">top</Data></Cell>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">03..</Data></Cell>
-    <Cell ss:Index="15" ss:StyleID="s94"><Data ss:Type="String">ceramic-and-refractory</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">chemicals</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">speciality-and-other-industrial</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s94"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s94"><Data ss:Type="String">ceramic-and-refractory</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">ceramic and refractory minerals</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">Material used as a raw material for the manufacture of ceramics and refractories, i.e. whiteware or pottery. Excludes bricks, tiles, pipes and pottery.</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
     <Cell ss:StyleID="s95"><Data ss:Type="String">industrial-minerals</Data></Cell>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">http://inspire.ec.europa.eu/codeList/EndusePotentialCode/ceramicAndRefractory</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">03.01..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s94"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">industrial minerals</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Material used in the manufacture of a product by an industrial process, or in the treatment of a product</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">top</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">03..</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s95"><Data ss:Type="String">ceramic-and-refractory</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">chemicals</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">speciality-and-other-industrial</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
+    <Cell ss:Index="54" ss:StyleID="s93"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/end-use-potential/industrial-minerals</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Steine-Erden-Industrieminerale</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">sustancia útil</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">teollisuusmineraalit</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">substance utile</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">mineral industri</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">sostanza utile</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">工業原料鉱物</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Er:]sSahkmµ</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">산업용 광물</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Á»È-ê¾©-º÷©-¦¾-¹½-¡¿</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">mineral industri</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">minerale grondstoffen voor de industrie</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">syr'e nemetallicheskoe</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">industrimineral</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">แร่อุตสาหกรรม</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">khoáng chất công nghiệp</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">工业矿物</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s95"><Data ss:Type="String">ceramic-and-refractory</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">ceramic and refractory minerals</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Material used as a raw material for the manufacture of ceramics and refractories, i.e. whiteware or pottery. Excludes bricks, tiles, pipes and pottery.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">industrial-minerals</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">http://inspire.ec.europa.eu/codeList/EndusePotentialCode/ceramicAndRefractory</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">03.01..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="38.25">
-    <Cell ss:StyleID="s94"><Data ss:Type="String">chemicals</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">chemicals</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">Material directly used in the manufacture of a product by an industrial chemical process. Includes borates, barite, fluorite, magnesium (magnesite), sodium sulphate, sodium carbonate (trona), pyrite, sulphur, rock salt, strontium, zeolites.</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">ProMine EU FP7 project, BGS Mines and Quarries Database</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">industrial-minerals</Data></Cell>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">http://inspire.ec.europa.eu/codeList/EndusePotentialCode/chemicalMinerals</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">03.02..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s94"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">chemicals</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">chemicals</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Material directly used in the manufacture of a product by an industrial chemical process. Includes borates, barite, fluorite, magnesium (magnesite), sodium sulphate, sodium carbonate (trona), pyrite, sulphur, rock salt, strontium, zeolites.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ProMine EU FP7 project, BGS Mines and Quarries Database</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">industrial-minerals</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">http://inspire.ec.europa.eu/codeList/EndusePotentialCode/chemicalMinerals</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">03.02..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="51">
-    <Cell ss:StyleID="s94"><Data ss:Type="String">speciality-and-other-industrial</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">speciality and other industrial rocks and minerals</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">Includes abrasives: garnet, staurolite, corundum; asbestos (antophyllite, chrysotile, crocidolite); attapulgite, sepiolite (clay); bentonite (clay); limestone, calcite (filler); diatomite (kieselguhr);  graphite; mica; perlite; quartz (massive / block for ferrosilicon); quartz (for optical and piezoelectrical use); silica sand; talc, pyrophyllite; vermiculite; wollastonite.</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">ProMine EU FP7 project</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">industrial-minerals</Data></Cell>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">http://inspire.ec.europa.eu/codeList/EndusePotentialCode/SpecialityAndOtherIndustrialMinerals</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">03.04..</Data></Cell>
-    <Cell ss:Index="15" ss:StyleID="s94"><Data ss:Type="String">industrial-product-treatment</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">foundry-minerals</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">abrasive-minerals</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">glass-manufacturing-minerals</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">drilling-minerals</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s94"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">speciality-and-other-industrial</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">speciality and other industrial rocks and minerals</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Includes abrasives: garnet, staurolite, corundum; asbestos (antophyllite, chrysotile, crocidolite); attapulgite, sepiolite (clay); bentonite (clay); limestone, calcite (filler); diatomite (kieselguhr);  graphite; mica; perlite; quartz (massive / block for ferrosilicon); quartz (for optical and piezoelectrical use); silica sand; talc, pyrophyllite; vermiculite; wollastonite.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ProMine EU FP7 project</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">industrial-minerals</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">http://inspire.ec.europa.eu/codeList/EndusePotentialCode/SpecialityAndOtherIndustrialMinerals</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">03.04..</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s95"><Data ss:Type="String">industrial-product-treatment</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">foundry-minerals</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">abrasive-minerals</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">glass-manufacturing-minerals</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">drilling-minerals</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="45">
-    <Cell ss:StyleID="s94"><Data ss:Type="String">industrial-product-treatment</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">industrial product treatment</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">Material directly used in the treatment or enhancement of an industrial product, i.e. paper coatings.</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">speciality-and-other-industrial</Data></Cell>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">03.04.01..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s94"><Data ss:Type="String">fillers</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">industrial-product-treatment</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">industrial product treatment</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Material directly used in the treatment or enhancement of an industrial product, i.e. paper coatings.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">speciality-and-other-industrial</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">03.04.01..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s95"><Data ss:Type="String">fillers</Data></Cell>
     <Cell><Data ss:Type="String">pigments</Data></Cell>
     <Cell><Data ss:Type="String">filters and absorbents</Data></Cell>
+    <Cell ss:Index="54" ss:StyleID="s93"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/end-use-potential/industrial-product-treatment</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">pigment</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">pigmen&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">顔料</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">CatiBN’ ¬kñúgsrIragÁkay¦</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">색소&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">¦¾­ê†À¯ñ­¦ó</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">pigmen</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">สารสี&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">chất màu</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">色素</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">zat warna</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">안료</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">รงค์วัตถุ</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s94"><Data ss:Type="String">foundry-minerals</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">foundry minerals</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">Material used as a part of the process in the manufacture of a metallic product.</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">speciality-and-other-industrial</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">metal-industry</Data></Cell>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">03.04.02..</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">foundry-minerals</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">foundry minerals</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Material used as a part of the process in the manufacture of a metallic product.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">speciality-and-other-industrial</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">metal-industry</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">03.04.02..</Data></Cell>
     <Cell ss:Index="15" ss:StyleID="s97"/>
-    <Cell ss:Index="44" ss:StyleID="s94"/>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s94"><Data ss:Type="String">abrasive-minerals</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">abrasive minerals</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">Naturally occurring abrasives.</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">speciality-and-other-industrial</Data></Cell>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">03.04.03..</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">abrasive-minerals</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">abrasive minerals</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Naturally occurring abrasives.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">speciality-and-other-industrial</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">03.04.03..</Data></Cell>
     <Cell ss:Index="15" ss:StyleID="s97"/>
-    <Cell ss:Index="44" ss:StyleID="s94"/>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
+    <Cell ss:Index="54" ss:StyleID="s93"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/end-use-potential/abrasive-minerals</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Polierstoff</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">abrasivo</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">hioma-aineet</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">abrasivo</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">abraziv</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">slipmedel</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s94"><Data ss:Type="String">glass-manufacturing-minerals</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">glass manufacturing minerals</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">General use in the glass making industry, including fluxes.</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">speciality-and-other-industrial</Data></Cell>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">03.04.04..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s94"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">glass-manufacturing-minerals</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">glass manufacturing minerals</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">General use in the glass making industry, including fluxes.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">speciality-and-other-industrial</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">03.04.04..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s94"><Data ss:Type="String">drilling-minerals</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">drilling minerals</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">Material has potential for use in borehole drilling processes, e.g. as a mud weight or viscosity additive.</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">speciality-and-other-industrial</Data></Cell>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">03.04.05..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s94"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">drilling-minerals</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">drilling minerals</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Material has potential for use in borehole drilling processes, e.g. as a mud weight or viscosity additive.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">speciality-and-other-industrial</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">03.04.05..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s94"><Data ss:Type="String">energy-minerals</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">energy minerals</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">Raw materials in the energy industry. Includes oil, gas, bituminous sandstone and limestone, oil shale, coal, lignite, peat, thorium, uranium.</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">ProMine EU FP7 project, BGS Mines and Quarries Database</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">top</Data></Cell>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">http://inspire.ec.europa.eu/codeList/EndusePotentialCode/energy</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">04..</Data></Cell>
-    <Cell ss:Index="15" ss:StyleID="s94"><Data ss:Type="String">fossil-fuel-use</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">nuclear-energy-source</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s94"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">energy-minerals</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">energy minerals</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Raw materials in the energy industry. Includes oil, gas, bituminous sandstone and limestone, oil shale, coal, lignite, peat, thorium, uranium.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ProMine EU FP7 project, BGS Mines and Quarries Database</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">top</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">http://inspire.ec.europa.eu/codeList/EndusePotentialCode/energy</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">04..</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s95"><Data ss:Type="String">fossil-fuel-use</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">nuclear-energy-source</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s94"><Data ss:Type="String">fossil-fuel-use</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">fossil fuel use</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">Material has potential for energy production through burning</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">this vocabulary</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">energy-minerals</Data></Cell>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">04.1..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s98"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">fossil-fuel-use</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">fossil fuel use</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Material has potential for energy production through burning</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">this vocabulary</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">energy-minerals</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">04.1..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s99"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s94"><Data ss:Type="String">nuclear-energy-source</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">nuclear energy source</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">Material has potential for energy production through use in nuclear reactor</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">this vocabulary</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">energy-minerals</Data></Cell>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">04.2..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s98"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">nuclear-energy-source</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">nuclear energy source</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Material has potential for energy production through use in nuclear reactor</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">this vocabulary</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">energy-minerals</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">04.2..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s99"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="45">
-    <Cell ss:StyleID="s94"><Data ss:Type="String">gemstone</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">gemstone</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">Precious or semi precious stones or metals for use in jewellery or decorative work</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">top</Data></Cell>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">http://inspire.ec.europa.eu/codeList/EndusePotentialCode/preciousAndSemiPreciousStones</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">05..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s94"><Data ss:Type="String">precious stones</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">gemstone</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">gemstone</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Precious or semi precious stones or metals for use in jewellery or decorative work</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">top</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">http://inspire.ec.europa.eu/codeList/EndusePotentialCode/preciousAndSemiPreciousStones</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">05..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s95"><Data ss:Type="String">precious stones</Data></Cell>
     <Cell><Data ss:Type="String">semi-precious stones</Data></Cell>
+    <Cell ss:Index="54" ss:StyleID="s93"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/end-use-potential/gemstone</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Schmuckstein</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">gema</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">jalokivet</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">gemma</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">kamen' dragotsennyj</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">ädelsten</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s94"><Data ss:Type="String">recycling</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">recycling</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">Materials recycled for either remanufacture of a similar product or for use in a different product or manner</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">top</Data></Cell>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">http://inspire.ec.europa.eu/codeList/EndusePotentialCode/recycledWaste</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">06..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s94"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">recycling</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">recycling</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Materials recycled for either remanufacture of a similar product or for use in a different product or manner</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">top</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">http://inspire.ec.europa.eu/codeList/EndusePotentialCode/recycledWaste</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">06..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
+    <Cell ss:Index="54" ss:StyleID="s93"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/end-use-potential/recycling</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Recycling</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">reciclaje</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">kierra&quot;tys</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">recyclage</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">pendauran&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">riciclaggio</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">リサイクリング&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">karrMlayeFVImþgeTot</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">재순환&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">¡¾­­¿´¾Ã§É£õ­ÃÏÈ</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">kitar semula</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">retsirkulyatsiya</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">återvinning</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">การหมุนเวียน</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">tái tuần hoàn</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">回收</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">proses daur-ulang</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">リサイクル</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">재활용</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s94"><Data ss:Type="String">mineral-specimens</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">mineral specimens</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">Resource end use is for sale to collectors and for education</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">this vocabulary</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">top</Data></Cell>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">07..</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">mineral-specimens</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">mineral specimens</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Resource end use is for sale to collectors and for education</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">this vocabulary</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">top</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">07..</Data></Cell>
     <Cell ss:Index="15" ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
-    <Cell ss:Index="44" ss:StyleID="s94"/>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s94"><Data ss:Type="String">non-metal-ore</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">non-metal ore</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">resource end use is extraction of non-metal elements for direct use, e.g. flourine, bromine, iodine, boron</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">this vocabulary</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">top</Data></Cell>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">08..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s94"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">non-metal-ore</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">non-metal ore</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">resource end use is extraction of non-metal elements for direct use, e.g. flourine, bromine, iodine, boron</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">this vocabulary</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">top</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">08..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s94"><Data ss:Type="String">agriculture</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">agriculture</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">Material used for agricultural or horticultural purposes as a fertiliser, soil conditioner or improver.</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">top</Data></Cell>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">09..</Data></Cell>
-    <Cell ss:Index="15" ss:StyleID="s94"><Data ss:Type="String">fertilizers</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">agricultural-lime</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">horticultural</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">landscaping</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s94"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">agriculture</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">agriculture</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Material used for agricultural or horticultural purposes as a fertiliser, soil conditioner or improver.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">top</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">09..</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s95"><Data ss:Type="String">fertilizers</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">agricultural-lime</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">horticultural</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">landscaping</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
+    <Cell ss:Index="54" ss:StyleID="s93"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/end-use-potential/agriculture</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Land- und Forstwirtschaft</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">agricultura</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">maanviljely</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">agriculture&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">pertanian&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">agricoltura</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">農業&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">ksikmµ&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">농업&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String"> ¡½-¦ò-¡¿&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">pertanian&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">khozyajstvo sel'skoe</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">jordbruk</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">การเพาะปลูก&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">nông nghiệp&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">农业&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">กสิกรรม</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s94"><Data ss:Type="String">fertilizers</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">fertilizers</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">Direct application K- or P-bearing rock as a fertiliser; rock used for chemical fertiliser production e.g. phosphate; mineral used to prevent caking of fertilizer granules</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">ProMine EU FP7 project, BGS Mines and Quarries Database</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">agriculture</Data></Cell>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">http://inspire.ec.europa.eu/codeList/EndusePotentialCode/fertilizer</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">09.01..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s94"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">fertilizers</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">fertilizers</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Direct application K- or P-bearing rock as a fertiliser; rock used for chemical fertiliser production e.g. phosphate; mineral used to prevent caking of fertilizer granules</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ProMine EU FP7 project, BGS Mines and Quarries Database</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">agriculture</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">http://inspire.ec.europa.eu/codeList/EndusePotentialCode/fertilizer</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">09.01..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
+    <Cell ss:Index="54" ss:StyleID="s93"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/end-use-potential/fertilizers</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">engrais</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">pupuk&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">肥料</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">CI</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">비료</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">¯÷¨</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">baja</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">ปุ๋ย</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">phân bón</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">肥料</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">rabuk</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s94"><Data ss:Type="String">agricultural-lime</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">agricultural lime</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">Direct application of chalk, limestone or dolomite for soil conditioning</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">agriculture</Data></Cell>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:Index="9" ss:StyleID="s94"><Data ss:Type="String">09.02..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s94"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">agricultural-lime</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">agricultural lime</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Direct application of chalk, limestone or dolomite for soil conditioning</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">agriculture</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:Index="9" ss:StyleID="s95"><Data ss:Type="String">09.02..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s94"><Data ss:Type="String">horticultural</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">horticultural</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">Horticultural uses e.g. sand for top dressing, peat</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">agriculture</Data></Cell>
-    <Cell ss:StyleID="s99"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:Index="9" ss:StyleID="s94"><Data ss:Type="String">09.03..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s98"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">horticultural</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">horticultural</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Horticultural uses e.g. sand for top dressing, peat</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">agriculture</Data></Cell>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:Index="9" ss:StyleID="s95"><Data ss:Type="String">09.03..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s99"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s94"><Data ss:Type="String">landscaping</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">landscaping</Data></Cell>
-    <Cell ss:StyleID="s94"><Data ss:Type="String">Soil and aggregates used for landscaping</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">agriculture</Data></Cell>
-    <Cell ss:StyleID="s99"/>
-    <Cell ss:StyleID="s99"/>
-    <Cell ss:Index="9" ss:StyleID="s94"><Data ss:Type="String">09.03..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s98"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:StyleID="s97"/>
-    <Cell ss:StyleID="s97"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">landscaping</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">landscaping</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Soil and aggregates used for landscaping</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">BGS Mines and Quarries Database</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">agriculture</Data></Cell>
     <Cell ss:StyleID="s100"/>
     <Cell ss:StyleID="s100"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:StyleID="s97"/>
-    <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s100"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:StyleID="s97"/>
-    <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s100"/>
-    <Cell ss:StyleID="s100"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:StyleID="s97"/>
-    <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s100"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:StyleID="s97"/>
-    <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s100"/>
-    <Cell ss:StyleID="s100"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:StyleID="s97"/>
-    <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s100"/>
-    <Cell ss:StyleID="s100"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:StyleID="s97"/>
-    <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s100"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:StyleID="s97"/>
-    <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s100"/>
-    <Cell ss:StyleID="s100"/>
+    <Cell ss:Index="9" ss:StyleID="s95"><Data ss:Type="String">09.03..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s99"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s100"/>
-    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s101"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s100"/>
-    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s101"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s100"/>
-    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s101"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s100"/>
-    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s101"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s101"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s100"/>
-    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s101"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s101"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s101"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s100"/>
-    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s101"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s100"/>
-    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s101"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s100"/>
-    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s101"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s101"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s97"/>
+    <Cell ss:StyleID="s97"/>
+    <Cell ss:StyleID="s101"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s97"/>
+    <Cell ss:StyleID="s97"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s101"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s97"/>
+    <Cell ss:StyleID="s97"/>
+    <Cell ss:StyleID="s101"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s97"/>
+    <Cell ss:StyleID="s97"/>
+    <Cell ss:StyleID="s101"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s97"/>
+    <Cell ss:StyleID="s97"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s101"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s97"/>
+    <Cell ss:StyleID="s97"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s101"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s97"/>
+    <Cell ss:StyleID="s97"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s101"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s97"/>
+    <Cell ss:StyleID="s97"/>
+    <Cell ss:StyleID="s101"/>
     <Cell ss:Index="15" ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
@@ -6921,23 +7287,23 @@
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s101"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s100"/>
-    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s101"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s101"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s101"/>
     <Cell ss:Index="15" ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
@@ -6945,46 +7311,46 @@
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s100"/>
-    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s101"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s101"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s101"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s101"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s101"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s100"/>
-    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s101"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s100"/>
-    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s101"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s97"/>
     <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s100"/>
-    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s101"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s97"/>
@@ -7019,16 +7385,11 @@
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Zoom>90</Zoom>
-   <SplitHorizontal>1605</SplitHorizontal>
-   <TopRowBottomPane>9</TopRowBottomPane>
-   <ActivePane>2</ActivePane>
+   <TopRowVisible>9</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-    </Pane>
-    <Pane>
-     <Number>2</Number>
-     <ActiveRow>22</ActiveRow>
+     <ActiveRow>32</ActiveRow>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -7216,7 +7577,6 @@
     <HorizontalResolution>600</HorizontalResolution>
     <VerticalResolution>600</VerticalResolution>
    </Print>
-   <Selected/>
    <Panes>
     <Pane>
      <Number>3</Number>
