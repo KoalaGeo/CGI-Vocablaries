@@ -10,13 +10,16 @@
   <LastAuthor>Ollie Raymond</LastAuthor>
   <Created>2012-03-28T18:16:46Z</Created>
   <LastSaved>2016-07-18T06:03:42Z</LastSaved>
-  <Version>14.00</Version>
+  <Version>16.00</Version>
  </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>6990</WindowHeight>
-  <WindowWidth>16275</WindowWidth>
-  <WindowTopX>390</WindowTopX>
-  <WindowTopY>195</WindowTopY>
+  <WindowHeight>12045</WindowHeight>
+  <WindowWidth>18270</WindowWidth>
+  <WindowTopX>930</WindowTopX>
+  <WindowTopY>0</WindowTopY>
   <ActiveSheet>1</ActiveSheet>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
@@ -6288,38 +6291,47 @@
   </WorksheetOptions>
  </Worksheet>
  <Worksheet ss:Name="Vocabulary Terms">
-  <Table ss:ExpandedColumnCount="66" ss:ExpandedRowCount="82" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="89" ss:ExpandedRowCount="82" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s81" ss:DefaultRowHeight="15">
    <Column ss:StyleID="s81" ss:AutoFitWidth="0" ss:Width="249"/>
    <Column ss:StyleID="s82" ss:Width="186.75"/>
-   <Column ss:StyleID="s82" ss:AutoFitWidth="0" ss:Width="675"/>
-   <Column ss:StyleID="s82" ss:Width="1056.75"/>
-   <Column ss:StyleID="s81" ss:Width="49.5" ss:Span="8"/>
-   <Column ss:Index="14" ss:StyleID="s81" ss:Width="55.5" ss:Span="4"/>
-   <Column ss:Index="19" ss:StyleID="s81" ss:Width="65.25" ss:Span="5"/>
-   <Column ss:Index="25" ss:StyleID="s81" ss:Width="44.25" ss:Span="3"/>
-   <Column ss:Index="29" ss:StyleID="s81" ss:Width="333"/>
-   <Column ss:StyleID="s81" ss:Width="27"/>
-   <Column ss:StyleID="s81" ss:Width="57.75"/>
-   <Column ss:StyleID="s81" ss:Width="51.75" ss:Span="2"/>
-   <Column ss:Index="35" ss:StyleID="s81" ss:Width="67.5"/>
-   <Column ss:StyleID="s81" ss:Width="130.5"/>
-   <Column ss:StyleID="s81" ss:Width="63"/>
-   <Column ss:StyleID="s81" ss:Width="132.75"/>
-   <Column ss:StyleID="s81" ss:Width="168.75"/>
-   <Column ss:StyleID="s81" ss:Width="249"/>
-   <Column ss:StyleID="s81" ss:Width="156.75"/>
-   <Column ss:StyleID="s81" ss:Width="96.75"/>
-   <Column ss:StyleID="s81" ss:Width="119.25"/>
-   <Column ss:StyleID="s81" ss:Width="84"/>
-   <Column ss:StyleID="s81" ss:Width="104.25"/>
-   <Column ss:StyleID="s81" ss:Width="121.5"/>
-   <Column ss:StyleID="s81" ss:Width="100.5"/>
-   <Column ss:StyleID="s81" ss:Width="117"/>
-   <Column ss:StyleID="s81" ss:Width="60.75"/>
-   <Column ss:StyleID="s81" ss:Width="93"/>
-   <Column ss:StyleID="s81" ss:Width="64.5"/>
-   <Column ss:StyleID="s81" ss:Width="59.25" ss:Span="2"/>
+   <Column ss:StyleID="s82" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="675"/>
+   <Column ss:StyleID="s82" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="1056.75"/>
+   <Column ss:StyleID="s81" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="49.5"
+    ss:Span="8"/>
+   <Column ss:Index="14" ss:StyleID="s81" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="55.5" ss:Span="4"/>
+   <Column ss:Index="19" ss:StyleID="s81" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="65.25" ss:Span="5"/>
+   <Column ss:Index="25" ss:StyleID="s81" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="44.25" ss:Span="3"/>
+   <Column ss:Index="29" ss:StyleID="s81" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="333"/>
+   <Column ss:StyleID="s81" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="27"/>
+   <Column ss:StyleID="s81" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="57.75"/>
+   <Column ss:StyleID="s81" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="51.75"
+    ss:Span="2"/>
+   <Column ss:Index="35" ss:StyleID="s81" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="67.5"/>
+   <Column ss:StyleID="s81" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="130.5"/>
+   <Column ss:StyleID="s81" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="63"/>
+   <Column ss:StyleID="s81" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="132.75"/>
+   <Column ss:StyleID="s81" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="168.75"/>
+   <Column ss:StyleID="s81" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="249"/>
+   <Column ss:StyleID="s81" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="156.75"/>
+   <Column ss:StyleID="s81" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="96.75"/>
+   <Column ss:StyleID="s81" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="119.25"/>
+   <Column ss:StyleID="s81" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="84"/>
+   <Column ss:StyleID="s81" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="104.25"/>
+   <Column ss:StyleID="s81" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="121.5"/>
+   <Column ss:StyleID="s81" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="100.5"/>
+   <Column ss:StyleID="s81" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="117"/>
+   <Column ss:StyleID="s81" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="60.75"/>
+   <Column ss:StyleID="s81" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="93"/>
+   <Column ss:StyleID="s81" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="64.5"/>
+   <Column ss:StyleID="s81" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="59.25"/>
+   <Column ss:StyleID="s81" ss:Width="381.75"/>
+   <Column ss:StyleID="s81" ss:Width="59.25"/>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s83"><Data ss:Type="String">ConceptID</Data></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">PrefLabel</Data></Cell>
@@ -6373,20 +6385,43 @@
     <Cell ss:StyleID="s83"><Data ss:Type="String">Narrower13</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">Narrower14</Data></Cell>
     <Cell ss:StyleID="s83"><Data ss:Type="String">Narrower15</Data></Cell>
-    <Cell ss:StyleID="s83"/>
-    <Cell ss:StyleID="s83"/>
-    <Cell ss:StyleID="s83"/>
-    <Cell ss:StyleID="s83"/>
-    <Cell ss:StyleID="s83"/>
-    <Cell ss:StyleID="s83"/>
-    <Cell ss:StyleID="s83"/>
-    <Cell ss:StyleID="s83"/>
-    <Cell ss:StyleID="s83"/>
-    <Cell ss:StyleID="s83"/>
-    <Cell ss:StyleID="s83"/>
-    <Cell ss:StyleID="s83"/>
-    <Cell ss:StyleID="s83"/>
-    <Cell ss:StyleID="s83"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">TARGET_CONCEPT</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">PrefLabel_De</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">PrefLabel_Es</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">PrefLabel_Fi</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">PrefLabel_Fr</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">PrefLabel_Id</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">PrefLabel_It</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">PrefLabel_Ja</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">PrefLabel_Km</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">PrefLabel_Ko</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">PrefLabel_Lo</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">PrefLabel_Ms</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">PrefLabel_Nl</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">PrefLabel_Ru</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">PrefLabel_Sv</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">PrefLabel_Th</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">PrefLabel_Us</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">PrefLabel_Vi</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">PrefLabel_Zh</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Synonym_De</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Synonym_Es</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Synonym_Fi</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Synonym_Fr</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Synonym_Id</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Synonym_It</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Synonym_Ja</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Synonym_Km</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Synonym_Ko</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Synonym_Lo</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Synonym_Ms</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Synonym_Nl</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Synonym_Ru</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Synonym_Sv</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Synonym_Th</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Synonym_Us</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Synonym_Vi</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Synonym_Zh</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">accretion</Data></Cell>
@@ -6395,6 +6430,43 @@
     <Cell><Data ss:Type="String">Neuendorf, K.K.E, Mehl, J.P. &amp; Jackson, J.A. (eds), 2005. Glossary of geology, 5th Edition. American Geological Institute, Alexandria, 779 p.</Data></Cell>
     <Cell ss:Index="29"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/0001</Data></Cell>
     <Cell ss:Index="36"><Data ss:Type="String">tectonic_process</Data></Cell>
+    <Cell ss:Index="53" ss:StyleID="s80"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/accretion</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Anlagerung</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">acrecio!n</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">kasvaminen</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">accrétion&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">akrasi&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">accrescimento</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">付加&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">karvivtþn_énl,ayelah³Fatu&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">부착성장&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String"> ¡¾­&#45;-²ø­¢›­&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">tokokan&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">akkretsiya</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ackretion</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">การงอกพอกพูน&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">bồi kết&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">加积&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">pembumbunan</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">결착</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">pertumbuhan</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">增生</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">alteration</Data></Cell>
@@ -6403,6 +6475,43 @@
     <Cell><Data ss:Type="String">Fettes and Desmons, 2007</Data></Cell>
     <Cell ss:Index="29"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/0002</Data></Cell>
     <Cell ss:Index="36"><Data ss:Type="String">metamorphic_process</Data></Cell>
+    <Cell ss:Index="53" ss:StyleID="s80"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/alteration</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Umwandlung</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">alteracio!n</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">muuttuminen</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">altération</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">alterasi&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">alterazione</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">変質作用&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">karpøas;bþÚr karEkERb</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">변질작용</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String"> ¡¾­-¯È¼­-¦½-²¾®</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">perubahan</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">izmenenie</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">omvandling</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">การเปลี่ยนสภาพ&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">biến đổi</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">蚀变(作用)</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">pengubahan</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">交代作用</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">การแปรเปลี่ยน</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">biological_precipitation</Data></Cell>
@@ -6438,6 +6547,43 @@
     <Cell ss:Index="29"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/0006</Data></Cell>
     <Cell ss:Index="36"><Data ss:Type="String">metamorphic_process</Data></Cell>
     <Cell ss:StyleID="s82"><Data ss:Type="String">deposition</Data></Cell>
+    <Cell ss:Index="53" ss:StyleID="s80"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/chemical_precipitation</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Faellung</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">precipitacio!n</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">saostuminen</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">precipitazione chimica</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">osazhdenie khimicheskoe</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">kemisk utfällning</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell><Data ss:Type="String">chemical_weathering</Data></Cell>
@@ -6450,6 +6596,43 @@
     <Cell><Data ss:Type="String">hydration</Data></Cell>
     <Cell><Data ss:Type="String">hydrolysis</Data></Cell>
     <Cell><Data ss:Type="String">oxidation</Data></Cell>
+    <Cell ss:Index="53" ss:StyleID="s80"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/chemical_weathering</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">chemische Verwitterung</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">alteracio!n qui!mica</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">kemiallinen rapautuminen</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">altération chimique</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">pelapukan kimia</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">alterazione chimica</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">化学的風化作用</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">kareFVIeGayswkedayKImI</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">화학적 풍화</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String"> ¡¾­-°÷-²ñ¤-ê¾¤-À£-´ó</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">luluhawa kimia</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">vyvetrivanie khimicheskoe</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">kemisk vittring</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">การผุพังทางเคมี</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">phong hoá hoá học</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">化学风化</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">cometary_impact</Data></Cell>
@@ -6466,6 +6649,43 @@
     <Cell><Data ss:Type="String">Neuendorf, K.K.E, Mehl, J.P. &amp; Jackson, J.A. (eds), 2005. Glossary of geology, 5th Edition. American Geological Institute, Alexandria, 779 p.</Data></Cell>
     <Cell ss:Index="29"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/0009</Data></Cell>
     <Cell ss:Index="36"><Data ss:Type="String">metamorphic_process</Data></Cell>
+    <Cell ss:Index="53" ss:StyleID="s80"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/contact_metamorphism</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Kontaktmetamorphose</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">metamorfismo contacto</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">kontaktimetamorfoosi</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">métamorphisme contact</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">pemalihan sentuh&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">metamorfismo di contatto</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">接触変成作用</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">kugtak;silaERbrUb</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">접촉변성작용</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">¡¾­Á¯È¦½²¾®À¢©¦¿²ñ©</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">metamorfisme sentuh</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">metamorfizm kontaktovyj</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">kontaktmetamorfos</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">การแปรสภาพสัมผัส</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">biến chất tiếp xúc</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">接触变质[作用]</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">malihan sentuh</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">continental_breakup</Data></Cell>
@@ -6491,6 +6711,43 @@
     <Cell><Data ss:Type="String">Postma 1986 Geology v. 14 p291-294</Data></Cell>
     <Cell ss:Index="29"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/0012</Data></Cell>
     <Cell ss:Index="36"><Data ss:Type="String">mechanical_deposition</Data></Cell>
+    <Cell ss:Index="53" ss:StyleID="s80"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/debris_flow_deposition</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Schuttstrom</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">colada cla!stica</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">murevirrat</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">colata di detrito</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">sel'</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">debris flow</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">deep_water_oxygen_depletion</Data></Cell>
@@ -6512,6 +6769,43 @@
     <Cell><Data ss:Type="String">folding</Data></Cell>
     <Cell><Data ss:Type="String">fracturing</Data></Cell>
     <Cell><Data ss:Type="String">shearing</Data></Cell>
+    <Cell ss:Index="53" ss:StyleID="s80"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/deformation</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Deformation</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">deformacio!n</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">deformaatio</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">déformation&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">deformasi&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">deformazione</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">変形&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">kMhUcRTg;RTay&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">변형&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">¡¾­¯È¼­ìñ¡¦½§½&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">canggaan&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">deformatsiya</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">deformation</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">การเปลี่ยนรูป&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">biến dạng (đá)&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">变形&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">periukan</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">変形作用</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">การเปลี่ยนลักษณะ</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">畸变</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">deformation_twinning</Data></Cell>
@@ -6532,6 +6826,43 @@
     <Cell><Data ss:Type="String">mechanical_deposition</Data></Cell>
     <Cell><Data ss:Type="String">organic_accumulation</Data></Cell>
     <Cell><Data ss:Type="String">chemical_precipitation</Data></Cell>
+    <Cell ss:Index="53" ss:StyleID="s80"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/deposition</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Ablagerung</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">depo!sito</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">kerrostuminen</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">dépôt</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">proses mengendap</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">deposito</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">沈積作用&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">karTMlak;/cMNakBMnUk</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">퇴적작용</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">¡¾­«ñ®«ö´</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">pelonggokan</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">otlozhenie</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">avsättning</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">การสะสมตัว</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">lắng đọng</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">沉积[作用]</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">沈積</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">afzetting</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="90">
     <Cell><Data ss:Type="String">diagenetic_process</Data></Cell>
@@ -6564,6 +6895,43 @@
     <Cell><Data ss:Type="String">Neuendorf, K.K.E, Mehl, J.P. &amp; Jackson, J.A. (eds), 2005. Glossary of geology, 5th Edition. American Geological Institute, Alexandria, 779 p.</Data></Cell>
     <Cell ss:Index="29"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/0020</Data></Cell>
     <Cell ss:Index="36"><Data ss:Type="String">chemical_weathering</Data></Cell>
+    <Cell ss:Index="53" ss:StyleID="s80"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/dissolution</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Aufloesung</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">disolucio!n</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">liukeneminen</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">dissoluzione</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">rastvorenie</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">upplösning</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">dissolution_creep</Data></Cell>
@@ -6603,6 +6971,43 @@
     <Cell><Data ss:Type="String">mass_wasting</Data></Cell>
     <Cell><Data ss:Type="String">water_erosion</Data></Cell>
     <Cell><Data ss:Type="String">wind_erosion</Data></Cell>
+    <Cell ss:Index="53" ss:StyleID="s80"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/erosion</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Erosion</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">erosio!n</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">eroosio</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">érosion&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">erosi&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">erosione</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">浸食作用&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">sMNwk&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">침식&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">¡¾­À§¾½À¥ˆº­&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">hakisan&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ehroziya</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">erosion</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">การกร่อน&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">xói mòn&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">侵蚀&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">pengikisan</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">浸食</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">冲蚀</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">eruption</Data></Cell>
@@ -6615,6 +7020,43 @@
     <Cell><Data ss:Type="String">hawaiian_eruption</Data></Cell>
     <Cell><Data ss:Type="String">pyroclastic_eruption</Data></Cell>
     <Cell><Data ss:Type="String">strombolian_eruption</Data></Cell>
+    <Cell ss:Index="53" ss:StyleID="s80"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/eruption</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Eruption</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">erupcio!n</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">purkaukset</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">éruption</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">erupsi&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">eruzione</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">噴火</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">karpÞúHecjénkMEGPñMePøIg</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">폭발&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">¡¾­ì½À®ó©²øÄ³</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">letusan</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">izverzhenie</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">eruption</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">การประทุ</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">phun trào</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">喷发&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">letusan</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">분화</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">爆发</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">excavation</Data></Cell>
@@ -6623,6 +7065,43 @@
     <Cell><Data ss:Type="String">this vocabulary</Data></Cell>
     <Cell ss:Index="29"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/0026</Data></Cell>
     <Cell ss:Index="36"><Data ss:Type="String">human_activity</Data></Cell>
+    <Cell ss:Index="53" ss:StyleID="s80"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/excavation</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Ausschachtung</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">excavación</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">kaivannot</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">excavation</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">penggalian</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">scavo </Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">発掘&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">karCIkdI</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">굴착</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">¡¾­¢÷©</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">penggalian</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ontgraving</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">vyemka grunta</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">schaktning</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">การขุดเอาแร่ออกมา</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">công trình khai đào</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">挖掘&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">洗掘</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">掏蚀</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">extinction</Data></Cell>
@@ -6631,6 +7110,43 @@
     <Cell><Data ss:Type="String">this vocabulary</Data></Cell>
     <Cell ss:Index="29"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/0027</Data></Cell>
     <Cell ss:Index="36"><Data ss:Type="String">geologic_process</Data></Cell>
+    <Cell ss:Index="53" ss:StyleID="s80"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/extinction</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Aussterben</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">extincio!n</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">sukupuuttoon kuoleminen</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">extinction</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">pemadaman&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">estinzione</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">絶滅</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">kavinas</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">절멸&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">¡¾­¦ø­²ñ­</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">kepupusan</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">vymiranie</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">utdöende</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">สูญพันธุ์</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">tuyệt chủng</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">消失&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">pemunahan</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">소광</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">灭绝</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">faulting</Data></Cell>
@@ -6639,6 +7155,43 @@
     <Cell><Data ss:Type="String">Neuendorf, K.K.E, Mehl, J.P. &amp; Jackson, J.A. (eds), 2005. Glossary of geology, 5th Edition. American Geological Institute, Alexandria, 779 p.</Data></Cell>
     <Cell ss:Index="29"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/0028</Data></Cell>
     <Cell ss:Index="36"><Data ss:Type="String">deformation</Data></Cell>
+    <Cell ss:Index="53" ss:StyleID="s80"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/faulting</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Bruchtektonik</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">tecto!nica fractura</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">siirros</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">tectonique fracturation</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">pensesaran</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">fagliamento</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">断層運動</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">énsañmeRbH</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">단층작용</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">¡¾­Àìˆº­</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">sesaran</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">dvizhenie diz'yunktivnoe</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">förkastningstektonik</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">การเกิดรอยเลื่อน</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">tạo đứt gãy</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">断层作用&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">断裂运动</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell><Data ss:Type="String">folding</Data></Cell>
@@ -6656,6 +7209,43 @@
     <Cell ss:Index="29"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/0030</Data></Cell>
     <Cell ss:Index="36"><Data ss:Type="String">deformation</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="String">microfracturing</Data></Cell>
+    <Cell ss:Index="53" ss:StyleID="s80"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/fracturing</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Bruchbildung</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">fracturacio!n</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">murtuminen</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">fracturation</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">pemecahan&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">fratturazione</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">破砕作用&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">bMNak;edayGMeBIGVImYy</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">단열작용</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">¡¾­Áª¡¨½</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">meretak</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">treshchinovatost'</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">uppsprickning</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">การเกิดรอยแตก</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">tạo nứt vỡ</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">破裂&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">peretakan</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">断裂作用</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">水力破碎</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">frost_shattering</Data></Cell>
@@ -6731,6 +7321,43 @@
     <Cell ss:Index="38"><Data ss:Type="String">excavation</Data></Cell>
     <Cell><Data ss:Type="String">grading</Data></Cell>
     <Cell><Data ss:Type="String">material_transport_and_deposition</Data></Cell>
+    <Cell ss:Index="53" ss:StyleID="s80"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/human_activity</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">anthropogen</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">accio!n hombre</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ihmisen toiminta</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">action homme</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">kegiatan manusia</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">attivita# antropica</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">人間活動</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">skmµPaBmnusSelak</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">인류활동</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">¡¾­¡½ê¿¢º¤´½­÷©</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">aktiviti manusia&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">zhiznedeyatel'nost' cheloveka</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">männsklig aktivitet</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">กิจกรรมของมนุษย์</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">hoạt động nhân sinh</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">人类活动</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">kegiatan manusia</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">hydration</Data></Cell>
@@ -6739,6 +7366,43 @@
     <Cell><Data ss:Type="String">this vocabulary</Data></Cell>
     <Cell ss:Index="29"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/0038</Data></Cell>
     <Cell ss:Index="36"><Data ss:Type="String">chemical_weathering</Data></Cell>
+    <Cell ss:Index="53" ss:StyleID="s80"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/hydration</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Hydratisierung</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">hidratacio!n</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">hydrataatio</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">hydratation</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">hidrasi</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">idratazione</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">水和</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">karpSMnwgTwk</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">수화작용</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Ä»À©ë§ñ­</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">penghidratan</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">gidratatsiya</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">hydratisering</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ไฮเดรชั่น&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">hydrat hoá</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">水合[作用]&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">การเติมน้ำ</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">水化[作用]</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">hydrolysis</Data></Cell>
@@ -6763,6 +7427,43 @@
     <Cell><Data ss:Type="String">Neuendorf, K.K.E, Mehl, J.P. &amp; Jackson, J.A. (eds), 2005. Glossary of geology, 5th Edition. American Geological Institute, Alexandria, 779 p.</Data></Cell>
     <Cell ss:Index="29"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/0041</Data></Cell>
     <Cell ss:Index="36"><Data ss:Type="String">magmatic_process</Data></Cell>
+    <Cell ss:Index="53" ss:StyleID="s80"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/intrusion</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Intrusionskoerper</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">intrusio!n</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">intruusiot</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">intrusion&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">penerobosan&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">intrusione</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">貫入&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">xagkñúgRsTab;EpndI¬eRCotcUl¦&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">관입&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">¡¾­-Á§¡-§Éº­&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">perejahan&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">intruziya</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">intrusion</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">การแทรกซอน&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">xâm nhập&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">侵入作用&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">terobosan</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">貫入岩</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">intrusi</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">magmatic_crystallisation</Data></Cell>
@@ -6783,6 +7484,43 @@
     <Cell><Data ss:Type="String">intrusion</Data></Cell>
     <Cell><Data ss:Type="String">magmatic_crystallisation</Data></Cell>
     <Cell><Data ss:Type="String">melting</Data></Cell>
+    <Cell ss:Index="53" ss:StyleID="s80"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/magmatic_process</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">magmatisch</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">magma!tico</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">magmaattinen</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">magmatique</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">kemagmaan</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">magmatico</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">マグマの&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">karekItBIma:kma:</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">마그마의</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">¡ú¼¸¡ñ®¹ó­Á´ñ¡´¾</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">bermagma</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">magmaticheskij</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">magmatisk</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">เกี่ยวกับหินหนืด</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">magma (tt)</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">岩浆的</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">magnetic_field_reversal</Data></Cell>
@@ -6836,6 +7574,43 @@
     <Cell ss:Index="29"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/0049</Data></Cell>
     <Cell ss:Index="36"><Data ss:Type="String">magmatic_process</Data></Cell>
     <Cell ss:Index="38"><Data ss:Type="String">partial_melting</Data></Cell>
+    <Cell ss:Index="53" ss:StyleID="s80"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/melting</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Aufschmelzung</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">fusio!n</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">sulaminen</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">fusion</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">meleleh&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">fusione</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">溶融</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">karrlay/karrMlay</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">녹음&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">¡¾­Íº´ÁÍ¸</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">lebur</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">plavlenie</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">smältning</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">การหลอมเหลว</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">nóng chảy</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">熔化的&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">mencair</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">용융</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">熔融的</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">metamorphic_process</Data></Cell>
@@ -6872,6 +7647,43 @@
     <Cell><Data ss:Type="String">Neuendorf et al., 2005, http://en.wikipedia.org/wiki/Obduction, Coleman, R. G., 1971, Plate tectonic emplacement of upper mantle peridotites along continental edge: J.Geophys. Res., v75, p1212-1222.</Data></Cell>
     <Cell ss:Index="29"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/0053</Data></Cell>
     <Cell ss:Index="36"><Data ss:Type="String">tectonic_process</Data></Cell>
+    <Cell ss:Index="53" ss:StyleID="s80"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/obduction</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Obduktion</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">obduccio!n</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">obduktio</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">obduction</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">obdaksi&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">obduzione</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">オブダクション</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">GUbdak;süúg</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">압등</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">¡¾­Â£´¢º¤À¯õº¡Âì¡</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">obduksi</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">obduktsiya</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">obduktion</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">การเกย</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">hút trồi</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">逆冲作用&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">pencuatan</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">仰冲作用</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">organic_accumulation</Data></Cell>
@@ -6896,6 +7708,43 @@
     <Cell><Data ss:Type="String">this vocabulary</Data></Cell>
     <Cell ss:Index="29"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/0056</Data></Cell>
     <Cell ss:Index="36"><Data ss:Type="String">chemical_weathering</Data></Cell>
+    <Cell ss:Index="53" ss:StyleID="s80"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/oxidation</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Oxidation</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">oxidacio!n</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">hapettuminen</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">oxydation</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">oksidasi</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ossidazione</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">酸化</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">GuksIudkmµ</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">산화</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">¡¾­À¢í¾ÎÉ¼¤</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">pengoksidan</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">okislenie</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">oxidation</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ออกซิเดชัน</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">oxy hoá</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">氧化</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">partial_melting</Data></Cell>
@@ -6904,6 +7753,43 @@
     <Cell><Data ss:Type="String">Neuendorf, K.K.E, Mehl, J.P. &amp; Jackson, J.A. (eds), 2005. Glossary of geology, 5th Edition. American Geological Institute, Alexandria, 779 p.</Data></Cell>
     <Cell ss:Index="29"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/0057</Data></Cell>
     <Cell ss:Index="36"><Data ss:Type="String">melting</Data></Cell>
+    <Cell ss:Index="53" ss:StyleID="s80"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/partial_melting</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">partielle Aufschmelzung</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">fusio!n parcial</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">osittainen sulaminen</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">fusion partielle&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">pelelehan sebagian&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">fusione parziale</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">部分溶融&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">karrlayedayEpñk&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">부분용융&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">¡¾­Íº´ÁÍ¸®¾¤¦È¸­&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">pencairan separa&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">plavlenie chastichnoe</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">partiell smältning</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">การหลอมเหลวบางส่วน&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">nóng chảy từng phần&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">部分熔融&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">physical_weathering</Data></Cell>
@@ -6916,6 +7802,43 @@
     <Cell><Data ss:Type="String">haloclasty</Data></Cell>
     <Cell><Data ss:Type="String">pressure_release_weathering</Data></Cell>
     <Cell><Data ss:Type="String">thermal_shock_weathering</Data></Cell>
+    <Cell ss:Index="53" ss:StyleID="s80"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/physical_weathering</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">physikalische Verwitterung</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">alteracio!n fi!sica</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">fysikaalinen rapautuminen</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">altération physique</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">pelapukan fisik</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">alterazione fisica</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">物理的風化作用</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">FatuGakasCarUbvnþ</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">물리적 풍화</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">¡¾­²÷²ñ¤ê¾¤¡¾¨½²¾®&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">luluhawa fizikal</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">vyvetrivanie fizicheskoe</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">fysikalisk vittring</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">การผุพังอยู่กับที่โดยกายภาพ</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">phong hoá lí học</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">物理风化&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">¡¾­²÷²ñ¤ê¾¤³ó§ò¡</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">机械风化</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">plinian_eruption</Data></Cell>
@@ -6932,6 +7855,43 @@
     <Cell><Data ss:Type="String">this vocabulary</Data></Cell>
     <Cell ss:Index="29"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/0060</Data></Cell>
     <Cell ss:Index="36"><Data ss:Type="String">geomagnetic_process</Data></Cell>
+    <Cell ss:Index="53" ss:StyleID="s80"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/polar_wander</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Polwanderung</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">deriva polo</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">napavaellus</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">dérive pôle</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">perpindahan kutub</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">deriva del polo</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">極移動</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">karbt;cuHbt;eLIgenAtMbn;b:Ul</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">극이동</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">¡¾­¯È¼­Á¯¤¢º¤¢˜¸­Á´ÈÀÍñ¡Âì¡</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">pengembaraan kutub</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">peremeshchenie polyusa</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">polvandring</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">การเปลี่ยนตำแหน่งขั้วโลก</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">dịch chuyển cực</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">极移&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">地极迁移</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell><Data ss:Type="String">pressure_release_weathering</Data></Cell>
@@ -7026,6 +7986,43 @@
     <Cell><Data ss:Type="String">Neuendorf, K.K.E, Mehl, J.P. &amp; Jackson, J.A. (eds), 2005. Glossary of geology, 5th Edition. American Geological Institute, Alexandria, 779 p.</Data></Cell>
     <Cell ss:Index="29"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/0071</Data></Cell>
     <Cell ss:Index="36"><Data ss:Type="String">eruption</Data></Cell>
+    <Cell ss:Index="53" ss:StyleID="s80"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/strombolian_eruption</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Stromboli-Eruptionstyp</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">estromboliano</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">strombolityyppiset purkaukset</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">eruzione stromboliana</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">izverzhenie strombolianskogo tipa</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">stromboliska eruptionstypen</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">subduction</Data></Cell>
@@ -7034,6 +8031,43 @@
     <Cell><Data ss:Type="String">Neuendorf, K.K.E, Mehl, J.P. &amp; Jackson, J.A. (eds), 2005. Glossary of geology, 5th Edition. American Geological Institute, Alexandria, 779 p.</Data></Cell>
     <Cell ss:Index="29"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/0072</Data></Cell>
     <Cell ss:Index="36"><Data ss:Type="String">tectonic_process</Data></Cell>
+    <Cell ss:Index="53" ss:StyleID="s80"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/subduction</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Subduktion</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">subduccio!n</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">subduktio</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">subduction</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">subdaksi&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">subduzione</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">沈み込み&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">sab;dak;siun</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">섭입</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">¡¾­´÷©ªö¸¢º¤À¯õº¡Âì¡</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">subduksi&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">subduktsiya</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">subduktion</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">การมุดตัวของเปลือกโลก</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">hút chìm</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">消减作用&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">penunjaman</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">サブダクション</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">junaman</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">消失作用</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">tectonic_process</Data></Cell>
@@ -7090,6 +8124,43 @@
     <Cell><Data ss:Type="String">Neuendorf, K.K.E, Mehl, J.P. &amp; Jackson, J.A. (eds), 2005. Glossary of geology, 5th Edition. American Geological Institute, Alexandria, 779 p.</Data></Cell>
     <Cell ss:Index="29"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/0078</Data></Cell>
     <Cell ss:Index="36"><Data ss:Type="String">pyroclastic_eruption</Data></Cell>
+    <Cell ss:Index="53" ss:StyleID="s80"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/vulcanian_eruption</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Vesuv-Eruptionstyp</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">vulcaniano</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">vesuviustyyppiset purkaukset</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">eruzione vulcaniana</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">izverzhenie vulkanskogo tipa</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">eruption av vulcanotyp</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">water_erosion</Data></Cell>
@@ -7098,6 +8169,43 @@
     <Cell><Data ss:Type="String">this vocabulary</Data></Cell>
     <Cell ss:Index="29"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/0079</Data></Cell>
     <Cell ss:Index="36"><Data ss:Type="String">erosion</Data></Cell>
+    <Cell ss:Index="53" ss:StyleID="s80"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/water_erosion</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Wassererosion</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">erosio!n agua</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">vesieroosio</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">érosion eau&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">erosi air&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">erosione idrica</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">水食&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">sMNwkénTwk&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">수침식&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">¡¾­¡ñ©À§¾½¢º¤­Õ&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">hakisan air&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ehroziya vodnaya</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">vattenerosion</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">การกัดกร่อนโดยน้ำ&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">xói mòn do nước&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">流水侵蚀&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">pengikisan air</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">水蚀作用</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell><Data ss:Type="String">weathering</Data></Cell>
@@ -7109,6 +8217,43 @@
     <Cell ss:Index="38"><Data ss:Type="String">biological_weathering</Data></Cell>
     <Cell><Data ss:Type="String">chemical_weathering</Data></Cell>
     <Cell><Data ss:Type="String">physical_weathering</Data></Cell>
+    <Cell ss:Index="53" ss:StyleID="s80"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/weathering</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Verwitterung</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">alteracio!n meteo!rica</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">rapautuminen</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">altération météorique</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">pelapukan</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">alterazione meteorica</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">風化&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">)atuPUtGakasFatu</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">풍화</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">¡¾­°÷²ñ¤</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">luluhawa</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">vyvetrivanie</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">vittring</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">การผุพังอยู่กับที่</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">phong hoá</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">风化作用</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">風化作用</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">wind_erosion</Data></Cell>
@@ -7117,6 +8262,43 @@
     <Cell><Data ss:Type="String">this vocabulary</Data></Cell>
     <Cell ss:Index="29"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/0081</Data></Cell>
     <Cell ss:Index="36"><Data ss:Type="String">erosion</Data></Cell>
+    <Cell ss:Index="53" ss:StyleID="s80"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/eventprocess/wind_erosion</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Winderosion</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">erosio!n eo!lica</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">tuulieroosio</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">érosion éolienne&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">erosi angin&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">erosione eolica</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">風食&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">sMNwkedaysarxül;&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">풍식&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">¡¾­¡ñ©À§¾½¥¾¡ìö´&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">hakisan angin&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">ehroziya vetrovaya</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">vinderosion</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">การกัดเซาะโดยลม&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">xói mòn do gió&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">风蚀&#10;</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">pengikisan angin</Data></Cell>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
+    <Cell ss:StyleID="s80"/>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -7133,11 +8315,27 @@
    </Print>
    <Zoom>80</Zoom>
    <Selected/>
-   <TopRowVisible>60</TopRowVisible>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>46</TopRowBottomPane>
+   <SplitVertical>52</SplitVertical>
+   <LeftColumnRightPane>52</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>97</ActiveRow>
+    </Pane>
+    <Pane>
+     <Number>1</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>1</ActiveRow>
+    </Pane>
+    <Pane>
+     <Number>0</Number>
+     <ActiveRow>83</ActiveRow>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -7147,422 +8345,422 @@
  <Worksheet ss:Name="Collection">
   <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="84" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:Collection rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;&quot;&quot;&quot;&amp;&quot;&gt;&quot;"><Data
       ss:Type="String">&lt;skos:Collection rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess&quot;&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;dcterms:title xml:lang=&quot;&quot;en&quot;&quot;&gt;&quot;&amp;EventProcess2016.xml!ConceptScheme_prefLabel&amp;&quot; - All Concepts&lt;/dcterms:title&gt;&quot;"><Data
       ss:Type="String">&lt;dcterms:title xml:lang=&quot;en&quot;&gt;Event Process - All Concepts&lt;/dcterms:title&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/accretion&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/alteration&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/biological_precipitation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/biological_weathering&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/bolide_impact&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/chemical_precipitation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/chemical_weathering&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/cometary_impact&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/contact_metamorphism&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/continental_breakup&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/continental_collision&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/debris_flow_deposition&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/deep_water_oxygen_depletion&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/deformation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/deformation_twinning&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/deposition&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/diagenetic_process&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/diffusion_creep&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/dislocation_metamorphism&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/dissolution&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/dissolution_creep&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/ductile_flow&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/effusive_eruption&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/erosion&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/eruption&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/excavation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/extinction&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/faulting&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/folding&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/fracturing&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/frost_shattering&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/geologic_process&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/geomagnetic_process&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/grading&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/haloclasty&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/hawaiian_eruption&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/human_activity&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/hydration&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/hydrolysis&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/ice_erosion&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/intrusion&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/magmatic_crystallisation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/magmatic_process&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/magnetic_field_reversal&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/mass_wasting&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/mass_wasting_deposition&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/material_transport_and_deposition&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/mechanical_deposition&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/melting&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/metamorphic_process&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/meteorite_impact&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/microfracturing&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/obduction&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/organic_accumulation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/orogenic_process&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/oxidation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/partial_melting&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/physical_weathering&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/plinian_eruption&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/polar_wander&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/pressure_release_weathering&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/pyroclastic_eruption&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/rifting&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/sea_level_change&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/sea_level_fall&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/sea_level_rise&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/sedimentary_process&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/shearing&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/speciation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/spreading&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/strombolian_eruption&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/subduction&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/tectonic_process&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/thermal_shock_weathering&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/traction_saltation_or_suspension_deposition&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/transform_faulting&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/turbidity_current_deposition&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/vulcanian_eruption&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/water_erosion&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/weathering&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;EventProcess2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;EventProcess2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/eventprocess/wind_erosion&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">&lt;/skos:Collection&gt;</Data></Cell>
    </Row>
   </Table>
@@ -7572,6 +8770,7 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
+   <Unsynced/>
    <Print>
     <ValidPrinterInfo/>
     <PaperSizeIndex>9</PaperSizeIndex>
