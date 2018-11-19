@@ -10,13 +10,16 @@
   <LastAuthor>Ollie Raymond</LastAuthor>
   <Created>2012-03-28T18:35:34Z</Created>
   <LastSaved>2016-11-29T03:31:42Z</LastSaved>
-  <Version>14.00</Version>
+  <Version>16.00</Version>
  </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>6690</WindowHeight>
-  <WindowWidth>17205</WindowWidth>
-  <WindowTopX>270</WindowTopX>
-  <WindowTopY>60</WindowTopY>
+  <WindowHeight>12045</WindowHeight>
+  <WindowWidth>18270</WindowWidth>
+  <WindowTopX>930</WindowTopX>
+  <WindowTopY>0</WindowTopY>
   <ActiveSheet>1</ActiveSheet>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
@@ -6303,27 +6306,37 @@
   </WorksheetOptions>
  </Worksheet>
  <Worksheet ss:Name="Vocabulary Terms">
-  <Table ss:ExpandedColumnCount="65" ss:ExpandedRowCount="69" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="96" ss:ExpandedRowCount="69" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s85" ss:DefaultColumnWidth="79.5"
    ss:DefaultRowHeight="15">
    <Column ss:StyleID="s85" ss:Width="87.75"/>
-   <Column ss:StyleID="s85" ss:Width="86.25"/>
-   <Column ss:StyleID="s85" ss:Width="465"/>
-   <Column ss:StyleID="s85" ss:Width="232.5"/>
-   <Column ss:StyleID="s85" ss:Width="101.25"/>
-   <Column ss:StyleID="s85" ss:Width="51.75" ss:Span="1"/>
-   <Column ss:Index="8" ss:StyleID="s85" ss:Width="59.25"/>
-   <Column ss:StyleID="s85" ss:Width="30.75"/>
-   <Column ss:StyleID="s85" ss:AutoFitWidth="0" ss:Width="32.25"/>
-   <Column ss:StyleID="s86" ss:Width="40.5" ss:Span="3"/>
-   <Column ss:Index="15" ss:StyleID="s85" ss:Width="116.25"/>
-   <Column ss:StyleID="s85" ss:Width="122.25"/>
-   <Column ss:StyleID="s85" ss:Width="112.5"/>
-   <Column ss:StyleID="s85" ss:Width="56.25" ss:Span="5"/>
-   <Column ss:Index="24" ss:StyleID="s85" ss:Width="62.25" ss:Span="19"/>
-   <Column ss:Index="45" ss:StyleID="s85" ss:Width="53.25" ss:Span="6"/>
-   <Column ss:Index="52" ss:StyleID="s85" ss:Width="62.25"/>
-   <Column ss:StyleID="s85" ss:Width="88.5"/>
+   <Column ss:StyleID="s85" ss:Width="120.75"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="465"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="232.5"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="101.25"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="51.75"
+    ss:Span="1"/>
+   <Column ss:Index="8" ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="59.25"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="30.75"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="32.25"/>
+   <Column ss:StyleID="s86" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="40.5"
+    ss:Span="3"/>
+   <Column ss:Index="15" ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="116.25"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="122.25"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="112.5"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="56.25"
+    ss:Span="5"/>
+   <Column ss:Index="24" ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="62.25" ss:Span="19"/>
+   <Column ss:Index="44" ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="53.25"
+    ss:Span="6"/>
+   <Column ss:Index="52" ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="62.25"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="88.5"/>
+   <Column ss:StyleID="s85" ss:Width="325.5"/>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s87"><Data ss:Type="String">ConceptID</Data></Cell>
     <Cell ss:StyleID="s88"><Data ss:Type="String">PrefLabel</Data></Cell>
@@ -6378,18 +6391,49 @@
     <Cell ss:StyleID="s88"><Data ss:Type="String">Synonym8</Data></Cell>
     <Cell ss:StyleID="s88"><Data ss:Type="String">PrefLabel_fr</Data></Cell>
     <Cell ss:StyleID="s88"><Data ss:Type="String">AbbreviatedLabel</Data></Cell>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">TARGET_CONCEPT</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_De</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_Es</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_Fi</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_Fr</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_Id</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_It</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_Ja</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_Km</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_Ko</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_Lo</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_Ms</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_Nl</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_Ru</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_Sv</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_Th</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_Us</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_Vi</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_Zh</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_De</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_Es</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_Fi</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_Fr</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_Id</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_It</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_Ja</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_Km</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_Ko</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_Lo</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_Ms</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_Nl</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_Ru</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_Sv</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_Th</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_Us</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_Vi</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_Zh</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell ss:StyleID="s91"><Data ss:Type="String">closed</Data></Cell>
@@ -6453,6 +6497,48 @@
     <Cell ss:StyleID="s96"/>
     <Cell ss:Index="15" ss:StyleID="s97"/>
     <Cell ss:Index="44" ss:StyleID="s94"/>
+    <Cell ss:Index="54" ss:StyleID="s99"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/mine-status/retention</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Zuru&quot;ckhaltung</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">retencio!n</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">vedenpida&quot;tyskyky</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">rétention</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">penambatan</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">ritenzione</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">保持</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">karXat;</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">보유</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">£¸¾´£ö¤êö­</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">tambatan</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">retentsiya</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">retention</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">การคงไว้</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">lượng nước giữ lại</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">滞留&#10;</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">保留</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell ss:StyleID="s91"><Data ss:Type="String">historic</Data></Cell>
@@ -6573,6 +6659,48 @@
     <Cell ss:StyleID="s94"/>
     <Cell ss:StyleID="s94"/>
     <Cell ss:Index="44" ss:StyleID="s94"/>
+    <Cell ss:Index="54" ss:StyleID="s99"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/mine-status/construction</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Ingenieurbau</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">obra</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">rakentaminen</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">ouvrage</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">konstruksi&#10;</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">opera ingegneristica</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">建築&#10;</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">sMNg;</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">건설</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">¡¾­¡Ò¦É¾¤</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">binaan&#10;</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">sooruzhenie</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">konstruktion</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">การก่อสร้าง</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">xây dựng</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">建造&#10;</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">tafsiran</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">建造</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">pembinaan</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">结构</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell ss:StyleID="s91"><Data ss:Type="String">pending-approval</Data></Cell>
@@ -7044,17 +7172,12 @@
    </Print>
    <Zoom>90</Zoom>
    <Selected/>
-   <SplitHorizontal>1605</SplitHorizontal>
-   <TopRowBottomPane>0</TopRowBottomPane>
-   <ActivePane>2</ActivePane>
    <Panes>
     <Pane>
      <Number>3</Number>
-    </Pane>
-    <Pane>
-     <Number>2</Number>
-     <ActiveRow>30</ActiveRow>
-     <ActiveCol>1</ActiveCol>
+     <ActiveRow>4</ActiveRow>
+     <ActiveCol>53</ActiveCol>
+     <RangeSelection>R5C54:R5C98</RangeSelection>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

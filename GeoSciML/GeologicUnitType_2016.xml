@@ -10,16 +10,16 @@
   <LastAuthor>Ollie Raymond</LastAuthor>
   <Created>2012-03-28T18:57:50Z</Created>
   <LastSaved>2016-07-15T02:47:03Z</LastSaved>
-  <Version>14.00</Version>
+  <Version>16.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
   <AllowPNG/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>6045</WindowHeight>
-  <WindowWidth>16710</WindowWidth>
-  <WindowTopX>660</WindowTopX>
-  <WindowTopY>645</WindowTopY>
+  <WindowHeight>12045</WindowHeight>
+  <WindowWidth>18270</WindowWidth>
+  <WindowTopX>930</WindowTopX>
+  <WindowTopY>0</WindowTopY>
   <ActiveSheet>1</ActiveSheet>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
@@ -168,6 +168,9 @@
   </Style>
   <Style ss:ID="s88">
    <Alignment ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s89">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Color="#000000"/>
   </Style>
  </Styles>
  <Names>
@@ -6303,33 +6306,35 @@
   </WorksheetOptions>
  </Worksheet>
  <Worksheet ss:Name="Vocabulary Terms">
-  <Table ss:ExpandedColumnCount="48" ss:ExpandedRowCount="21" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="79" ss:ExpandedRowCount="21" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
    <Column ss:StyleID="s81" ss:Width="181.5"/>
    <Column ss:StyleID="s81" ss:Width="176.25"/>
-   <Column ss:StyleID="s81" ss:Width="565.5"/>
-   <Column ss:StyleID="s81" ss:Width="220.5"/>
-   <Column ss:Width="63"/>
-   <Column ss:Width="88.5"/>
-   <Column ss:Width="95.25"/>
-   <Column ss:Width="52.5"/>
-   <Column ss:Width="350.25"/>
-   <Column ss:StyleID="s82" ss:Width="146.25"/>
-   <Column ss:StyleID="s82" ss:Width="85.5"/>
-   <Column ss:StyleID="s82" ss:Width="121.5"/>
-   <Column ss:StyleID="s82" ss:Width="135"/>
-   <Column ss:StyleID="s82" ss:Width="117"/>
-   <Column ss:StyleID="s82" ss:Width="94.5"/>
-   <Column ss:StyleID="s82" ss:Width="95.25"/>
-   <Column ss:StyleID="s82" ss:Width="82.5"/>
-   <Column ss:StyleID="s82" ss:Width="124.5"/>
-   <Column ss:StyleID="s82" ss:Width="99"/>
-   <Column ss:StyleID="s82" ss:Width="61.5"/>
-   <Column ss:StyleID="s82" ss:Width="126.75"/>
-   <Column ss:StyleID="s82" ss:Width="181.5"/>
-   <Column ss:StyleID="s82" ss:Width="61.5"/>
-   <Column ss:Width="61.5" ss:Span="8"/>
-   <Column ss:Index="33" ss:Width="55.5" ss:Span="3"/>
+   <Column ss:StyleID="s81" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="565.5"/>
+   <Column ss:StyleID="s81" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="220.5"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="63"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="88.5"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="95.25"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="52.5"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="350.25"/>
+   <Column ss:StyleID="s82" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="146.25"/>
+   <Column ss:StyleID="s82" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="85.5"/>
+   <Column ss:StyleID="s82" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="121.5"/>
+   <Column ss:StyleID="s82" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="135"/>
+   <Column ss:StyleID="s82" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="117"/>
+   <Column ss:StyleID="s82" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="94.5"/>
+   <Column ss:StyleID="s82" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="95.25"/>
+   <Column ss:StyleID="s82" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="82.5"/>
+   <Column ss:StyleID="s82" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="124.5"/>
+   <Column ss:StyleID="s82" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="99"/>
+   <Column ss:StyleID="s82" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="61.5"/>
+   <Column ss:StyleID="s82" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="126.75"/>
+   <Column ss:StyleID="s82" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="181.5"/>
+   <Column ss:StyleID="s82" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="61.5"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="61.5" ss:Span="8"/>
+   <Column ss:Index="33" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="55.5"
+    ss:Span="3"/>
+   <Column ss:Index="37" ss:Width="399"/>
    <Row ss:AutoFitHeight="0" ss:StyleID="s83">
     <Cell ss:StyleID="s84"><Data ss:Type="String">ConceptID</Data></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">PrefLabel</Data></Cell>
@@ -6367,18 +6372,43 @@
     <Cell ss:StyleID="s85"><Data ss:Type="String">Synonym2</Data></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">Synonym3</Data></Cell>
     <Cell ss:StyleID="s85"><Data ss:Type="String">Synonym4</Data></Cell>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
-    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">TARGET_CONCEPT</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">PrefLabel_De</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">PrefLabel_Es</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">PrefLabel_Fi</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">PrefLabel_Fr</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">PrefLabel_Id</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">PrefLabel_It</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">PrefLabel_Ja</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">PrefLabel_Km</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">PrefLabel_Ko</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">PrefLabel_Lo</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">PrefLabel_Ms</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">PrefLabel_Nl</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">PrefLabel_Ru</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">PrefLabel_Sv</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">PrefLabel_Th</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">PrefLabel_Us</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">PrefLabel_Vi</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">PrefLabel_Zh</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Synonym_De</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Synonym_Es</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Synonym_Fi</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Synonym_Fr</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Synonym_Id</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Synonym_It</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Synonym_Ja</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Synonym_Km</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Synonym_Ko</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Synonym_Lo</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Synonym_Ms</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Synonym_Nl</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Synonym_Ru</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Synonym_Sv</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Synonym_Th</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Synonym_Us</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Synonym_Vi</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Synonym_Zh</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="142.3125">
     <Cell><Data ss:Type="String">allostratigraphic_unit</Data></Cell>
@@ -6397,29 +6427,160 @@
     <Cell ss:Index="9"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunittype/0002</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">artificial_ground</Data></Cell>
+    <Cell><Data ss:Type="String">artificial ground</Data></Cell>
+    <Cell><Data ss:Type="String">Geologic unit defined by genesis involving direct human action to deposit or modify material.</Data></Cell>
+    <Cell><Data ss:Type="String">this vocabulary</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">lithogenetic_unit</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunittype/0003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell><Data ss:Type="String">biostratigraphic_unit</Data></Cell>
     <Cell><Data ss:Type="String">biostratigraphic unit</Data></Cell>
     <Cell><Data ss:Type="String">Geologic unit defined based on fossil content. Five kinds of biozones are recognized by the revised NACSN (Lenz et al., 2000, Note 64, a recommended complete replacement of Articles 48 through 54 of the North American Stratigraphic Code (NACSN, 1983) accepted for publication 2000.): range biozone, interval biozone, lineage biozone, assemblage biozone, and abundance biozone. These represent different approaches to defining and recognizing biozones.</Data></Cell>
     <Cell><Data ss:Type="String">Lenz et al., 2000, Note 64 (see AAPG Bulletin, v. 89, no. 11, November 2005), North American Stratigraphic Code, 1983</Data></Cell>
     <Cell ss:Index="7"><Data ss:Type="String">geologic_unit</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunittype/0004</Data></Cell>
+    <Cell ss:Index="37" ss:StyleID="s89"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunittype/biostratigraphic_unit</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">biostratigraphische Einheit</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">unidad bioestratigra!fica</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">biostratigrafinen yksikko&quot;</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">unita# biostratigrafica</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">podrazdelenie biostratigraficheskoe</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">biostratigrafisk enhet</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="30">
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">chronostratigraphic_unit</Data></Cell>
     <Cell><Data ss:Type="String">chronostratigraphic unit</Data></Cell>
     <Cell><Data ss:Type="String">Geologic unit that includes all rocks formed during a specific interval of geologic time</Data></Cell>
     <Cell><Data ss:Type="String">Salvador, A., 1994, International Stratigraphic Guide, Second Edition</Data></Cell>
     <Cell ss:Index="7"><Data ss:Type="String">geologic_unit</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunittype/0005</Data></Cell>
+    <Cell ss:Index="37" ss:StyleID="s89"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunittype/chronostratigraphic_unit</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">chronostratigraphische Einheit</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">unidad cronoestratigráfica</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">kronostratigrafinen yksikkö</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">unité chronostratigraphique</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">unità cronostratigrafica</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">podrazdelenie khronostratigraficheskoe</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">kronostratigrafisk enhet</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">deformation_unit</Data></Cell>
+    <Cell><Data ss:Type="String">deformation unit</Data></Cell>
+    <Cell><Data ss:Type="String">Lithotectonic unit defined by deformation style or characteristic geologic structure observable in outcrop.</Data></Cell>
+    <Cell><Data ss:Type="String">this vocabulary</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">lithotectonic_unit</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunittype/0006</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">excavation_unit</Data></Cell>
+    <Cell><Data ss:Type="String">excavation unit</Data></Cell>
+    <Cell><Data ss:Type="String">Geologic unit defined by human-made genesis involving excavation. Not necessarily defined by landform (a hole...), as they could have been subsequently filled/landscaped etc. If the excavation is filled becomes an excavation with artificial ground wholly or partly superimposed on it. This sort of thing can become quite important in urban geology where an excavation can be filled and landscaped.</Data></Cell>
+    <Cell><Data ss:Type="String">this vocabulary</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">lithogenetic_unit</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunittype/0007</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">geologic_unit</Data></Cell>
+    <Cell><Data ss:Type="String">geologic unit</Data></Cell>
+    <Cell><Data ss:Type="String">Type of geologic unit is unknown, unspecified, irrelevant, or some type not included in the vocabulary. Type makes no implication for required properties or cardinalities. This is the root concept for the type hierarchy.</Data></Cell>
+    <Cell><Data ss:Type="String">this vocabulary</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s81"><Data ss:Type="String">top</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunittype/0008</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">allostratigraphic_unit</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">alteration_unit</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">biostratigraphic_unit</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">chronostratigraphic_unit</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">geomorphologic_unit</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">geophysical_unit</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">lithogenetic_unit</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">lithologic_unit</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">lithostratigraphic_unit</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">lithotectonic_unit</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">pedoderm</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">pedostratigraphic_unit</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">polarity_chronostratigraphic_unit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell><Data ss:Type="String">geomorphologic_unit</Data></Cell>
     <Cell><Data ss:Type="String">geomorphologic unit</Data></Cell>
     <Cell><Data ss:Type="String">Geologic unit defined by surface landform, e.g. hummocky moraine</Data></Cell>
     <Cell ss:Index="7"><Data ss:Type="String">geologic_unit</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunittype/0009</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="45">
+   <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell><Data ss:Type="String">geophysical_unit</Data></Cell>
     <Cell><Data ss:Type="String">geophysical unit</Data></Cell>
     <Cell><Data ss:Type="String">Geologic unit defined by its geophysical characteristics. Denotes that the properties used to define the unit are measured by intrumental techniques, not directly observable by humans, e.g. density, magnetic susceptibility, magnetization, electrical conductivity.</Data></Cell>
@@ -6429,6 +6590,14 @@
     <Cell ss:StyleID="s81"><Data ss:Type="String">magnetostratigraphic_unit</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">lithodemic_unit</Data></Cell>
+    <Cell><Data ss:Type="String">lithodemic unit</Data></Cell>
+    <Cell><Data ss:Type="String">Lithostratigraphic unit that lacks stratification</Data></Cell>
+    <Cell><Data ss:Type="String">North American Commission on Stratigraphic Nomenclature, 1983</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">lithostratigraphic_unit</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunittype/0011</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
     <Cell><Data ss:Type="String">lithogenetic_unit</Data></Cell>
     <Cell><Data ss:Type="String">lithogenetic unit</Data></Cell>
     <Cell><Data ss:Type="String">Geologic unit defined by genesis. The genesis is manifested by material properties, but the material is not the defining property. Example&#45;- alluvial deposits, glacial deposits.</Data></Cell>
@@ -6455,8 +6624,51 @@
     <Cell ss:Index="7"><Data ss:Type="String">geologic_unit</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunittype/0014</Data></Cell>
     <Cell ss:StyleID="s81"><Data ss:Type="String">lithodemic_unit</Data></Cell>
+    <Cell ss:Index="37" ss:StyleID="s89"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunittype/lithostratigraphic_unit</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">lithostratigraphische Einheit</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">unidad litoestratigra!fica</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">litostratigraafinen yksikko&quot;</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">unita# litostratigrafica</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">podrazdelenie litostratigraficheskoe</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">litostratigrafisk enhet</Data></Cell>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s89"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="30">
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">lithotectonic_unit</Data></Cell>
     <Cell><Data ss:Type="String">lithotectonic unit</Data></Cell>
     <Cell><Data ss:Type="String">Geologic unit defined defined on basis of structural or deformation features, mutual relations, origin or historical evolution. Contained material may be igneous, sedimentary, or metamorphic.</Data></Cell>
@@ -6464,6 +6676,22 @@
     <Cell ss:Index="7"><Data ss:Type="String">geologic_unit</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunittype/0015</Data></Cell>
     <Cell ss:StyleID="s81"><Data ss:Type="String">deformation_unit</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">magnetostratigraphic_unit</Data></Cell>
+    <Cell><Data ss:Type="String">magnetostratigraphic unit</Data></Cell>
+    <Cell><Data ss:Type="String">Geologic unit defined by magnetic characteristics.</Data></Cell>
+    <Cell><Data ss:Type="String">Salvador, A., 1994, International Stratigraphic Guide, Second Edition</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">geophysical_unit</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunittype/0016</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">mass_movement_unit</Data></Cell>
+    <Cell><Data ss:Type="String">mass movement unit</Data></Cell>
+    <Cell><Data ss:Type="String">Geologic unit produced by gravity driven, down-slope displacemnt of material, and characterized by the type of movement giving rise to the deposit, and by how the individual movement types present in the deposit are related in time and space.</Data></Cell>
+    <Cell><Data ss:Type="String">this vocabulary</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">lithogenetic_unit</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunittype/0017</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell><Data ss:Type="String">pedoderm</Data></Cell>
@@ -6473,7 +6701,7 @@
     <Cell ss:Index="7"><Data ss:Type="String">geologic_unit</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunittype/0018</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="75">
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">pedostratigraphic_unit</Data></Cell>
     <Cell><Data ss:Type="String">pedostratigraphic unit</Data></Cell>
     <Cell><Data ss:Type="String">Geologic unit that represents a single pedologic horizon in a sequence of strata (consolidated or non-consolidated). The presence of an overlying geologic unit is required, but locally the soil horizon may be at the Earth surface (in which case is may be coincident with a Pedoderm). See discussion at https://www.seegrid.csiro.au/twiki/bin/view/CGIModel/PedostratigraphicUnit</Data></Cell>
@@ -6488,75 +6716,6 @@
     <Cell><Data ss:Type="String">North American Commission on Stratigraphic Nomenclature, 1983</Data></Cell>
     <Cell ss:Index="7"><Data ss:Type="String">geologic_unit</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunittype/0020</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="30">
-    <Cell><Data ss:Type="String">magnetostratigraphic_unit</Data></Cell>
-    <Cell><Data ss:Type="String">magnetostratigraphic unit</Data></Cell>
-    <Cell><Data ss:Type="String">Geologic unit defined by magnetic characteristics.</Data></Cell>
-    <Cell><Data ss:Type="String">Salvador, A., 1994, International Stratigraphic Guide, Second Edition</Data></Cell>
-    <Cell ss:Index="7"><Data ss:Type="String">geophysical_unit</Data></Cell>
-    <Cell ss:Index="9"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunittype/0016</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">artificial_ground</Data></Cell>
-    <Cell><Data ss:Type="String">artificial ground</Data></Cell>
-    <Cell><Data ss:Type="String">Geologic unit defined by genesis involving direct human action to deposit or modify material.</Data></Cell>
-    <Cell><Data ss:Type="String">this vocabulary</Data></Cell>
-    <Cell ss:Index="7"><Data ss:Type="String">lithogenetic_unit</Data></Cell>
-    <Cell ss:Index="9"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunittype/0003</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="60">
-    <Cell><Data ss:Type="String">excavation_unit</Data></Cell>
-    <Cell><Data ss:Type="String">excavation unit</Data></Cell>
-    <Cell><Data ss:Type="String">Geologic unit defined by human-made genesis involving excavation. Not necessarily defined by landform (a hole...), as they could have been subsequently filled/landscaped etc. If the excavation is filled becomes an excavation with artificial ground wholly or partly superimposed on it. This sort of thing can become quite important in urban geology where an excavation can be filled and landscaped.</Data></Cell>
-    <Cell><Data ss:Type="String">this vocabulary</Data></Cell>
-    <Cell ss:Index="7"><Data ss:Type="String">lithogenetic_unit</Data></Cell>
-    <Cell ss:Index="9"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunittype/0007</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="45">
-    <Cell><Data ss:Type="String">mass_movement_unit</Data></Cell>
-    <Cell><Data ss:Type="String">mass movement unit</Data></Cell>
-    <Cell><Data ss:Type="String">Geologic unit produced by gravity driven, down-slope displacemnt of material, and characterized by the type of movement giving rise to the deposit, and by how the individual movement types present in the deposit are related in time and space.</Data></Cell>
-    <Cell><Data ss:Type="String">this vocabulary</Data></Cell>
-    <Cell ss:Index="7"><Data ss:Type="String">lithogenetic_unit</Data></Cell>
-    <Cell ss:Index="9"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunittype/0017</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="30">
-    <Cell><Data ss:Type="String">lithodemic_unit</Data></Cell>
-    <Cell><Data ss:Type="String">lithodemic unit</Data></Cell>
-    <Cell><Data ss:Type="String">Lithostratigraphic unit that lacks stratification</Data></Cell>
-    <Cell><Data ss:Type="String">North American Commission on Stratigraphic Nomenclature, 1983</Data></Cell>
-    <Cell ss:Index="7"><Data ss:Type="String">lithostratigraphic_unit</Data></Cell>
-    <Cell ss:Index="9"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunittype/0011</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell><Data ss:Type="String">deformation_unit</Data></Cell>
-    <Cell><Data ss:Type="String">deformation unit</Data></Cell>
-    <Cell><Data ss:Type="String">Lithotectonic unit defined by deformation style or characteristic geologic structure observable in outcrop.</Data></Cell>
-    <Cell><Data ss:Type="String">this vocabulary</Data></Cell>
-    <Cell ss:Index="7"><Data ss:Type="String">lithotectonic_unit</Data></Cell>
-    <Cell ss:Index="9"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunittype/0006</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="30">
-    <Cell><Data ss:Type="String">geologic_unit</Data></Cell>
-    <Cell><Data ss:Type="String">geologic unit</Data></Cell>
-    <Cell><Data ss:Type="String">Type of geologic unit is unknown, unspecified, irrelevant, or some type not included in the vocabulary. Type makes no implication for required properties or cardinalities. This is the root concept for the type hierarchy.</Data></Cell>
-    <Cell><Data ss:Type="String">this vocabulary</Data></Cell>
-    <Cell ss:Index="7" ss:StyleID="s81"><Data ss:Type="String">top</Data></Cell>
-    <Cell ss:Index="9"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunittype/0008</Data></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">allostratigraphic_unit</Data></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">alteration_unit</Data></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">biostratigraphic_unit</Data></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">chronostratigraphic_unit</Data></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">geomorphologic_unit</Data></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">geophysical_unit</Data></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">lithogenetic_unit</Data></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">lithologic_unit</Data></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">lithostratigraphic_unit</Data></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">lithotectonic_unit</Data></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">pedoderm</Data></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">pedostratigraphic_unit</Data></Cell>
-    <Cell ss:StyleID="s88"><Data ss:Type="String">polarity_chronostratigraphic_unit</Data></Cell>
    </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
@@ -6576,8 +6735,9 @@
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>12</ActiveRow>
-     <ActiveCol>10</ActiveCol>
+     <ActiveRow>14</ActiveRow>
+     <ActiveCol>36</ActiveCol>
+     <RangeSelection>R15C37:R15C93</RangeSelection>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -6612,6 +6772,11 @@
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunittype/artificial_ground&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunittype/biostratigraphic_unit&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -6622,12 +6787,32 @@
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunittype/deformation_unit&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunittype/excavation_unit&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunittype/geologic_unit&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunittype/geomorphologic_unit&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunittype/geophysical_unit&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunittype/lithodemic_unit&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell
@@ -6652,6 +6837,16 @@
    <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunittype/magnetostratigraphic_unit&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunittype/mass_movement_unit&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunittype/pedoderm&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -6663,41 +6858,6 @@
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunittype/polarity_chronostratigraphic_unit&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunittype/magnetostratigraphic_unit&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunittype/artificial_ground&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunittype/excavation_unit&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunittype/mass_movement_unit&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunittype/lithodemic_unit&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunittype/deformation_unit&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunittype/geologic_unit&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">&lt;/skos:Collection&gt;</Data></Cell>

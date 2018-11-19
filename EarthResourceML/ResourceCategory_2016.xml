@@ -10,13 +10,16 @@
   <LastAuthor>Ollie Raymond</LastAuthor>
   <Created>2012-03-28T18:35:34Z</Created>
   <LastSaved>2016-11-29T05:10:16Z</LastSaved>
-  <Version>14.00</Version>
+  <Version>16.00</Version>
  </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>6690</WindowHeight>
-  <WindowWidth>17205</WindowWidth>
-  <WindowTopX>270</WindowTopX>
-  <WindowTopY>60</WindowTopY>
+  <WindowHeight>12045</WindowHeight>
+  <WindowWidth>18270</WindowWidth>
+  <WindowTopX>930</WindowTopX>
+  <WindowTopY>0</WindowTopY>
   <ActiveSheet>1</ActiveSheet>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
@@ -278,6 +281,9 @@
   </Style>
   <Style ss:ID="s110" ss:Parent="s62">
    <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s111">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Color="#000000"/>
   </Style>
  </Styles>
  <Names>
@@ -6329,7 +6335,7 @@
   </WorksheetOptions>
  </Worksheet>
  <Worksheet ss:Name="Vocabulary Terms">
-  <Table ss:ExpandedColumnCount="65" ss:ExpandedRowCount="69" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="96" ss:ExpandedRowCount="69" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s86" ss:DefaultColumnWidth="79.5"
    ss:DefaultRowHeight="15">
    <Column ss:StyleID="s86" ss:Width="231"/>
@@ -6355,6 +6361,7 @@
    <Column ss:StyleID="s86" ss:Width="53.25" ss:Span="4"/>
    <Column ss:Index="52" ss:StyleID="s86" ss:Width="62.25"/>
    <Column ss:StyleID="s86" ss:Width="88.5"/>
+   <Column ss:StyleID="s86" ss:Width="476.25"/>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s88"><Data ss:Type="String">ConceptID</Data></Cell>
     <Cell ss:StyleID="s89"><Data ss:Type="String">PrefLabel</Data></Cell>
@@ -6409,18 +6416,43 @@
     <Cell ss:StyleID="s89"><Data ss:Type="String">Synonym8</Data></Cell>
     <Cell ss:StyleID="s89"><Data ss:Type="String">PrefLabel_fr</Data></Cell>
     <Cell ss:StyleID="s89"><Data ss:Type="String">AbbreviatedLabel</Data></Cell>
-    <Cell ss:StyleID="s89"/>
-    <Cell ss:StyleID="s89"/>
-    <Cell ss:StyleID="s89"/>
-    <Cell ss:StyleID="s89"/>
-    <Cell ss:StyleID="s89"/>
-    <Cell ss:StyleID="s89"/>
-    <Cell ss:StyleID="s89"/>
-    <Cell ss:StyleID="s89"/>
-    <Cell ss:StyleID="s89"/>
-    <Cell ss:StyleID="s89"/>
-    <Cell ss:StyleID="s89"/>
-    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">TARGET_CONCEPT</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">PrefLabel_De</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">PrefLabel_Es</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">PrefLabel_Fi</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">PrefLabel_Fr</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">PrefLabel_Id</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">PrefLabel_It</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">PrefLabel_Ja</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">PrefLabel_Km</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">PrefLabel_Ko</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">PrefLabel_Lo</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">PrefLabel_Ms</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">PrefLabel_Nl</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">PrefLabel_Ru</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">PrefLabel_Sv</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">PrefLabel_Th</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">PrefLabel_Us</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">PrefLabel_Vi</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">PrefLabel_Zh</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Synonym_De</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Synonym_Es</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Synonym_Fi</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Synonym_Fr</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Synonym_Id</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Synonym_It</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Synonym_Ja</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Synonym_Km</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Synonym_Ko</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Synonym_Lo</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Synonym_Ms</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Synonym_Nl</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Synonym_Ru</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Synonym_Sv</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Synonym_Th</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Synonym_Us</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Synonym_Vi</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Synonym_Zh</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="60">
     <Cell ss:StyleID="s92"><Data ss:Type="String">measured-mineral-resource</Data></Cell>
@@ -6473,6 +6505,49 @@
     <Cell ss:Index="15" ss:StyleID="s99"/>
     <Cell ss:StyleID="s99"/>
     <Cell ss:Index="44" ss:StyleID="s97"/>
+    <Cell ss:Index="54" ss:StyleID="s111"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/resource-assessment-category/inferred-mineral-resource</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">hergeleitetes Erz</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">mena probable</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">mahdollinen malmi</Data></Cell>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">minerale presunto</Data></Cell>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">zapasy prognoznye</Data></Cell>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">antagen malm</Data></Cell>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
+    <Cell ss:StyleID="s111"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="90">
     <Cell ss:StyleID="s92"><Data ss:Type="String">measured-and-indicated-mineral-resource</Data></Cell>
@@ -7127,18 +7202,10 @@
    </Print>
    <Zoom>90</Zoom>
    <Selected/>
-   <SplitHorizontal>570</SplitHorizontal>
-   <TopRowBottomPane>0</TopRowBottomPane>
-   <ActivePane>2</ActivePane>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <RangeSelection>R1:R1048576</RangeSelection>
-    </Pane>
-    <Pane>
-     <Number>2</Number>
-     <ActiveRow>1</ActiveRow>
-     <ActiveCol>2</ActiveCol>
+     <ActiveRow>3</ActiveRow>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -7149,52 +7216,52 @@
   <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="10" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
    <Column ss:Width="889.5"/>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:Collection rdf:about=&quot;&quot;&quot;&amp;ResourceCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ResourceCategory_2016.xml!ConceptScheme_ID&amp;&quot;&quot;&quot;&quot;&amp;&quot;&gt;&quot;"><Data
       ss:Type="String">&lt;skos:Collection rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/resource-assessment-category&quot;&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;dcterms:title xml:lang=&quot;&quot;en&quot;&quot;&gt;&quot;&amp;ResourceCategory_2016.xml!ConceptScheme_prefLabel&amp;&quot; - All Concepts&lt;/dcterms:title&gt;&quot;"><Data
       ss:Type="String">&lt;dcterms:title xml:lang=&quot;en&quot;&gt;Resource Assessment Category - All Concepts&lt;/dcterms:title&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ResourceCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ResourceCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/resource-assessment-category/measured-mineral-resource&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ResourceCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ResourceCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/resource-assessment-category/indicated-mineral-resource&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ResourceCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ResourceCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/resource-assessment-category/inferred-mineral-resource&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ResourceCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ResourceCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/resource-assessment-category/measured-and-indicated-mineral-resource&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ResourceCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ResourceCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/resource-assessment-category/measured-indicated-inferred-mineral-resource&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ResourceCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ResourceCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/resource-assessment-category/indicated-and-inferred-mineral-resource&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ResourceCategory_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ResourceCategory_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/resource-assessment-category/poorly-estimated-mineral-resource&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">&lt;/skos:Collection&gt;</Data></Cell>
    </Row>
   </Table>
@@ -7204,6 +7271,7 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
+   <Unsynced/>
    <Print>
     <ValidPrinterInfo/>
     <PaperSizeIndex>9</PaperSizeIndex>

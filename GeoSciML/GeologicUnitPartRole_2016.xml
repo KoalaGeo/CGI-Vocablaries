@@ -10,16 +10,16 @@
   <LastAuthor>Ollie Raymond</LastAuthor>
   <Created>2012-03-28T18:35:34Z</Created>
   <LastSaved>2016-11-21T06:45:07Z</LastSaved>
-  <Version>14.00</Version>
+  <Version>16.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
   <AllowPNG/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>6045</WindowHeight>
-  <WindowWidth>16905</WindowWidth>
-  <WindowTopX>420</WindowTopX>
-  <WindowTopY>555</WindowTopY>
+  <WindowHeight>12045</WindowHeight>
+  <WindowWidth>18270</WindowWidth>
+  <WindowTopX>930</WindowTopX>
+  <WindowTopY>0</WindowTopY>
   <ActiveSheet>1</ActiveSheet>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
@@ -218,6 +218,9 @@
   </Style>
   <Style ss:ID="s99">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s100">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Color="#000000"/>
   </Style>
  </Styles>
  <Names>
@@ -6293,38 +6296,48 @@
   </WorksheetOptions>
  </Worksheet>
  <Worksheet ss:Name="Vocabulary Terms">
-  <Table ss:ExpandedColumnCount="59" ss:ExpandedRowCount="150" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="86" ss:ExpandedRowCount="150" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s66" ss:DefaultColumnWidth="79.5"
    ss:DefaultRowHeight="15">
    <Column ss:StyleID="s84" ss:Width="176.25"/>
    <Column ss:StyleID="s84" ss:Width="164.25"/>
-   <Column ss:StyleID="s67" ss:AutoFitWidth="0" ss:Width="509.25"/>
-   <Column ss:StyleID="s66" ss:Width="240.75"/>
-   <Column ss:StyleID="s66" ss:Width="124.5"/>
-   <Column ss:StyleID="s66" ss:Width="51.75" ss:Span="1"/>
-   <Column ss:Index="8" ss:StyleID="s66" ss:Width="59.25"/>
-   <Column ss:StyleID="s66" ss:Width="162"/>
-   <Column ss:StyleID="s66" ss:Width="95.25"/>
-   <Column ss:StyleID="s66" ss:Width="78"/>
-   <Column ss:StyleID="s66" ss:Width="47.25"/>
-   <Column ss:StyleID="s66" ss:Width="103.5"/>
-   <Column ss:StyleID="s66" ss:Width="128.25"/>
-   <Column ss:StyleID="s66" ss:Width="95.25"/>
-   <Column ss:StyleID="s66" ss:Width="90.75"/>
-   <Column ss:StyleID="s66" ss:Width="88.5"/>
-   <Column ss:StyleID="s66" ss:Width="78"/>
-   <Column ss:StyleID="s66" ss:Width="73.5"/>
-   <Column ss:StyleID="s66" ss:Width="71.25"/>
-   <Column ss:StyleID="s66" ss:Width="162"/>
-   <Column ss:StyleID="s66" ss:Width="62.25" ss:Span="3"/>
-   <Column ss:Index="26" ss:StyleID="s66" ss:Width="71.25"/>
-   <Column ss:StyleID="s66" ss:Width="62.25" ss:Span="8"/>
-   <Column ss:Index="36" ss:StyleID="s66" ss:Width="151.5"/>
-   <Column ss:StyleID="s66" ss:Width="176.25"/>
-   <Column ss:StyleID="s66" ss:Width="62.25" ss:Span="3"/>
-   <Column ss:Index="42" ss:StyleID="s66" ss:Width="53.25" ss:Span="3"/>
-   <Column ss:Index="46" ss:StyleID="s66" ss:Width="62.25"/>
-   <Column ss:StyleID="s66" ss:Width="88.5"/>
+   <Column ss:StyleID="s67" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="509.25"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="240.75"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="124.5"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="51.75"
+    ss:Span="1"/>
+   <Column ss:Index="8" ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="59.25"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="162"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="95.25"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="78"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="47.25"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="103.5"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="128.25"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="95.25"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="90.75"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="88.5"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="78"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="73.5"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="71.25"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="162"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="62.25"
+    ss:Span="3"/>
+   <Column ss:Index="26" ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="71.25"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="62.25"
+    ss:Span="8"/>
+   <Column ss:Index="36" ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="151.5"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="176.25"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="62.25"
+    ss:Span="3"/>
+   <Column ss:Index="42" ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="53.25" ss:Span="3"/>
+   <Column ss:Index="46" ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="62.25"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="88.5"/>
+   <Column ss:StyleID="s66" ss:Width="371.25"/>
    <Row ss:AutoFitHeight="0" ss:StyleID="s85">
     <Cell ss:StyleID="s86"><Data ss:Type="String">ConceptID</Data></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">PrefLabel</Data></Cell>
@@ -6373,18 +6386,43 @@
     <Cell ss:StyleID="s87"><Data ss:Type="String">Synonym4</Data></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">PrefLabel_fr</Data></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">AbbreviatedLabel</Data></Cell>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">TARGET_CONCEPT</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">PrefLabel_De</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">PrefLabel_Es</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">PrefLabel_Fi</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">PrefLabel_Fr</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">PrefLabel_Id</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">PrefLabel_It</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">PrefLabel_Ja</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">PrefLabel_Km</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">PrefLabel_Ko</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">PrefLabel_Lo</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">PrefLabel_Ms</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">PrefLabel_Nl</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">PrefLabel_Ru</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">PrefLabel_Sv</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">PrefLabel_Th</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">PrefLabel_Us</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">PrefLabel_Vi</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">PrefLabel_Zh</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">Synonym_De</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">Synonym_Es</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">Synonym_Fi</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">Synonym_Fr</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">Synonym_Id</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">Synonym_It</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">Synonym_Ja</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">Synonym_Km</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">Synonym_Ko</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">Synonym_Lo</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">Synonym_Ms</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">Synonym_Nl</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">Synonym_Ru</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">Synonym_Sv</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">Synonym_Th</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">Synonym_Us</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">Synonym_Vi</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">Synonym_Zh</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell ss:StyleID="s91"><Data ss:Type="String">bed_lithosome</Data></Cell>
@@ -6425,6 +6463,45 @@
     <Cell ss:StyleID="s82"/>
     <Cell ss:StyleID="s93"/>
     <Cell ss:StyleID="s93"/>
+    <Cell ss:Index="48" ss:StyleID="s100"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/concretion</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">Konkretion</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">concrecio!n</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">konkreetiot</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">concrétion</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">konkresi</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">concrezione</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">団塊&#10;</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">pÞaMg/ dMu</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">결핵체&#10;</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">¡¾­¥ñ®ªö¸¡ñ­ÁÎÉ­</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">konkresi</Data></Cell>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">konkretsiya</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">konkretion</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">มวลสารพอก</Data></Cell>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">kết vón</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">结核&#10;</Data></Cell>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">コンクリーション</Data></Cell>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">결괴</Data></Cell>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">固结</Data></Cell>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell ss:StyleID="s91"><Data ss:Type="String">cyclic_bedding_package</Data></Cell>
@@ -6468,6 +6545,45 @@
     <Cell ss:StyleID="s82"/>
     <Cell ss:StyleID="s82"/>
     <Cell ss:StyleID="s84"/>
+    <Cell ss:Index="48" ss:StyleID="s100"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/facies</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">Fazies</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">facies</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">fasies</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">faciès&#10;</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">fasies&#10;</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">facies</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">相&#10;</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">RTg;RTay/ lkçN³/&#10;</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">상&#10;</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">§÷©ìñ¡¦½­½&#10;</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">fasies&#10;</Data></Cell>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">fatsiya</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">facies</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">ชุดลักษณ์&#10;</Data></Cell>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">tướng&#10;</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">相&#10;</Data></Cell>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">層相</Data></Cell>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">암상</Data></Cell>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">岩相</Data></Cell>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell ss:StyleID="s91"><Data ss:Type="String">geologic_unit_matrix</Data></Cell>
@@ -6498,6 +6614,45 @@
     <Cell ss:StyleID="s91"><Data ss:Type="String">pendants</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">tectonic_block</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">xenolith</Data></Cell>
+    <Cell ss:Index="48" ss:StyleID="s100"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/inclusion</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">Einschluss</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">inclusión</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">sulkeumat</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">inclusion</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">kepungan</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">inclusione</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">包有物</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">karbBa©Úl</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">포유물</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String"> À¥õº-¯ö­</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">kepungan</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">insluiting</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">vklyuchenie</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">inneslutning</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">การเจือปน</Data></Cell>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">bao thể</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">包裹体&#10;</Data></Cell>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">夹杂物</Data></Cell>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s91"><Data ss:Type="String">irregular_lithosome</Data></Cell>
@@ -6665,6 +6820,45 @@
     <Cell ss:StyleID="s84"/>
     <Cell ss:StyleID="s84"/>
     <Cell ss:StyleID="s84"/>
+    <Cell ss:Index="48" ss:StyleID="s100"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/roof_pendant</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">Batholithdach</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">alero</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">katonkieleke</Data></Cell>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">pendente</Data></Cell>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">ostanets krovli</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">ROOF PENDANT</Data></Cell>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s91"><Data ss:Type="String">screen</Data></Cell>
@@ -6755,6 +6949,45 @@
     <Cell ss:StyleID="s82"/>
     <Cell ss:StyleID="s82"/>
     <Cell ss:StyleID="s93"/>
+    <Cell ss:Index="48" ss:StyleID="s100"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/xenolith</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">Xenolith</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">enclave roca</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">ksenoliitit</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">enclave roche&#10;</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">helatan&#10;</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">xenolite</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">捕獲岩&#10;</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">ehSNUlIt&#10;</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">포획암&#10;</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">¹ó­À§Â­ìò©( ¹ó­Á¯¡¯º´ )&#10;</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">xenolitos&#10;</Data></Cell>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">ksenolit</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">xenolit</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">หินแปลกปลอม&#10;</Data></Cell>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">thể tù&#10;</Data></Cell>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">捕虏体&#10;</Data></Cell>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">batuan asing</Data></Cell>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"><Data ss:Type="String">捕虏岩</Data></Cell>
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s100"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s96"/>
@@ -7650,19 +7883,13 @@
    </Print>
    <Zoom>90</Zoom>
    <Selected/>
-   <SplitHorizontal>570</SplitHorizontal>
-   <TopRowBottomPane>9</TopRowBottomPane>
-   <ActivePane>2</ActivePane>
+   <TopRowVisible>5</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>25</ActiveRow>
-     <ActiveCol>2</ActiveCol>
-    </Pane>
-    <Pane>
-     <Number>2</Number>
-     <ActiveRow>15</ActiveRow>
-     <ActiveCol>2</ActiveCol>
+     <ActiveRow>24</ActiveRow>
+     <ActiveCol>47</ActiveCol>
+     <RangeSelection>R25C48:R25C101</RangeSelection>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -7673,137 +7900,137 @@
   <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="27" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
    <Column ss:Width="801.75"/>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:Collection rdf:about=&quot;&quot;&quot;&amp;GeologicUnitPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitPartRole_2016.xml!ConceptScheme_ID&amp;&quot;&quot;&quot;&quot;&amp;&quot;&gt;&quot;"><Data
       ss:Type="String">&lt;skos:Collection rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitpartrole&quot;&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;dcterms:title xml:lang=&quot;&quot;en&quot;&quot;&gt;&quot;&amp;GeologicUnitPartRole_2016.xml!ConceptScheme_prefLabel&amp;&quot; - All Concepts&lt;/dcterms:title&gt;&quot;"><Data
       ss:Type="String">&lt;dcterms:title xml:lang=&quot;en&quot;&gt;Geologic Unit Part Role - All Concepts&lt;/dcterms:title&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/bed_lithosome&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/blocks&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/concretion&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/cyclic_bedding_package&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/enclave&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/facies&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/geologic_unit_matrix&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/inclusion&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/irregular_lithosome&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/layer_lithosome&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/lenticular_lithosome&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/lithosome&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/marker_bed&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/only_part&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/part_of&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/pendants&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/rafts&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/roof_pendant&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/screen&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/stratigraphic_part&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/tectonic_block&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/unspecified_part_role&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/vein_or_dike_lithosome&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitPartRole_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitPartRole_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitpartrole/xenolith&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">&lt;/skos:Collection&gt;</Data></Cell>
    </Row>
   </Table>
@@ -7813,6 +8040,7 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
+   <Unsynced/>
    <Zoom>80</Zoom>
    <Panes>
     <Pane>

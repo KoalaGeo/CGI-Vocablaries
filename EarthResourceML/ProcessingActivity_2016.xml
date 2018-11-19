@@ -10,13 +10,16 @@
   <LastAuthor>Ollie Raymond</LastAuthor>
   <Created>2012-03-28T18:35:34Z</Created>
   <LastSaved>2016-11-29T03:31:42Z</LastSaved>
-  <Version>14.00</Version>
+  <Version>16.00</Version>
  </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>6690</WindowHeight>
-  <WindowWidth>17205</WindowWidth>
-  <WindowTopX>270</WindowTopX>
-  <WindowTopY>60</WindowTopY>
+  <WindowHeight>12045</WindowHeight>
+  <WindowWidth>18270</WindowWidth>
+  <WindowTopX>930</WindowTopX>
+  <WindowTopY>0</WindowTopY>
   <ActiveSheet>1</ActiveSheet>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
@@ -313,6 +316,9 @@
    <Alignment ss:Vertical="Top" ss:WrapText="1"/>
    <Interior/>
    <NumberFormat ss:Format="m/d/yyyy;@"/>
+  </Style>
+  <Style ss:ID="s115">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Color="#000000"/>
   </Style>
  </Styles>
  <Names>
@@ -6371,32 +6377,42 @@
   </WorksheetOptions>
  </Worksheet>
  <Worksheet ss:Name="Vocabulary Terms">
-  <Table ss:ExpandedColumnCount="65" ss:ExpandedRowCount="69" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="120" ss:ExpandedRowCount="69" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s85" ss:DefaultColumnWidth="79.5"
    ss:DefaultRowHeight="17.25">
    <Column ss:StyleID="s85" ss:AutoFitWidth="0" ss:Width="156.75"/>
    <Column ss:StyleID="s85" ss:AutoFitWidth="0" ss:Width="150"/>
-   <Column ss:StyleID="s85" ss:AutoFitWidth="0" ss:Width="555.75"/>
-   <Column ss:StyleID="s85" ss:Width="232.5"/>
-   <Column ss:StyleID="s85" ss:Width="139.5"/>
-   <Column ss:StyleID="s85" ss:Width="51.75" ss:Span="1"/>
-   <Column ss:Index="8" ss:StyleID="s85" ss:Width="59.25"/>
-   <Column ss:StyleID="s85" ss:Width="51"/>
-   <Column ss:StyleID="s85" ss:AutoFitWidth="0" ss:Width="49.5"/>
-   <Column ss:StyleID="s86" ss:Width="40.5" ss:Span="3"/>
-   <Column ss:Index="15" ss:StyleID="s85" ss:Width="95.25"/>
-   <Column ss:StyleID="s85" ss:Width="114.75"/>
-   <Column ss:StyleID="s85" ss:Width="120"/>
-   <Column ss:StyleID="s85" ss:AutoFitWidth="0" ss:Width="147"/>
-   <Column ss:StyleID="s85" ss:Width="131.25"/>
-   <Column ss:StyleID="s85" ss:Width="56.25" ss:Span="3"/>
-   <Column ss:Index="24" ss:StyleID="s85" ss:Width="62.25" ss:Span="19"/>
-   <Column ss:Index="44" ss:StyleID="s85" ss:Width="129.75"/>
-   <Column ss:StyleID="s85" ss:Width="72.75"/>
-   <Column ss:StyleID="s85" ss:Width="57.75"/>
-   <Column ss:StyleID="s85" ss:Width="53.25" ss:Span="4"/>
-   <Column ss:Index="52" ss:StyleID="s85" ss:Width="62.25"/>
-   <Column ss:StyleID="s85" ss:Width="88.5"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="555.75"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="232.5"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="139.5"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="51.75"
+    ss:Span="1"/>
+   <Column ss:Index="8" ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="59.25"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="51"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="49.5"/>
+   <Column ss:StyleID="s86" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="40.5"
+    ss:Span="3"/>
+   <Column ss:Index="15" ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="95.25"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="114.75"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="120"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="147"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="131.25"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="56.25"
+    ss:Span="3"/>
+   <Column ss:Index="24" ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="62.25" ss:Span="19"/>
+   <Column ss:Index="44" ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="129.75"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="72.75"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="57.75"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="53.25"
+    ss:Span="4"/>
+   <Column ss:Index="52" ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="62.25"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="88.5"/>
+   <Column ss:StyleID="s85" ss:Width="410.25"/>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s87"><Data ss:Type="String">ConceptID</Data></Cell>
     <Cell ss:StyleID="s88"><Data ss:Type="String">PrefLabel</Data></Cell>
@@ -6451,70 +6467,166 @@
     <Cell ss:StyleID="s88"><Data ss:Type="String">Synonym8</Data></Cell>
     <Cell ss:StyleID="s88"><Data ss:Type="String">PrefLabel_fr</Data></Cell>
     <Cell ss:StyleID="s88"><Data ss:Type="String">AbbreviatedLabel</Data></Cell>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">TARGET_CONCEPT</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">PrefLabel_De</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">PrefLabel_Es</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">PrefLabel_Fi</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">PrefLabel_Fr</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">PrefLabel_Id</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">PrefLabel_It</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">PrefLabel_Ja</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">PrefLabel_Km</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">PrefLabel_Ko</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">PrefLabel_Lo</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">PrefLabel_Ms</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">PrefLabel_Nl</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">PrefLabel_Ru</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">PrefLabel_Sv</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">PrefLabel_Th</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">PrefLabel_Us</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">PrefLabel_Vi</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">PrefLabel_Zh</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Synonym_De</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Synonym_Es</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Synonym_Fi</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Synonym_Fr</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Synonym_Id</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Synonym_It</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Synonym_Ja</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Synonym_Km</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Synonym_Ko</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Synonym_Lo</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Synonym_Ms</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Synonym_Nl</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Synonym_Ru</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Synonym_Sv</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Synonym_Th</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Synonym_Us</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Synonym_Vi</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Synonym_Zh</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">physical-treatment</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">physical treatment</Data><NamedCell
+    <Cell ss:StyleID="s91"><Data ss:Type="String">adsorption</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">adsorption</Data><NamedCell
       ss:Name="Term"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">processes using physical separation methods</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">top</Data></Cell>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">01..</Data></Cell>
-    <Cell ss:StyleID="s91"/>
-    <Cell ss:Index="15" ss:StyleID="s91"><Data ss:Type="String">sorting</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">liquid-solid-separation</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">comminution</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">particle-sizing</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">sorting</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">sorting</Data><NamedCell
-      ss:Name="Term"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Processes that operate on particulate material to concentrate a desired component and separate it from waste material.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Based on http://en.wikipedia.org/wiki/Ore_sorting and http://en.wikipedia.org/wiki/Mineral_processing</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">physical-treatment</Data></Cell>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">01.1..</Data></Cell>
-    <Cell ss:StyleID="s91"/>
-    <Cell ss:Index="15" ss:StyleID="s91"><Data ss:Type="String">manual-sorting</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">automatic-sorting</Data></Cell>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">manual-sorting</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">manual sorting</Data><NamedCell
-      ss:Name="Term"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Sorting a coarse material into two or more classes on the basis of physical characteristics: appearance, colour, conductivity, fluorescence, etc., manually.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Taking up of ions, molecules or colloids on the surface of a material.</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">Dictionnaire thématique des mines et carrières, SIM Editor.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">sorting</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">chemical-treatment</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">03.6..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+    <Cell ss:Index="54" ss:StyleID="s115"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/mining-processing-activity/adsorption</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Adsorption</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">adsorbcio!n</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">adsorptio</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">adsorption</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">adsorpsi&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">adsorbimento</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">吸着</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">karRsUb /karRCab</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">흡착</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"> ¡¾­©ø©§ñ®</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">jerapan</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">adsorbtsiya</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">adsorption</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">การดูดซับ&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">hấp phụ</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">吸附(作用)</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">penyerapan</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">การดูดแนบ</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">agglomeration</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">agglomeration</Data><NamedCell
+      ss:Name="Term"/></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Agglomeration: process designed to bind together finely ground particles. The result is an agglomerate or a sinter.&#10;Pelletization: process designed to produce spherical agglomerates of a few mm diameter, called pellets, through a rotating device (balling drum, balling disc) after the addition of some binding material (swelling clay, lime, cement, etc.) and water.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Dictionnaire thématique des mines et carrières, SIM Editor.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">physico-chemical-treatment</Data></Cell>
     <Cell ss:StyleID="s93"/>
     <Cell ss:StyleID="s93"/>
     <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">01.1.1..</Data></Cell>
-    <Cell ss:StyleID="s94"/>
-    <Cell ss:Index="15" ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:Index="44" ss:StyleID="s91"><Data ss:Type="String">handpicking</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">02.2..</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:Index="44" ss:StyleID="s91"><Data ss:Type="String">pelletization</Data></Cell>
+    <Cell ss:Index="102" ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s91"><Data ss:Type="String">automatic-sorting</Data></Cell>
@@ -6533,78 +6645,193 @@
     <Cell ss:StyleID="s91"><Data ss:Type="String">electrostatic-separation</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">eddy-current-separator</Data></Cell>
     <Cell ss:Index="44" ss:StyleID="s91"/>
+    <Cell ss:Index="102" ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">gravimetric-sorting</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">gravimetric sorting</Data><NamedCell
+    <Cell ss:StyleID="s91"><Data ss:Type="String">bioleaching</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">bioleaching</Data><NamedCell
       ss:Name="Term"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Process in which the valuable particles are separated from the gangue by virtue of the difference between their specific volumes. This causes their settling rates within a medium - air or water - to be different. This process is therefore affected by particle size.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Dictionnaire thématique des mines et carrières, SIM Editor.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">automatic-sorting</Data></Cell>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">01.1.2.1..</Data></Cell>
-    <Cell ss:Index="15" ss:StyleID="s91"><Data ss:Type="String">stratification-jig</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">sluice-concentration</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">gravity-separation-table</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">centrifugal-gravity-separation</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">heavy-medium-separation</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Bioleaching is the extraction of metals from their ores through the use of living organisms. This is much cleaner than the traditional heap leaching using cyanide. Bioleaching is one of several applications within biohydrometallurgy and several methods are used to recover copper, zinc, lead, arsenic, antimony, nickel, molybdenum, gold, silver, and cobalt.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">http://en.wikipedia.org/wiki/Bioleaching</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">chemical-treatment</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">03.17..</Data></Cell>
     <Cell ss:Index="44" ss:StyleID="s91"/>
+    <Cell ss:Index="102" ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">stratification-jig</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">stratification jig</Data><NamedCell
+    <Cell ss:StyleID="s91"><Data ss:Type="String">burning</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">burning</Data><NamedCell
       ss:Name="Term"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">The principle of the jig is the action of pulsed vertical movement of water through a volume of particulate material. Particles with a higher specific gravity (density) settle faster, resulting in a concentration of material with higher density at the bottom, on the jig bed.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">http://www.info-diamond.com/rough/mining-equipment-47.html; http://en.wikipedia.org/wiki/Jig_concentrators</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">gravimetric-sorting</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">The utilization of coal-oil agglomerates in the recovery of gold is based on the natural hydrophobicity/lipophilicity of gold, a property which according to the consensus of most surface chemistry experts is brought about by the ease by which gold surface becomes contaminated, though is possible to recover gold by agglomerating them with oil, the amount of gold in the ore is usually small that there is insufficient gold particles to form agglomerates. Thus, the need to use other hydrophobic materials (e.g. coal) to either form agglomerates together with gold or act as a carrier of gold particles.&#10;Agglomerates are prepared in a previous step and then added to the ore pulp in a second step. The gold particles, being oilfilic, penetrate into the agglomerates. In a continuous operation the agglomerates would be maintained in contacting tanks until they reach a pre-determined gold content. The tailings are discarded by means of a screen situated at the upper part of the tanks. The recovery of gold from agglomerates is obtained in a later step by burning the agglomerates and then separating the gold from the ashes.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">http://www.e-goldprospecting.com/html/coal_gold_agglomeration__cga_.html</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">chemical-treatment</Data></Cell>
     <Cell ss:StyleID="s93"/>
     <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">01.1.2.1.1</Data></Cell>
-    <Cell ss:StyleID="s91"/>
-    <Cell ss:Index="15" ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
+    <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">03.14..</Data></Cell>
     <Cell ss:Index="44" ss:StyleID="s91"/>
+    <Cell ss:Index="102" ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">sluice-concentration</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">sluice concentration</Data><NamedCell
+    <Cell ss:StyleID="s91"><Data ss:Type="String">calcining</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">calcining</Data><NamedCell
       ss:Name="Term"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">a slanting trough fitted with riffles or with moquette along the bottom of the trough; particles are entrained in fluid flowing through the trough, and denser particles settle to the bottom more rapidly and are trapped.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">this vocabulary</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">gravimetric-sorting</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">A more general definition is “Calcination (also referred to as calcining) is a thermal treatment process in presence of air applied to ores and other solid materials to bring about a thermal decomposition, phase transition, or removal of a volatile fraction. The calcination process normally takes place at temperatures below the melting point of the product materials. Calcination is to be distinguished from roasting, in which more complex gas–solid reactions take place between the furnace atmosphere and the solids.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">http://en.wikipedia.org/wiki/Calcination</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">chemical-treatment</Data></Cell>
+    <Cell ss:StyleID="s97"/>
     <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">01.1.2.1.2</Data></Cell>
-    <Cell ss:StyleID="s91"/>
-    <Cell ss:Index="15" ss:StyleID="s91"/>
-    <Cell ss:StyleID="s91"/>
-    <Cell ss:StyleID="s91"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
+    <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">03.15..</Data></Cell>
     <Cell ss:Index="44" ss:StyleID="s91"/>
+    <Cell ss:Index="102" ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">gravity-separation-table</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">gravity separation table</Data><NamedCell
+    <Cell ss:StyleID="s91"><Data ss:Type="String">cementation</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">cementation</Data><NamedCell
       ss:Name="Term"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Gravity concentration consisting of an inclined planar surface fitted with riffles. Particles are carried across the surface by a fluid flow as the surface is vibrated.  The shaking promotes the segregation of denser particles and keeps them moving across the deck in different angles down to the discharge end. Wilfley table, Holman table are examples.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">http://www.motive-traction.com.au/cgi-bin/engine.pl?Page=page.html&amp;Rec=124</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">gravimetric-sorting</Data></Cell>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">01.1.2.1.3</Data></Cell>
-    <Cell ss:StyleID="s91"/>
-    <Cell ss:Index="15" ss:StyleID="s96"/>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">In metallurgy, cementation is a process in which ions are reduced to zero valence at a solid metallic interface</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">http://en.wikipedia.org/wiki/Cementation</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">chemical-treatment</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">03.4..</Data></Cell>
     <Cell ss:Index="44" ss:StyleID="s91"/>
+    <Cell ss:Index="54" ss:StyleID="s115"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/mining-processing-activity/cementation</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Zementation</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">cementacio!n</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">iskostuminen</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">cémentation</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">perekatan</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">cementazione</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">セメント作用&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">karbiTsIum:g;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">교결작용</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"> -¡¾­-¥ñ®-ªö¸</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">persimenan</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">tsementatsiya</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">cementering</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">การประสาน</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">gắn kết</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">胶结[作用]&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">膠結作用</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">粘结</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s91"><Data ss:Type="String">centrifugal-gravity-separation</Data></Cell>
@@ -6624,189 +6851,25 @@
     <Cell ss:StyleID="s96"/>
     <Cell ss:StyleID="s96"/>
     <Cell ss:Index="44" ss:StyleID="s91"><Data ss:Type="String">radial acceleration</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">heavy-medium-separation</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">heavy medium separation</Data><NamedCell
-      ss:Name="Term"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">A gravity process by using a heavy medium with specific gravity intermediate between that of lighter minerals and heavier minerals. So that lighter minerals float, while heavier minerals sink.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Dictionnaire thématique des mines et carrières, SIM Editor.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">gravimetric-sorting</Data></Cell>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">01.1.2.1.5</Data></Cell>
-    <Cell ss:Index="15" ss:StyleID="s96"/>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">magnetic-separation</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">magnetic separation</Data><NamedCell
-      ss:Name="Term"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Separation process based on the difference in magnetic susceptibility between minerals. A magnetic field is used either to deviate the magnetic particles from their course, or to lift the magnetic particles.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Dictionnaire thématique des mines et carrières, SIM Editor.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">automatic-sorting</Data></Cell>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">01.1.3..</Data></Cell>
-    <Cell ss:Index="15" ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">electrostatic-separation</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">electrostatic separation</Data><NamedCell
-      ss:Name="Term"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Separation process based on the difference in electrical conductivity between the various minerals.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">B.A.Wills, T.J.Napier-Munn, Will's Mineral Processing Technology, Seventh edition, Elsevier 2006.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">automatic-sorting</Data></Cell>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">01.1.4..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">eddy-current-separator</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">eddy current separator</Data><NamedCell
-      ss:Name="Term"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Uses an electric current induced into a conductor by changes in magnetic flux cutting through it. The effect of such currents is to induce a secondary magnetic field around the particle;  this field reacts with the applied magnetic field resulting in forces that eject the conducting particle from the stream of mixed particles, providing the means for an effective separation.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">http://en.wikipedia.org/wiki/Eddy_current_separator</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">automatic-sorting</Data></Cell>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">01.1.5..</Data></Cell>
-    <Cell ss:Index="15" ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:Index="44" ss:StyleID="s91"><Data ss:Type="String">foucault current separator</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">liquid-solid-separation</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">liquid-solid separation</Data><NamedCell
-      ss:Name="Term"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Separation of suspended material by concentrating of pulp and removal of fluid through thickening, filtering, decanting or cycloning.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Dictionnaire thématique des mines et carrières, SIM Editor.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">physical-treatment</Data></Cell>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">01.2..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">comminution</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">comminution</Data><NamedCell
-      ss:Name="Term"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Breaking solid particles to reduce their sizes; general term encompassing crushing and grinding.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Dictionnaire thématique des mines et carrières, SIM Editor.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">physical-treatment</Data></Cell>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">01.3..</Data></Cell>
-    <Cell ss:Index="15" ss:StyleID="s95"/>
-    <Cell ss:Index="44" ss:StyleID="s91"><Data ss:Type="String">crushing</Data></Cell>
-    <Cell><Data ss:Type="String">fragmentation</Data></Cell>
-    <Cell><Data ss:Type="String">pulverising</Data></Cell>
-    <Cell><Data ss:Type="String">grinding</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">particle-sizing</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">particle sizing</Data><NamedCell
-      ss:Name="Term"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">separation of particles of a fragmented material into several classes according to size. Typically done by means of screens or sieves: particle with a size larger than the screen or sieve opening are said to form the oversize fraction, the others form the undersize fraction.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Dictionnaire thématique des mines et carrières, SIM Editor.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">physical-treatment</Data></Cell>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">01.4..</Data></Cell>
-    <Cell ss:Index="15" ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:Index="44" ss:StyleID="s91"><Data ss:Type="String">classification</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">physico-chemical-treatment</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">physico-chemical treatment</Data><NamedCell
-      ss:Name="Term"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">concentraing processes that combine physical and chemical separation methods.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">top</Data></Cell>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">02..</Data></Cell>
-    <Cell ss:Index="15" ss:StyleID="s91"><Data ss:Type="String">flotation</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">agglomeration</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">coagulation</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">flocculation</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">flotation</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">flotation</Data><NamedCell
-      ss:Name="Term"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Process in which particles are separated according to their tendency to adhere more or less to air bubbles to form a mineralized froth: this feature is linked to the natural or designed hydrophobic property of the particle surface.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Dictionnaire thématique des mines et carrières, SIM Editor; http://www.cpchem.com/bl/specchem/en-us/Pages/IntroductiontoMineralProcessing.aspx</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">physico-chemical-treatment</Data></Cell>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">02.1..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">agglomeration</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">agglomeration</Data><NamedCell
-      ss:Name="Term"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Agglomeration: process designed to bind together finely ground particles. The result is an agglomerate or a sinter.&#10;Pelletization: process designed to produce spherical agglomerates of a few mm diameter, called pellets, through a rotating device (balling drum, balling disc) after the addition of some binding material (swelling clay, lime, cement, etc.) and water.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Dictionnaire thématique des mines et carrières, SIM Editor.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">physico-chemical-treatment</Data></Cell>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">02.2..</Data></Cell>
-    <Cell ss:Index="15" ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:Index="44" ss:StyleID="s91"><Data ss:Type="String">pelletization</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">coagulation</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">coagulation</Data><NamedCell
-      ss:Name="Term"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">In a dispersed system, particles of all species can be aggregated into larger structures by several mechanisms. Aggregation, based on reducing inter-particle repulsion forces, is known as coagulation and the aggregates are called coagula. If coagulation is induced by a polymer-bridging action, the process is called flocculation and the aggregates are called flocs. When aggregation is achieved as a result of the action of an immersible bridging liquid, such as oil, the process is called agglomeration and the aggregates are referred to as agglomerates. The mechanisms include both those in coagulation (i.e. action of electrolytes) and bridging flocculation by either inorganic polymers or by precipitating metal hydroxides. The latter is known as sweep flocculation.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">http://ktrungthuy.free.fr/SACH-BOOKS/Handbook%20of%20Flotation%20Reagents,%20Elsevier%20(2007),%200444530290.pdf</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">physico-chemical-treatment</Data></Cell>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">02.3..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">flocculation</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">flocculation</Data><NamedCell
-      ss:Name="Term"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Flocculation is the coagulation between particles induced by the bridging action of long-chain organic polymers.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">B.A.Wills, T.J.Napier-Munn, Will's Mineral Processing Technology, Seventh edition, Elsevier 2006.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">physico-chemical-treatment</Data></Cell>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">02.4..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
+    <Cell ss:Index="102" ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s91"><Data ss:Type="String">chemical-treatment</Data></Cell>
@@ -6837,19 +6900,346 @@
     <Cell ss:StyleID="s91"><Data ss:Type="String">precipitation</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">bioleaching</Data></Cell>
     <Cell ss:Index="44" ss:StyleID="s91"/>
+    <Cell ss:Index="102" ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">hydrometallurgy</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">hydrometallurgy</Data><NamedCell
+    <Cell ss:StyleID="s91"><Data ss:Type="String">coagulation</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">coagulation</Data><NamedCell
       ss:Name="Term"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Hydrometallurgy is part of the field of extractive metallurgy involving the use of aqueous chemistry for the recovery of metals from ores, concentrates, and recycled or residual materials. Hydrometallurgy is typically divided into three general areas: leaching, solution concentration and purification, and metal recovery.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">In a dispersed system, particles of all species can be aggregated into larger structures by several mechanisms. Aggregation, based on reducing inter-particle repulsion forces, is known as coagulation and the aggregates are called coagula. If coagulation is induced by a polymer-bridging action, the process is called flocculation and the aggregates are called flocs. When aggregation is achieved as a result of the action of an immersible bridging liquid, such as oil, the process is called agglomeration and the aggregates are referred to as agglomerates. The mechanisms include both those in coagulation (i.e. action of electrolytes) and bridging flocculation by either inorganic polymers or by precipitating metal hydroxides. The latter is known as sweep flocculation.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">http://ktrungthuy.free.fr/SACH-BOOKS/Handbook%20of%20Flotation%20Reagents,%20Elsevier%20(2007),%200444530290.pdf</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">physico-chemical-treatment</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">02.3..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+    <Cell ss:Index="102" ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">comminution</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">comminution</Data><NamedCell
+      ss:Name="Term"/></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Breaking solid particles to reduce their sizes; general term encompassing crushing and grinding.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Dictionnaire thématique des mines et carrières, SIM Editor.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">physical-treatment</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">01.3..</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s95"/>
+    <Cell ss:Index="44" ss:StyleID="s91"><Data ss:Type="String">crushing</Data></Cell>
+    <Cell><Data ss:Type="String">fragmentation</Data></Cell>
+    <Cell><Data ss:Type="String">pulverising</Data></Cell>
+    <Cell><Data ss:Type="String">grinding</Data></Cell>
+    <Cell ss:Index="54" ss:StyleID="s115"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/mining-processing-activity/comminution</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Probenzerkleinerung</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">fragmentacio!n</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">rikkoutuminen</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">fragmentation&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">pemecahan&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">frammentazione</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">破砕&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">karEbkCabMENk&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">붕괴작용&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Áª¡À¯ñ­¦š­¦È¸­&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">pemecahan&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">droblenie</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">fragmentering</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">การแตกเป็นชิ้นส่วน&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">phân mảnh&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">破碎作用&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">pencanaian</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">磨快；磨锐</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">crystallization</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">crystallization</Data><NamedCell
+      ss:Name="Term"/></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Crystallization is the (natural or artificial) process of formation of solid crystals precipitating from a solution, melt or more rarely deposited directly from a gas. Crystallization is also a chemical solid-liquid separation technique, in which mass transfer of a solute from the liquid solution to a pure solid crystalline phase occurs. In chemical engineering crystallization occurs in a crystallizer. Crystallization is therefore an aspect of precipitation, obtained through a variation of the solubility conditions of the solute in the solvent, as compared to precipitation due to chemical reaction.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">http://en.wikipedia.org/wiki/Crystallization</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">chemical-treatment</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">03.8..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+    <Cell ss:Index="54" ss:StyleID="s115"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/mining-processing-activity/crystallization</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Kristallisation</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">cristalizacio!n</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">kiteytyminen</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">cristallisation&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">kristalisasi&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">cristallizzazione</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">結晶化&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">eLIgRkam/PaBRkam&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">결정작용&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">¡¾­À¡ó©À¯ñ­À´ñ©´½­ó&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">penghabluran&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">kristallizatsiya</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">kristallisering</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">การตกผลึก&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">kết tinh&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">结晶[作用]&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">pengkristalan</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">結晶作用</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">정출작용</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">distillation</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">distillation</Data><NamedCell
+      ss:Name="Term"/></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Distillation is a method of separating mixtures based on differences in volatilities of components in a boiling liquid mixture. Distillation is a unit operation, or a physical separation process, and not a chemical reaction.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">http://en.wikipedia.org/wiki/Distillation</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">chemical-treatment</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">03.7..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+    <Cell ss:Index="92" ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">eddy-current-separator</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">eddy current separator</Data><NamedCell
+      ss:Name="Term"/></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Uses an electric current induced into a conductor by changes in magnetic flux cutting through it. The effect of such currents is to induce a secondary magnetic field around the particle;  this field reacts with the applied magnetic field resulting in forces that eject the conducting particle from the stream of mixed particles, providing the means for an effective separation.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">http://en.wikipedia.org/wiki/Eddy_current_separator</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">automatic-sorting</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">01.1.5..</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:Index="44" ss:StyleID="s91"><Data ss:Type="String">foucault current separator</Data></Cell>
+    <Cell ss:Index="92" ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">electrolysis</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">electrolysis</Data><NamedCell
+      ss:Name="Term"/></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Electrolysis: Electrowinning and electrorefining respectively involve the recovery and purification of metals using electrodeposition of metals at the cathode, and either metal dissolution or a competing oxidation reaction at the anode.</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">http://en.wikipedia.org/wiki/Hydrometallurgy</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">chemical-treatment</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">03.5..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s91"><Data ss:Type="String">electrowinning</Data></Cell>
+    <Cell><Data ss:Type="String">electrorefining</Data></Cell>
+    <Cell ss:Index="54" ss:StyleID="s115"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/mining-processing-activity/electrolysis</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Elektrolyse</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">electro!lisis</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">elektrolyysi</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">électrolyse</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">elektrolisis</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">elettrolisi</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">電気分解</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">GKÁIsnIviPaK</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">전기분해&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">¡¾­Á¨¡ê¾©©É¸¨Ä³³É¾</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">elektrolisis</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">ehlektroliz</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">elektrolys</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">อิเล็กโทรไลซิส</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">điện phân</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">电解</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">전해</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">electrostatic-separation</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">electrostatic separation</Data><NamedCell
+      ss:Name="Term"/></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Separation process based on the difference in electrical conductivity between the various minerals.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">B.A.Wills, T.J.Napier-Munn, Will's Mineral Processing Technology, Seventh edition, Elsevier 2006.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">automatic-sorting</Data></Cell>
     <Cell ss:StyleID="s93"/>
     <Cell ss:StyleID="s93"/>
     <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">03.1..</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">01.1.4..</Data></Cell>
     <Cell ss:Index="44" ss:StyleID="s91"/>
+    <Cell ss:Index="94" ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s91"><Data ss:Type="String">evaporation</Data></Cell>
@@ -6867,6 +7257,498 @@
     <Cell ss:StyleID="s95"/>
     <Cell ss:StyleID="s95"/>
     <Cell ss:Index="44" ss:StyleID="s91"><Data ss:Type="String">drying</Data></Cell>
+    <Cell ss:Index="54" ss:StyleID="s115"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/mining-processing-activity/evaporation</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Evaporation</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">evaporacio!n</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">haihdunta</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">évaporation</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">penguapan</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">evaporazione</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">蒸発作用&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">rMhYt</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">증발</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">¡¾­ì½À¹ó¨</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">penyejatan</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">isparenie</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">avdunstning</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">การระเหย</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">bốc hơi</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">蒸发</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">蒸発</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">flocculation</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">flocculation</Data><NamedCell
+      ss:Name="Term"/></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Flocculation is the coagulation between particles induced by the bridging action of long-chain organic polymers.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">B.A.Wills, T.J.Napier-Munn, Will's Mineral Processing Technology, Seventh edition, Elsevier 2006.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">physico-chemical-treatment</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">02.4..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+    <Cell ss:Index="54" ss:StyleID="s115"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/mining-processing-activity/flocculation</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Ausflockung</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">floculacio!n</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">flokkulaatio</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">floculation</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">penggumpalan</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">flocculazione</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">凝集&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">karkkCadMu</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">응집&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">¡¾­¥ñ©À¯ñ­¡÷È´¢º¤º½­÷²¾¡</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">perbukuan&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">flokkulyatsiya</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">flockulering</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">การจับเป็นกลุ่มของอนุภาคขนาดเล็ก</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">kết bông</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">凝聚[作用]&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">フロキュレーション</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">엉김</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">flokulasi</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">絮凝[作用]</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">flotation</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">flotation</Data><NamedCell
+      ss:Name="Term"/></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Process in which particles are separated according to their tendency to adhere more or less to air bubbles to form a mineralized froth: this feature is linked to the natural or designed hydrophobic property of the particle surface.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Dictionnaire thématique des mines et carrières, SIM Editor; http://www.cpchem.com/bl/specchem/en-us/Pages/IntroductiontoMineralProcessing.aspx</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">physico-chemical-treatment</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">02.1..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+    <Cell ss:Index="54" ss:StyleID="s115"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/mining-processing-activity/flotation</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Flotation</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">flotacio!n</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">vaahdotus</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">flottation</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">flotasi</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">flottazione</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">浮遊選鉱</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">bENþk</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">부유선광</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">¡¾­ìº¨ªö¸</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">flotasi&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">flotatsiya</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">flotation</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">การลอย (แร่)</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">tuyển nổi</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">浮选&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">pengapungan</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">浮选法</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">gravimetric-sorting</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">gravimetric sorting</Data><NamedCell
+      ss:Name="Term"/></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Process in which the valuable particles are separated from the gangue by virtue of the difference between their specific volumes. This causes their settling rates within a medium - air or water - to be different. This process is therefore affected by particle size.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Dictionnaire thématique des mines et carrières, SIM Editor.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">automatic-sorting</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">01.1.2.1..</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s91"><Data ss:Type="String">stratification-jig</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">sluice-concentration</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">gravity-separation-table</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">centrifugal-gravity-separation</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">heavy-medium-separation</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+    <Cell ss:Index="93" ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">gravity-separation-table</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">gravity separation table</Data><NamedCell
+      ss:Name="Term"/></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Gravity concentration consisting of an inclined planar surface fitted with riffles. Particles are carried across the surface by a fluid flow as the surface is vibrated.  The shaking promotes the segregation of denser particles and keeps them moving across the deck in different angles down to the discharge end. Wilfley table, Holman table are examples.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">http://www.motive-traction.com.au/cgi-bin/engine.pl?Page=page.html&amp;Rec=124</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">gravimetric-sorting</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">01.1.2.1.3</Data></Cell>
+    <Cell ss:StyleID="s91"/>
+    <Cell ss:Index="15" ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+    <Cell ss:Index="93" ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">heavy-medium-separation</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">heavy medium separation</Data><NamedCell
+      ss:Name="Term"/></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">A gravity process by using a heavy medium with specific gravity intermediate between that of lighter minerals and heavier minerals. So that lighter minerals float, while heavier minerals sink.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Dictionnaire thématique des mines et carrières, SIM Editor.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">gravimetric-sorting</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">01.1.2.1.5</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">hydrometallurgy</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">hydrometallurgy</Data><NamedCell
+      ss:Name="Term"/></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Hydrometallurgy is part of the field of extractive metallurgy involving the use of aqueous chemistry for the recovery of metals from ores, concentrates, and recycled or residual materials. Hydrometallurgy is typically divided into three general areas: leaching, solution concentration and purification, and metal recovery.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">http://en.wikipedia.org/wiki/Hydrometallurgy</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">chemical-treatment</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">03.1..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+    <Cell ss:Index="54" ss:StyleID="s115"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/mining-processing-activity/hydrometallurgy</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Hydrometallurgie</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">hidrometalurgia</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">hydrometallurgia</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">hydrométallurgie</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">hidrometalurgi</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">idrometallurgia</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">湿式冶金</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">karsørEdkedayeRbIfamBlTwk</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">습식야금&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">¡¾­Á¨¡Âì¹½©É¸¨¦¾­ì½ì¾¨</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">hidrometalurgi</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">gidrometallurgiya</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">hydrometallurgi</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">การแยกโลหะจากสินแร่ในสารละลาย</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">thuỷ luyện kim</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">湿法冶金[学]</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">습식제련</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">incineration</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">incineration</Data><NamedCell
+      ss:Name="Term"/></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Incineration is a waste treatment process that involves the combustion of organic substances contained in waste materials. Incineration of waste materials converts the waste into ash, flue gas, and heat. (http://en.wikipedia.org/wiki/Incineration)</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">http://en.wikipedia.org/wiki/Incineration</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">chemical-treatment</Data></Cell>
+    <Cell ss:StyleID="s97"/>
+    <Cell ss:StyleID="s97"/>
+    <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">03.16..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">leaching</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">leaching</Data><NamedCell
+      ss:Name="Term"/></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Action of chemical reagents on a material resulting in the dissolution of some of its elements.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Dictionnaire thématique des mines et carrières, SIM Editor.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">chemical-treatment</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">03.2..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+    <Cell ss:Index="54" ss:StyleID="s115"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/mining-processing-activity/leaching</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Auswaschung</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">lavado</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">uuttuminen</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">lessivage&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">pencucian&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">lavaggio</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">溶脱&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Rtg/eRcaH&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">용탈&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">¡¾­-À§¾½ìÉ¾¤&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">larut lesap&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">vyshchelachivanie</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">lakning</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">การชะ&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">rửa lũa&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">浸出&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">pelindian</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">溶脱作用</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">浸析</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">liquid-solid-separation</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">liquid-solid separation</Data><NamedCell
+      ss:Name="Term"/></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Separation of suspended material by concentrating of pulp and removal of fluid through thickening, filtering, decanting or cycloning.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Dictionnaire thématique des mines et carrières, SIM Editor.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">physical-treatment</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">01.2..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">magnetic-separation</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">magnetic separation</Data><NamedCell
+      ss:Name="Term"/></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Separation process based on the difference in magnetic susceptibility between minerals. A magnetic field is used either to deviate the magnetic particles from their course, or to lift the magnetic particles.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Dictionnaire thématique des mines et carrières, SIM Editor.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">automatic-sorting</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">01.1.3..</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">manual-sorting</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">manual sorting</Data><NamedCell
+      ss:Name="Term"/></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Sorting a coarse material into two or more classes on the basis of physical characteristics: appearance, colour, conductivity, fluorescence, etc., manually.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Dictionnaire thématique des mines et carrières, SIM Editor.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">sorting</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">01.1.1..</Data></Cell>
+    <Cell ss:StyleID="s94"/>
+    <Cell ss:Index="15" ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:Index="44" ss:StyleID="s91"><Data ss:Type="String">handpicking</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">particle-sizing</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">particle sizing</Data><NamedCell
+      ss:Name="Term"/></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">separation of particles of a fragmented material into several classes according to size. Typically done by means of screens or sieves: particle with a size larger than the screen or sieve opening are said to form the oversize fraction, the others form the undersize fraction.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Dictionnaire thématique des mines et carrières, SIM Editor.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">physical-treatment</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">01.4..</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:Index="44" ss:StyleID="s91"><Data ss:Type="String">classification</Data></Cell>
+    <Cell ss:Index="54" ss:StyleID="s115"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/mining-processing-activity/particle-sizing</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Klassifikation</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">clasificacio!n</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">luokitus</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">classification</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">klasifikasi&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">classificazione</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">分類</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">karcat;lMdab;fñak;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">분류</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String"> ¡¾­-¥ñ©-Á®È¤</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">pengelasan&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">klassifikatsiya</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">klassificering</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">การจำแนก</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">phân loại</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">分类</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">perumpunan</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">klasifikasi</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">physical-treatment</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">physical treatment</Data><NamedCell
+      ss:Name="Term"/></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">processes using physical separation methods</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">top</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">01..</Data></Cell>
+    <Cell ss:StyleID="s91"/>
+    <Cell ss:Index="15" ss:StyleID="s91"><Data ss:Type="String">sorting</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">liquid-solid-separation</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">comminution</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">particle-sizing</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">physico-chemical-treatment</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">physico-chemical treatment</Data><NamedCell
+      ss:Name="Term"/></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">concentraing processes that combine physical and chemical separation methods.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">This vocabulary</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">top</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">02..</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s91"><Data ss:Type="String">flotation</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">agglomeration</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">coagulation</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">flocculation</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">precipitation</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">precipitation</Data><NamedCell
+      ss:Name="Term"/></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Precipitation in hydrometallurgy involves the chemical precipitation of either metals and their compounds or of the contaminants from aqueous solutions. Precipitation will proceed when, through reagent addition, evaporation, pH change or temperature manipulation, any given species exceeds its limit of solubility.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">http://en.wikipedia.org/wiki/Hydrometallurgy</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">chemical-treatment</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">03.9..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s91"><Data ss:Type="String">pyrometallurgy</Data></Cell>
@@ -6899,6 +7781,26 @@
     <Cell ss:Index="44" ss:StyleID="s91"/>
    </Row>
    <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s91"><Data ss:Type="String">sluice-concentration</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">sluice concentration</Data><NamedCell
+      ss:Name="Term"/></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">a slanting trough fitted with riffles or with moquette along the bottom of the trough; particles are entrained in fluid flowing through the trough, and denser particles settle to the bottom more rapidly and are trapped.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">this vocabulary</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">gravimetric-sorting</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">01.1.2.1.2</Data></Cell>
+    <Cell ss:StyleID="s91"/>
+    <Cell ss:Index="15" ss:StyleID="s91"/>
+    <Cell ss:StyleID="s91"/>
+    <Cell ss:StyleID="s91"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:Index="44" ss:StyleID="s91"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s91"><Data ss:Type="String">smelting</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">smelting</Data><NamedCell
       ss:Name="Term"/></Cell>
@@ -6912,62 +7814,6 @@
     <Cell ss:Index="44" ss:StyleID="s91"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">burning</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">burning</Data><NamedCell
-      ss:Name="Term"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">The utilization of coal-oil agglomerates in the recovery of gold is based on the natural hydrophobicity/lipophilicity of gold, a property which according to the consensus of most surface chemistry experts is brought about by the ease by which gold surface becomes contaminated, though is possible to recover gold by agglomerating them with oil, the amount of gold in the ore is usually small that there is insufficient gold particles to form agglomerates. Thus, the need to use other hydrophobic materials (e.g. coal) to either form agglomerates together with gold or act as a carrier of gold particles.&#10;Agglomerates are prepared in a previous step and then added to the ore pulp in a second step. The gold particles, being oilfilic, penetrate into the agglomerates. In a continuous operation the agglomerates would be maintained in contacting tanks until they reach a pre-determined gold content. The tailings are discarded by means of a screen situated at the upper part of the tanks. The recovery of gold from agglomerates is obtained in a later step by burning the agglomerates and then separating the gold from the ashes.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">http://www.e-goldprospecting.com/html/coal_gold_agglomeration__cga_.html</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">chemical-treatment</Data></Cell>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">03.14..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">calcining</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">calcining</Data><NamedCell
-      ss:Name="Term"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">A more general definition is “Calcination (also referred to as calcining) is a thermal treatment process in presence of air applied to ores and other solid materials to bring about a thermal decomposition, phase transition, or removal of a volatile fraction. The calcination process normally takes place at temperatures below the melting point of the product materials. Calcination is to be distinguished from roasting, in which more complex gas–solid reactions take place between the furnace atmosphere and the solids.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">http://en.wikipedia.org/wiki/Calcination</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">chemical-treatment</Data></Cell>
-    <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s93"/>
-    <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">03.15..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">incineration</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">incineration</Data><NamedCell
-      ss:Name="Term"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Incineration is a waste treatment process that involves the combustion of organic substances contained in waste materials. Incineration of waste materials converts the waste into ash, flue gas, and heat. (http://en.wikipedia.org/wiki/Incineration)</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">http://en.wikipedia.org/wiki/Incineration</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">chemical-treatment</Data></Cell>
-    <Cell ss:StyleID="s97"/>
-    <Cell ss:StyleID="s97"/>
-    <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">03.16..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">bioleaching</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">bioleaching</Data><NamedCell
-      ss:Name="Term"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Bioleaching is the extraction of metals from their ores through the use of living organisms. This is much cleaner than the traditional heap leaching using cyanide. Bioleaching is one of several applications within biohydrometallurgy and several methods are used to recover copper, zinc, lead, arsenic, antimony, nickel, molybdenum, gold, silver, and cobalt.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">http://en.wikipedia.org/wiki/Bioleaching</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">chemical-treatment</Data></Cell>
-    <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">03.17..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">leaching</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">leaching</Data><NamedCell
-      ss:Name="Term"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Action of chemical reagents on a material resulting in the dissolution of some of its elements.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Dictionnaire thématique des mines et carrières, SIM Editor.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">chemical-treatment</Data></Cell>
-    <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">03.2..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s91"><Data ss:Type="String">solvent-extraction</Data></Cell>
     <Cell ss:StyleID="s91"><Data ss:Type="String">solvent extraction</Data><NamedCell
       ss:Name="Term"/></Cell>
@@ -6978,64 +7824,75 @@
     <Cell ss:Index="44" ss:StyleID="s91"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">cementation</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">cementation</Data><NamedCell
+    <Cell ss:StyleID="s91"><Data ss:Type="String">sorting</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">sorting</Data><NamedCell
       ss:Name="Term"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">In metallurgy, cementation is a process in which ions are reduced to zero valence at a solid metallic interface</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">http://en.wikipedia.org/wiki/Cementation</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">chemical-treatment</Data></Cell>
-    <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">03.4..</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Processes that operate on particulate material to concentrate a desired component and separate it from waste material.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">Based on http://en.wikipedia.org/wiki/Ore_sorting and http://en.wikipedia.org/wiki/Mineral_processing</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">physical-treatment</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">01.1..</Data></Cell>
+    <Cell ss:StyleID="s91"/>
+    <Cell ss:Index="15" ss:StyleID="s91"><Data ss:Type="String">manual-sorting</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">automatic-sorting</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
     <Cell ss:Index="44" ss:StyleID="s91"/>
+    <Cell ss:Index="54" ss:StyleID="s115"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/mining-processing-activity/sorting</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">Sortierung</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">clasificacio!n granulome!trica</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">lajittuneisuus</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">classement granulométrique</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">pemilahan&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">classazione granulometrica</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">分級&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">karcat;CaRbePT</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">분급작용</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">¡¾­¥ñ©¢½Î¾©</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">penyisihan</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">otsortirovannost'</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">sortering</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">การดัดขนาด</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">hạt trầm tích cùng loại</Data></Cell>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">分选&#10;</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">proses memilah</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">淘汰作用</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s115"><Data ss:Type="String">排序</Data></Cell>
+    <Cell ss:StyleID="s115"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">electrolysis</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">electrolysis</Data><NamedCell
+    <Cell ss:StyleID="s91"><Data ss:Type="String">stratification-jig</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">stratification jig</Data><NamedCell
       ss:Name="Term"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Electrolysis: Electrowinning and electrorefining respectively involve the recovery and purification of metals using electrodeposition of metals at the cathode, and either metal dissolution or a competing oxidation reaction at the anode.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">http://en.wikipedia.org/wiki/Hydrometallurgy</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">chemical-treatment</Data></Cell>
-    <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">03.5..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"><Data ss:Type="String">electrowinning</Data></Cell>
-    <Cell><Data ss:Type="String">electrorefining</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">adsorption</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">adsorption</Data><NamedCell
-      ss:Name="Term"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Taking up of ions, molecules or colloids on the surface of a material.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Dictionnaire thématique des mines et carrières, SIM Editor.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">chemical-treatment</Data></Cell>
-    <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">03.6..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">distillation</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">distillation</Data><NamedCell
-      ss:Name="Term"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Distillation is a method of separating mixtures based on differences in volatilities of components in a boiling liquid mixture. Distillation is a unit operation, or a physical separation process, and not a chemical reaction.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">http://en.wikipedia.org/wiki/Distillation</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">chemical-treatment</Data></Cell>
-    <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">03.7..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">crystallization</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">crystallization</Data><NamedCell
-      ss:Name="Term"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Crystallization is the (natural or artificial) process of formation of solid crystals precipitating from a solution, melt or more rarely deposited directly from a gas. Crystallization is also a chemical solid-liquid separation technique, in which mass transfer of a solute from the liquid solution to a pure solid crystalline phase occurs. In chemical engineering crystallization occurs in a crystallizer. Crystallization is therefore an aspect of precipitation, obtained through a variation of the solubility conditions of the solute in the solvent, as compared to precipitation due to chemical reaction.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">http://en.wikipedia.org/wiki/Crystallization</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">chemical-treatment</Data></Cell>
-    <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">03.8..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s91"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s91"><Data ss:Type="String">precipitation</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">precipitation</Data><NamedCell
-      ss:Name="Term"/></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">Precipitation in hydrometallurgy involves the chemical precipitation of either metals and their compounds or of the contaminants from aqueous solutions. Precipitation will proceed when, through reagent addition, evaporation, pH change or temperature manipulation, any given species exceeds its limit of solubility.</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">http://en.wikipedia.org/wiki/Hydrometallurgy</Data></Cell>
-    <Cell ss:StyleID="s91"><Data ss:Type="String">chemical-treatment</Data></Cell>
-    <Cell ss:Index="9" ss:StyleID="s91"><Data ss:Type="String">03.9..</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">The principle of the jig is the action of pulsed vertical movement of water through a volume of particulate material. Particles with a higher specific gravity (density) settle faster, resulting in a concentration of material with higher density at the bottom, on the jig bed.</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">http://www.info-diamond.com/rough/mining-equipment-47.html; http://en.wikipedia.org/wiki/Jig_concentrators</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">gravimetric-sorting</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String">01.1.2.1.1</Data></Cell>
+    <Cell ss:StyleID="s91"/>
+    <Cell ss:Index="15" ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
     <Cell ss:Index="44" ss:StyleID="s91"/>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -7205,18 +8062,28 @@
    </Print>
    <Zoom>90</Zoom>
    <Selected/>
-   <SplitHorizontal>570</SplitHorizontal>
-   <TopRowBottomPane>0</TopRowBottomPane>
-   <ActivePane>2</ActivePane>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>1</TopRowBottomPane>
+   <SplitVertical>54</SplitVertical>
+   <LeftColumnRightPane>54</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveCol>43</ActiveCol>
-     <RangeSelection>C44:C47</RangeSelection>
+    </Pane>
+    <Pane>
+     <Number>1</Number>
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>16</ActiveRow>
+    </Pane>
+    <Pane>
+     <Number>0</Number>
+     <ActiveRow>38</ActiveRow>
+     <ActiveCol>53</ActiveCol>
+     <RangeSelection>R39C54:R39C101</RangeSelection>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -7227,212 +8094,212 @@
   <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="42" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
    <Column ss:Width="786.75"/>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:Collection rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;&quot;&quot;&quot;&amp;&quot;&gt;&quot;"><Data
       ss:Type="String">&lt;skos:Collection rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity&quot;&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;dcterms:title xml:lang=&quot;&quot;en&quot;&quot;&gt;&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_prefLabel&amp;&quot; - All Concepts&lt;/dcterms:title&gt;&quot;"><Data
       ss:Type="String">&lt;dcterms:title xml:lang=&quot;en&quot;&gt;Processing Activity - All Concepts&lt;/dcterms:title&gt;</Data></Cell>
    </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/physical-treatment&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/sorting&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/manual-sorting&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/automatic-sorting&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/gravimetric-sorting&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/stratification-jig&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/sluice-concentration&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/gravity-separation-table&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/centrifugal-gravity-separation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/heavy-medium-separation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/magnetic-separation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/electrostatic-separation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/eddy-current-separator&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/liquid-solid-separation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/comminution&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/particle-sizing&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/physico-chemical-treatment&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/flotation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/agglomeration&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/coagulation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/flocculation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/chemical-treatment&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/hydrometallurgy&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/evaporation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/pyrometallurgy&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/roasting&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/smelting&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/burning&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/calcining&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/incineration&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/bioleaching&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/leaching&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/solvent-extraction&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/cementation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/electrolysis&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/adsorption&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/distillation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/agglomeration&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/automatic-sorting&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/bioleaching&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/burning&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/calcining&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/cementation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/centrifugal-gravity-separation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/chemical-treatment&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/coagulation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/comminution&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/crystallization&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/distillation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/eddy-current-separator&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/electrolysis&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/electrostatic-separation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/evaporation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/flocculation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/flotation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/gravimetric-sorting&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/gravity-separation-table&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/heavy-medium-separation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/hydrometallurgy&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/incineration&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/leaching&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/liquid-solid-separation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/magnetic-separation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/manual-sorting&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/particle-sizing&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/physical-treatment&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/physico-chemical-treatment&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/precipitation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/pyrometallurgy&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/roasting&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/sluice-concentration&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/smelting&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/solvent-extraction&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/sorting&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ProcessingActivity_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ProcessingActivity_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mining-processing-activity/stratification-jig&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">&lt;/skos:Collection&gt;</Data></Cell>
    </Row>
   </Table>
@@ -7442,6 +8309,7 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
+   <Unsynced/>
    <Print>
     <ValidPrinterInfo/>
     <PaperSizeIndex>9</PaperSizeIndex>

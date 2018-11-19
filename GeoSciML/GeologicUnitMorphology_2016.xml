@@ -7,19 +7,19 @@
  xmlns:html="http://www.w3.org/TR/REC-html40">
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
   <Author>Adrian Sonnenschein</Author>
-  <LastAuthor>Ollie Raymond</LastAuthor>
+  <LastAuthor>Lewis, Edward P.</LastAuthor>
   <Created>2012-03-28T18:35:34Z</Created>
-  <LastSaved>2016-11-21T05:48:33Z</LastSaved>
-  <Version>14.00</Version>
+  <LastSaved>2018-11-19T11:14:55Z</LastSaved>
+  <Version>16.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
   <AllowPNG/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>6045</WindowHeight>
-  <WindowWidth>16905</WindowWidth>
-  <WindowTopX>420</WindowTopX>
-  <WindowTopY>555</WindowTopY>
+  <WindowHeight>12045</WindowHeight>
+  <WindowWidth>18270</WindowWidth>
+  <WindowTopX>930</WindowTopX>
+  <WindowTopY>0</WindowTopY>
   <ActiveSheet>1</ActiveSheet>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
@@ -215,6 +215,9 @@
   </Style>
   <Style ss:ID="s98">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s99">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Color="#000000"/>
   </Style>
  </Styles>
  <Names>
@@ -6281,38 +6284,48 @@
   </WorksheetOptions>
  </Worksheet>
  <Worksheet ss:Name="Vocabulary Terms">
-  <Table ss:ExpandedColumnCount="59" ss:ExpandedRowCount="150" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="86" ss:ExpandedRowCount="150" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s66" ss:DefaultColumnWidth="79.5"
    ss:DefaultRowHeight="15">
    <Column ss:StyleID="s84" ss:Width="176.25"/>
    <Column ss:StyleID="s84" ss:Width="164.25"/>
-   <Column ss:StyleID="s78" ss:AutoFitWidth="0" ss:Width="509.25"/>
-   <Column ss:StyleID="s66" ss:Width="240.75"/>
-   <Column ss:StyleID="s66" ss:Width="124.5"/>
-   <Column ss:StyleID="s66" ss:Width="51.75" ss:Span="1"/>
-   <Column ss:Index="8" ss:StyleID="s66" ss:Width="59.25"/>
-   <Column ss:StyleID="s66" ss:Width="162"/>
-   <Column ss:StyleID="s66" ss:Width="95.25"/>
-   <Column ss:StyleID="s66" ss:Width="78"/>
-   <Column ss:StyleID="s66" ss:Width="47.25"/>
-   <Column ss:StyleID="s66" ss:Width="103.5"/>
-   <Column ss:StyleID="s66" ss:Width="128.25"/>
-   <Column ss:StyleID="s66" ss:Width="95.25"/>
-   <Column ss:StyleID="s66" ss:Width="90.75"/>
-   <Column ss:StyleID="s66" ss:Width="88.5"/>
-   <Column ss:StyleID="s66" ss:Width="78"/>
-   <Column ss:StyleID="s66" ss:Width="73.5"/>
-   <Column ss:StyleID="s66" ss:Width="71.25"/>
-   <Column ss:StyleID="s66" ss:Width="162"/>
-   <Column ss:StyleID="s66" ss:Width="62.25" ss:Span="3"/>
-   <Column ss:Index="26" ss:StyleID="s66" ss:Width="71.25"/>
-   <Column ss:StyleID="s66" ss:Width="62.25" ss:Span="8"/>
-   <Column ss:Index="36" ss:StyleID="s66" ss:Width="151.5"/>
-   <Column ss:StyleID="s66" ss:Width="176.25"/>
-   <Column ss:StyleID="s66" ss:Width="62.25" ss:Span="3"/>
-   <Column ss:Index="42" ss:StyleID="s66" ss:Width="53.25" ss:Span="3"/>
-   <Column ss:Index="46" ss:StyleID="s66" ss:Width="62.25"/>
-   <Column ss:StyleID="s66" ss:Width="88.5"/>
+   <Column ss:StyleID="s78" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="509.25"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="240.75"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="124.5"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="51.75"
+    ss:Span="1"/>
+   <Column ss:Index="8" ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="59.25"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="162"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="95.25"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="78"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="47.25"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="103.5"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="128.25"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="95.25"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="90.75"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="88.5"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="78"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="73.5"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="71.25"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="162"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="62.25"
+    ss:Span="3"/>
+   <Column ss:Index="26" ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="71.25"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="62.25"
+    ss:Span="8"/>
+   <Column ss:Index="36" ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="151.5"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="176.25"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="62.25"
+    ss:Span="3"/>
+   <Column ss:Index="42" ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="53.25" ss:Span="3"/>
+   <Column ss:Index="46" ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="62.25"/>
+   <Column ss:StyleID="s66" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="88.5"/>
+   <Column ss:StyleID="s66" ss:Width="397.5"/>
    <Row ss:AutoFitHeight="0" ss:StyleID="s85">
     <Cell ss:StyleID="s86"><Data ss:Type="String">ConceptID</Data></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">PrefLabel</Data></Cell>
@@ -6361,18 +6374,45 @@
     <Cell ss:StyleID="s87"><Data ss:Type="String">Synonym4</Data></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">PrefLabel_fr</Data></Cell>
     <Cell ss:StyleID="s87"><Data ss:Type="String">AbbreviatedLabel</Data></Cell>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
-    <Cell ss:StyleID="s87"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">TARGET_CONCEPT</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_De</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_Es</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_Fi</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_Fr</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_Id</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_It</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_Ja</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_Km</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_Ko</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_Lo</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_Ms</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_Nl</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_Ru</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_Sv</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_Th</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_Us</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_Vi</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">PrefLabel_Zh</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_De</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_Es</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_Fi</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_Fr</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_Id</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_It</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_Ja</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_Km</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_Ko</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_Lo</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_Ms</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_Nl</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_Ru</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_Sv</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_Th</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_Us</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_Vi</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Synonym_Zh</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s91"><Data ss:Type="String">arch_morphology</Data></Cell>
@@ -6413,6 +6453,45 @@
     <Cell ss:StyleID="s83"/>
     <Cell ss:StyleID="s94"/>
     <Cell ss:StyleID="s94"/>
+    <Cell ss:Index="48" ss:StyleID="s99"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/basin_shape</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">buffertzon</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="45">
     <Cell ss:StyleID="s91"><Data ss:Type="String">blanket_shape</Data></Cell>
@@ -6456,6 +6535,45 @@
     <Cell ss:StyleID="s83"/>
     <Cell ss:StyleID="s83"/>
     <Cell ss:StyleID="s84"/>
+    <Cell ss:Index="48" ss:StyleID="s99"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/block</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Blockstruktur</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">estructura bloques</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">lohkorakenteet</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">structure bloc&#10;</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">struktur bongkah&#10;</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">struttura a blocchi</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">地塊構造&#10;</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">rcnasm&lt;½nCabøúk&#10;</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">암괴구조&#10;</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Â£¤¦É¾¤»ø®®ìñº¡&#10;</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">struktur bongkah&#10;</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">struktura blokovaya</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">blockstruktur</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">โครงสร้างบล็อก&#10;</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">cấu trúc khối&#10;</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">块状构造&#10;</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">bangun bongkah</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">지괴구조</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="60">
     <Cell ss:StyleID="s91"><Data ss:Type="String">boudin_shape</Data></Cell>
@@ -6493,6 +6611,45 @@
     <Cell ss:StyleID="s83"><Data ss:Type="String">ribbon</Data></Cell>
     <Cell ss:StyleID="s83"/>
     <Cell ss:StyleID="s83"/>
+    <Cell ss:Index="48" ss:StyleID="s99"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/channel_shape</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Rinne</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">canal natural</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">uomat</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">canale</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">ruslo</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">kanal</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">gully</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell ss:StyleID="s91"><Data ss:Type="String">circular_cylinder</Data></Cell>
@@ -6670,6 +6827,45 @@
     <Cell ss:StyleID="s84"/>
     <Cell ss:StyleID="s84"/>
     <Cell ss:Index="42"><Data ss:Type="String">dyke</Data></Cell>
+    <Cell ss:Index="48" ss:StyleID="s99"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/dike</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Dyke</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">dique</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">juonet</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">dicco</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">dajka</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">gång</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell ss:StyleID="s91"><Data ss:Type="String">disc</Data></Cell>
@@ -6731,6 +6927,45 @@
     <Cell ss:StyleID="s83"/>
     <Cell ss:StyleID="s83"/>
     <Cell ss:StyleID="s94"/>
+    <Cell ss:Index="48" ss:StyleID="s99"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/dome</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Dom</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">domo</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">doomit</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">duomo</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">kupol</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">dom</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s91"><Data ss:Type="String">dome_sheet</Data></Cell>
@@ -6879,6 +7114,45 @@
     <Cell ss:StyleID="s83"/>
     <Cell ss:StyleID="s83"/>
     <Cell ss:StyleID="s83"/>
+    <Cell ss:Index="48" ss:StyleID="s99"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/fan</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Faecher</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">cono</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">keilat</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">conoide</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">vynos veeroobraznyj</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">kon</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s94"><Data ss:Type="String">football_ellipsoid</Data></Cell>
@@ -6954,6 +7228,45 @@
     <Cell ss:StyleID="s83"/>
     <Cell ss:StyleID="s83"/>
     <Cell ss:StyleID="s83"/>
+    <Cell ss:Index="48" ss:StyleID="s99"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/graben_shape</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Graben</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">graben</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">hautavajoamat</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">graben</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">graben</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">gravsänka</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="45">
     <Cell ss:StyleID="s94"><Data ss:Type="String">hemispheroid</Data></Cell>
@@ -7000,6 +7313,45 @@
     <Cell ss:StyleID="s83"><Data ss:Type="String">sheet_ellipsoid</Data></Cell>
     <Cell ss:StyleID="s83"/>
     <Cell ss:StyleID="s83"/>
+    <Cell ss:Index="48" ss:StyleID="s99"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/laccolith</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Lakkolith</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">lacolito</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">lakkoliitit</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">laccolite&#10;</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">lakolit&#10;</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">laccolite</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">ラコリス&#10;</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Lk;kUlIt&#10;</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">병반&#10;</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">¹ó­Áìñ¡-Â£-ìò©&#10;</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">lakolitos&#10;</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">lakkolit</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">lakkolit</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">หินอัคนีรูปเห็ด&#10;</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">thể nấm&#10;</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">岩盖&#10;</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">¹ó­-ºñ¡-£½-­ó-»ø®-À¹ñ©</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">菌形穹隆</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="60">
     <Cell ss:StyleID="s94"><Data ss:Type="String">layer_shape</Data></Cell>
@@ -7012,6 +7364,45 @@
     <Cell ss:StyleID="s83"><Data ss:Type="String">sill_form</Data></Cell>
     <Cell ss:StyleID="s83"/>
     <Cell ss:StyleID="s83"/>
+    <Cell ss:Index="48" ss:StyleID="s99"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/layer_shape</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Schicht</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">estrato</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">kerrokset</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">strato</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">sloj</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">lager</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell ss:StyleID="s94"><Data ss:Type="String">lens</Data></Cell>
@@ -7024,6 +7415,45 @@
     <Cell ss:StyleID="s83"/>
     <Cell ss:StyleID="s83"/>
     <Cell ss:StyleID="s83"/>
+    <Cell ss:Index="48" ss:StyleID="s99"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/lens</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Linse</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">lentejo!n</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">linssit</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">lente</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">linza</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">lins</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell ss:StyleID="s94"><Data ss:Type="String">lenticular_profile</Data></Cell>
@@ -7064,6 +7494,45 @@
     <Cell ss:StyleID="s83"><Data ss:Type="String">sheet_ellipsoid</Data></Cell>
     <Cell ss:StyleID="s83"/>
     <Cell ss:StyleID="s83"/>
+    <Cell ss:Index="48" ss:StyleID="s99"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/lopolith</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Lopolith</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">lopolito</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">lopoliitit</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">lopolite</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">lopolit</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">lopolite</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">ロポリス</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">silaEdllatsn§wgkñúgtMbn;</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">분상암체</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">ÂìÂ²ìò©</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">lopolitos</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">lopolit</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">lopolit</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">หินอัคนีรูปฝักบัว</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">thể chậu</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">岩盆</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell ss:StyleID="s94"><Data ss:Type="String">mound</Data></Cell>
@@ -7079,6 +7548,45 @@
     <Cell ss:StyleID="s84"/>
     <Cell ss:StyleID="s84"/>
     <Cell ss:StyleID="s84"/>
+    <Cell ss:Index="48" ss:StyleID="s99"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/mound</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Kuppe</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">cerro</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">kumpareet</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">mound</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">kholm zemlyanoj</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">kulle</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s94"><Data ss:Type="String">pancake_ellipsoid</Data></Cell>
@@ -7131,6 +7639,45 @@
     <Cell ss:StyleID="s83"/>
     <Cell ss:StyleID="s83"/>
     <Cell ss:StyleID="s83"/>
+    <Cell ss:Index="48" ss:StyleID="s99"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/pipe</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Pipe</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">pipa</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">piiput</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">tubo</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">trubka</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">pipe</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s94"><Data ss:Type="String">planar_profile</Data></Cell>
@@ -7248,6 +7795,45 @@
     <Cell ss:StyleID="s94"><Data ss:Type="String">geologic_body</Data></Cell>
     <Cell ss:Index="8" ss:StyleID="s83"/>
     <Cell><Data ss:Type="String">arcuate_sheet</Data></Cell>
+    <Cell ss:Index="48" ss:StyleID="s99"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/ring_dyke</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Ringdyke</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">dique anular</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">rengasjuonet</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">ring dyke</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">retas cincin&#10;</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">filone ad anello</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">環状岩脈&#10;</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">TMnb;TwkB½T§CuMvij</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">환상암맥</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">²½Îñ¤¸ö¤Á¹¸­</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">korok gelang</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">dajka kol'tsevaya</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">ringgång</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">พนังวงแหวน</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">thể tường dạng vòng</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">环状岩墙</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">retas melingkar</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">リングダイク</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s94"><Data ss:Type="String">rock_body_geometry_irregular</Data></Cell>
@@ -7339,6 +7925,45 @@
     <Cell ss:StyleID="s94"><Data ss:Type="String">geologic_body</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">prism</Data></Cell>
     <Cell><Data ss:Type="String">wedge</Data></Cell>
+    <Cell ss:Index="48" ss:StyleID="s99"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/sphenolith</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Sphenolithus</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">esfenolito</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">sfenoliitti</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">sfenolite</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">sfenolit</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">sfenolit</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">spheroid</Data></Cell>
@@ -7403,6 +8028,45 @@
     <Cell ss:StyleID="s93"><Data ss:Type="String">This vocabulary</Data></Cell>
     <Cell ss:StyleID="s94"><Data ss:Type="String">geologic_body</Data></Cell>
     <Cell ss:Index="9"><Data ss:Type="String">longitudinal_section_of_cylinder</Data></Cell>
+    <Cell ss:Index="48" ss:StyleID="s99"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/trough</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">Tiefseemulde</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">fosa abisal alargada</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">poimupohjat</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">fossa abissale allungata</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">trog</Data></Cell>
+    <Cell ss:StyleID="s99"><Data ss:Type="String">tråg</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">vein</Data></Cell>
@@ -7654,16 +8318,28 @@
    </Print>
    <Zoom>90</Zoom>
    <Selected/>
-   <SplitHorizontal>570</SplitHorizontal>
-   <TopRowBottomPane>66</TopRowBottomPane>
-   <ActivePane>2</ActivePane>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>56</TopRowBottomPane>
+   <SplitVertical>47</SplitVertical>
+   <LeftColumnRightPane>47</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
    <Panes>
     <Pane>
      <Number>3</Number>
     </Pane>
     <Pane>
+     <Number>1</Number>
+    </Pane>
+    <Pane>
      <Number>2</Number>
-     <ActiveRow>86</ActiveRow>
+     <ActiveRow>1</ActiveRow>
+    </Pane>
+    <Pane>
+     <Number>0</Number>
+     <ActiveRow>75</ActiveRow>
+     <RangeSelection>R76C48:R76C94</RangeSelection>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -7673,402 +8349,402 @@
  <Worksheet ss:Name="Collection">
   <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="80" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:Collection rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;&quot;&quot;&quot;&amp;&quot;&gt;&quot;"><Data
       ss:Type="String">&lt;skos:Collection rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology&quot;&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;dcterms:title xml:lang=&quot;&quot;en&quot;&quot;&gt;&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_prefLabel&amp;&quot; - All Concepts&lt;/dcterms:title&gt;&quot;"><Data
       ss:Type="String">&lt;dcterms:title xml:lang=&quot;en&quot;&gt;Geologic Unit Morphology - All Concepts&lt;/dcterms:title&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/arch_morphology&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/arcuate_sheet&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/basin_shape&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/blanket_shape&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/blob&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/block&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/boudin_shape&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/bread_loaf_ellipsoid&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/channel_shape&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/circular_cylinder&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/circular_profile&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/column_shape&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/cone&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/cone_segment&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/conical_sheet&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/cupola&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/cylinder&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/dart_ellipsoid&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/diapir&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/dike&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/disc&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/discoid_anulus&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/discus&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/dome&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/dome_sheet&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/ductolith&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/ellipsoid&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/elliptical_cylinder&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/elliptical_profile&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/elongate_discus&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/equant_polygonal_profile&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/equant_profile&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/ethmolith&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/fan&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/football_ellipsoid&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/geologic_body&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/graben_shape&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/hemispheroid&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/irregular_profile&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/laccolith&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/layer_shape&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/lens&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/lenticular_profile&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/longitudinal_section_of_cylinder&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/lopolith&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/mound&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/pancake_ellipsoid&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/phacolith&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/pillow_ellipsoid&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/pipe&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/planar_profile&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/planar_sheet&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/planar_vein&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/pod&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/polygonal_cylinder&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/polygonal_profile&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/prism&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/ribbon&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/ring_dyke&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/rock_body_geometry_irregular&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/rock_body_geometry_not_specified&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/rod&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/sheet&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/sheet_ellipsoid&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/sigmoid_sheet&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/sigmoidal_vein&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/sill_form&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/sphenolith&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/spheroid&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/square_profile&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/tablet&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/tabular_prism&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/tear_drop&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/three_dimensional_body&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/trough&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/vein&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;GeologicUnitMorphology_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;GeologicUnitMorphology_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/geologicunitmorphology/wedge&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">&lt;/skos:Collection&gt;</Data></Cell>
    </Row>
   </Table>
@@ -8078,6 +8754,7 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
+   <Unsynced/>
    <Panes>
     <Pane>
      <Number>3</Number>

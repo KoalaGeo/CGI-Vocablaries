@@ -10,13 +10,16 @@
   <LastAuthor>Ollie Raymond</LastAuthor>
   <Created>2012-03-28T18:35:34Z</Created>
   <LastSaved>2016-11-28T22:37:22Z</LastSaved>
-  <Version>14.00</Version>
+  <Version>16.00</Version>
  </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>6690</WindowHeight>
-  <WindowWidth>17205</WindowWidth>
-  <WindowTopX>270</WindowTopX>
-  <WindowTopY>60</WindowTopY>
+  <WindowHeight>12045</WindowHeight>
+  <WindowWidth>18270</WindowWidth>
+  <WindowTopX>930</WindowTopX>
+  <WindowTopY>0</WindowTopY>
   <ActiveSheet>1</ActiveSheet>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
@@ -303,6 +306,9 @@
    <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
    <Interior/>
    <NumberFormat ss:Format="m/d/yyyy;@"/>
+  </Style>
+  <Style ss:ID="s113">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Color="#000000"/>
   </Style>
  </Styles>
  <Names>
@@ -6372,24 +6378,33 @@
   </WorksheetOptions>
  </Worksheet>
  <Worksheet ss:Name="Vocabulary Terms">
-  <Table ss:ExpandedColumnCount="65" ss:ExpandedRowCount="69" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="90" ss:ExpandedRowCount="69" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s85" ss:DefaultColumnWidth="79.5"
    ss:DefaultRowHeight="15">
    <Column ss:StyleID="s85" ss:Width="87.75"/>
    <Column ss:StyleID="s85" ss:Width="86.25"/>
-   <Column ss:StyleID="s85" ss:Width="465"/>
-   <Column ss:StyleID="s85" ss:Width="232.5"/>
-   <Column ss:StyleID="s85" ss:Width="56.25"/>
-   <Column ss:StyleID="s85" ss:Width="51.75" ss:Span="1"/>
-   <Column ss:Index="8" ss:StyleID="s85" ss:Width="59.25"/>
-   <Column ss:StyleID="s85" ss:Width="30.75"/>
-   <Column ss:StyleID="s85" ss:AutoFitWidth="0" ss:Width="315"/>
-   <Column ss:StyleID="s86" ss:Width="40.5" ss:Span="3"/>
-   <Column ss:Index="15" ss:StyleID="s85" ss:Width="56.25" ss:Span="8"/>
-   <Column ss:Index="24" ss:StyleID="s85" ss:Width="62.25" ss:Span="19"/>
-   <Column ss:Index="45" ss:StyleID="s85" ss:Width="53.25" ss:Span="6"/>
-   <Column ss:Index="52" ss:StyleID="s85" ss:Width="62.25"/>
-   <Column ss:StyleID="s85" ss:Width="88.5"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="465"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="232.5"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="56.25"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="51.75"
+    ss:Span="1"/>
+   <Column ss:Index="8" ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="59.25"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="30.75"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="315"/>
+   <Column ss:StyleID="s86" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="40.5"
+    ss:Span="3"/>
+   <Column ss:Index="15" ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="56.25" ss:Span="8"/>
+   <Column ss:Index="24" ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="62.25" ss:Span="19"/>
+   <Column ss:Index="44" ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="53.25"
+    ss:Span="6"/>
+   <Column ss:Index="52" ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="62.25"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="88.5"/>
+   <Column ss:StyleID="s85" ss:Width="407.25"/>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s87"><Data ss:Type="String">ConceptID</Data></Cell>
     <Cell ss:StyleID="s88"><Data ss:Type="String">PrefLabel</Data></Cell>
@@ -6444,18 +6459,43 @@
     <Cell ss:StyleID="s88"><Data ss:Type="String">Synonym8</Data></Cell>
     <Cell ss:StyleID="s88"><Data ss:Type="String">PrefLabel_fr</Data></Cell>
     <Cell ss:StyleID="s88"><Data ss:Type="String">AbbreviatedLabel</Data></Cell>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
-    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">TARGET_CONCEPT</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">PrefLabel_De</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">PrefLabel_Es</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">PrefLabel_Fi</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">PrefLabel_Fr</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">PrefLabel_Id</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">PrefLabel_It</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">PrefLabel_Ja</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">PrefLabel_Km</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">PrefLabel_Ko</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">PrefLabel_Lo</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">PrefLabel_Ms</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">PrefLabel_Nl</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">PrefLabel_Ru</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">PrefLabel_Sv</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">PrefLabel_Th</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">PrefLabel_Us</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">PrefLabel_Vi</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">PrefLabel_Zh</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">Synonym_De</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">Synonym_Es</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">Synonym_Fi</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">Synonym_Fr</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">Synonym_Id</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">Synonym_It</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">Synonym_Ja</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">Synonym_Km</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">Synonym_Ko</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">Synonym_Lo</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">Synonym_Ms</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">Synonym_Nl</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">Synonym_Ru</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">Synonym_Sv</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">Synonym_Th</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">Synonym_Us</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">Synonym_Vi</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">Synonym_Zh</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="75">
     <Cell ss:StyleID="s91"><Data ss:Type="String">occurrence</Data></Cell>
@@ -6488,6 +6528,43 @@
     <Cell ss:Index="15" ss:StyleID="s94"/>
     <Cell ss:StyleID="s94"/>
     <Cell ss:Index="44" ss:StyleID="s91"><Data ss:Type="String">mineral deposit</Data></Cell>
+    <Cell ss:Index="54" ss:StyleID="s113"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/mineral-occurrence-type/deposit</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">Lagerstaette</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">yacimiento</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">mineraaliesiintyma&quot;t</Data></Cell>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">giacimento</Data></Cell>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">mestorozhdenie</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">mineralförekomst</Data></Cell>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="120">
     <Cell ss:StyleID="s91"><Data ss:Type="String">mineralized-zone</Data></Cell>
@@ -6508,6 +6585,43 @@
     <Cell ss:StyleID="s93"/>
     <Cell ss:Index="44" ss:StyleID="s91"><Data ss:Type="String">orebody</Data></Cell>
     <Cell><Data ss:Type="String">lode</Data></Cell>
+    <Cell ss:Index="54" ss:StyleID="s113"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/mineral-occurrence-type/mineralized-zone</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">Erzgang</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">yacimiento filoniano</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">malmijuoni</Data></Cell>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">giacimento filoniano</Data></Cell>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">zhila rudnaya</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">malmåder</Data></Cell>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell ss:StyleID="s91"><Data ss:Type="String">prospect</Data></Cell>
@@ -6566,6 +6680,43 @@
     <Cell ss:Index="15" ss:StyleID="s94"/>
     <Cell ss:StyleID="s94"/>
     <Cell ss:Index="44" ss:StyleID="s91"><Data ss:Type="String">metallogenic province</Data></Cell>
+    <Cell ss:Index="54" ss:StyleID="s113"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/mineral-occurrence-type/province</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">Lagerstaettenprovinz</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">provincia metaloge!nica</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">metallogeeniset provinssit</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">province métallogénique</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">propinsi metalogenik&#10;</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">provincia metallogenica</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">鉱床生成区</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">extþEdlmanCMrkEr:elah³</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">광상생성구</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">À¢©Á£É¸­Âì¹½</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">wilayah metalogeni</Data></Cell>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">provintsiya metallogenicheskaya</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">metallogen provins</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">ปริมณฑลแร่</Data></Cell>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">tỉnh sinh khoáng</Data></Cell>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">成矿省&#10;</Data></Cell>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">mendala metalogenik</Data></Cell>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"/>
+    <Cell ss:StyleID="s113"><Data ss:Type="String">成矿区</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s91"/>
@@ -7093,18 +7244,12 @@
    </Print>
    <Zoom>90</Zoom>
    <Selected/>
-   <SplitHorizontal>1605</SplitHorizontal>
-   <TopRowBottomPane>0</TopRowBottomPane>
-   <ActivePane>2</ActivePane>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <RangeSelection>R1</RangeSelection>
-    </Pane>
-    <Pane>
-     <Number>2</Number>
-     <ActiveRow>19</ActiveRow>
-     <ActiveCol>1</ActiveCol>
+     <ActiveRow>7</ActiveRow>
+     <ActiveCol>53</ActiveCol>
+     <RangeSelection>R8C54:R8C98</RangeSelection>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -7115,52 +7260,52 @@
   <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="10" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
    <Column ss:Width="719.25"/>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:Collection rdf:about=&quot;&quot;&quot;&amp;MineralOccurrenceType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;MineralOccurrenceType_2016.xml!ConceptScheme_ID&amp;&quot;&quot;&quot;&quot;&amp;&quot;&gt;&quot;"><Data
       ss:Type="String">&lt;skos:Collection rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mineral-occurrence-type&quot;&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;dcterms:title xml:lang=&quot;&quot;en&quot;&quot;&gt;&quot;&amp;MineralOccurrenceType_2016.xml!ConceptScheme_prefLabel&amp;&quot; - All Concepts&lt;/dcterms:title&gt;&quot;"><Data
       ss:Type="String">&lt;dcterms:title xml:lang=&quot;en&quot;&gt;Mineral Occurrence Type - All Concepts&lt;/dcterms:title&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;MineralOccurrenceType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;MineralOccurrenceType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mineral-occurrence-type/occurrence&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;MineralOccurrenceType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;MineralOccurrenceType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mineral-occurrence-type/deposit&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;MineralOccurrenceType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;MineralOccurrenceType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mineral-occurrence-type/mineralized-zone&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;MineralOccurrenceType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;MineralOccurrenceType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mineral-occurrence-type/prospect&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;MineralOccurrenceType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;MineralOccurrenceType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mineral-occurrence-type/field&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;MineralOccurrenceType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;MineralOccurrenceType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mineral-occurrence-type/project&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;MineralOccurrenceType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;MineralOccurrenceType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/mineral-occurrence-type/province&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">&lt;/skos:Collection&gt;</Data></Cell>
    </Row>
   </Table>
@@ -7170,6 +7315,7 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
+   <Unsynced/>
    <Print>
     <ValidPrinterInfo/>
     <PaperSizeIndex>9</PaperSizeIndex>
