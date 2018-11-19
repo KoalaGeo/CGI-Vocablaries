@@ -10,13 +10,16 @@
   <LastAuthor>Ollie Raymond</LastAuthor>
   <Created>2012-03-28T18:27:48Z</Created>
   <LastSaved>2016-10-19T01:15:21Z</LastSaved>
-  <Version>14.00</Version>
+  <Version>16.00</Version>
  </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>6690</WindowHeight>
-  <WindowWidth>17490</WindowWidth>
-  <WindowTopX>330</WindowTopX>
-  <WindowTopY>105</WindowTopY>
+  <WindowHeight>12045</WindowHeight>
+  <WindowWidth>18270</WindowWidth>
+  <WindowTopX>930</WindowTopX>
+  <WindowTopY>0</WindowTopY>
   <TabRatio>729</TabRatio>
   <ActiveSheet>1</ActiveSheet>
   <ProtectStructure>False</ProtectStructure>
@@ -194,6 +197,9 @@
   <Style ss:ID="s92" ss:Parent="s62">
    <Alignment ss:Vertical="Center"/>
    <Interior/>
+  </Style>
+  <Style ss:ID="s93">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Color="#000000"/>
   </Style>
  </Styles>
  <Names>
@@ -6296,31 +6302,35 @@
   </WorksheetOptions>
  </Worksheet>
  <Worksheet ss:Name="Vocabulary Terms">
-  <Table ss:ExpandedColumnCount="50" ss:ExpandedRowCount="49" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="88" ss:ExpandedRowCount="49" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s64" ss:DefaultColumnWidth="79.5"
    ss:DefaultRowHeight="15">
    <Column ss:StyleID="s81" ss:AutoFitWidth="0" ss:Width="108"/>
    <Column ss:StyleID="s81" ss:Width="119.25"/>
    <Column ss:StyleID="s79" ss:Width="1342.5"/>
-   <Column ss:StyleID="s64" ss:Width="166.5"/>
-   <Column ss:StyleID="s64" ss:Width="62.25"/>
-   <Column ss:StyleID="s64" ss:Width="88.5"/>
-   <Column ss:StyleID="s64" ss:Width="120.75"/>
-   <Column ss:StyleID="s64" ss:Width="81.75"/>
-   <Column ss:StyleID="s79" ss:Width="282.75"/>
-   <Column ss:StyleID="s64" ss:Width="40.5" ss:Span="1"/>
-   <Column ss:Index="12" ss:StyleID="s64" ss:Width="123.75"/>
-   <Column ss:StyleID="s64" ss:Width="120.75"/>
-   <Column ss:StyleID="s64" ss:Width="127.5"/>
-   <Column ss:StyleID="s64" ss:Width="90.75"/>
-   <Column ss:StyleID="s64" ss:Width="81"/>
-   <Column ss:StyleID="s64" ss:Width="84"/>
-   <Column ss:StyleID="s64" ss:Width="81.75"/>
-   <Column ss:StyleID="s64" ss:Width="91.5"/>
-   <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="56.25"/>
-   <Column ss:StyleID="s64" ss:Width="62.25" ss:Span="13"/>
-   <Column ss:Index="35" ss:StyleID="s64" ss:Width="53.25" ss:Span="3"/>
-   <Column ss:Index="39" ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="42"/>
+   <Column ss:StyleID="s64" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="166.5"/>
+   <Column ss:StyleID="s64" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="62.25"/>
+   <Column ss:StyleID="s64" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="88.5"/>
+   <Column ss:StyleID="s64" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="120.75"/>
+   <Column ss:StyleID="s64" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="81.75"/>
+   <Column ss:StyleID="s79" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="282.75"/>
+   <Column ss:StyleID="s64" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="40.5"
+    ss:Span="1"/>
+   <Column ss:Index="12" ss:StyleID="s64" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="123.75"/>
+   <Column ss:StyleID="s64" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="120.75"/>
+   <Column ss:StyleID="s64" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="127.5"/>
+   <Column ss:StyleID="s64" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="90.75"/>
+   <Column ss:StyleID="s64" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="81"/>
+   <Column ss:StyleID="s64" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="84"/>
+   <Column ss:StyleID="s64" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="81.75"/>
+   <Column ss:StyleID="s64" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="91.5"/>
+   <Column ss:StyleID="s64" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="56.25"/>
+   <Column ss:StyleID="s64" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="62.25"
+    ss:Span="13"/>
+   <Column ss:Index="35" ss:StyleID="s64" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="53.25" ss:Span="3"/>
+   <Column ss:Index="39" ss:StyleID="s64" ss:Width="329.25"/>
    <Column ss:StyleID="s64" ss:AutoFitWidth="0" ss:Width="36.75" ss:Span="2"/>
    <Row ss:AutoFitHeight="0" ss:StyleID="s82">
     <Cell ss:StyleID="s83"><Data ss:Type="String">ConceptID</Data></Cell>
@@ -6361,18 +6371,43 @@
     <Cell ss:StyleID="s84"><Data ss:Type="String">Synonym2</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Synonym3</Data></Cell>
     <Cell ss:StyleID="s84"><Data ss:Type="String">Synonym4</Data></Cell>
-    <Cell ss:StyleID="s84"/>
-    <Cell ss:StyleID="s84"/>
-    <Cell ss:StyleID="s84"/>
-    <Cell ss:StyleID="s84"/>
-    <Cell ss:StyleID="s84"/>
-    <Cell ss:StyleID="s84"/>
-    <Cell ss:StyleID="s84"/>
-    <Cell ss:StyleID="s84"/>
-    <Cell ss:StyleID="s84"/>
-    <Cell ss:StyleID="s84"/>
-    <Cell ss:StyleID="s84"/>
-    <Cell ss:StyleID="s84"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">TARGET_CONCEPT</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_De</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Es</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Fi</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Fr</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Id</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_It</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Ja</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Km</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Ko</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Lo</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Ms</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Nl</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Ru</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Sv</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Th</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Us</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Vi</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">PrefLabel_Zh</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_De</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Es</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Fi</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Fr</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Id</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_It</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Ja</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Km</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Ko</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Lo</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Ms</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Nl</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Ru</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Sv</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Th</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Us</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Vi</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Synonym_Zh</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s79"><Data ss:Type="String">detachment_fault</Data></Cell>
@@ -6424,6 +6459,56 @@
     <Cell><Data ss:Type="String">high_angle_fault</Data></Cell>
     <Cell><Data ss:Type="String">strike_slip_fault</Data></Cell>
     <Cell><Data ss:Type="String">oblique_slip_fault</Data></Cell>
+    <Cell ss:Index="39" ss:StyleID="s93"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/faulttype/fault</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Stoerung</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">falla</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">siirrokset</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">faglia</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">razlom</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">förkastning</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s79"><Data ss:Type="String">high_angle_fault</Data></Cell>
@@ -6437,6 +6522,14 @@
     <Cell ss:StyleID="s90"><Data ss:Type="String">high_angle_normal_fault</Data></Cell>
     <Cell><Data ss:Type="String">wrench_fault</Data></Cell>
     <Cell><Data ss:Type="String">high_angle_reverse</Data></Cell>
+    <Cell ss:Index="81" ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s79"><Data ss:Type="String">high_angle_normal_fault</Data></Cell>
@@ -6448,6 +6541,14 @@
     <Cell ss:StyleID="s78"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/faulttype/0006</Data></Cell>
     <Cell ss:StyleID="s80"/>
     <Cell ss:StyleID="s80"/>
+    <Cell ss:Index="81" ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s79"><Data ss:Type="String">high_angle_reverse</Data></Cell>
@@ -6459,6 +6560,14 @@
     <Cell ss:StyleID="s78"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/faulttype/0007</Data></Cell>
     <Cell ss:StyleID="s80"/>
     <Cell ss:StyleID="s80"/>
+    <Cell ss:Index="81" ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s79"><Data ss:Type="String">horizontal_fault</Data></Cell>
@@ -6469,6 +6578,56 @@
     <Cell ss:Index="9" ss:StyleID="s78"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/faulttype/0008</Data></Cell>
     <Cell ss:StyleID="s80"/>
     <Cell ss:StyleID="s80"/>
+    <Cell ss:Index="39" ss:StyleID="s93"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/faulttype/horizontal_fault</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Horizontalverwerfung</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">falla horizontal</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">vaakasiirros</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">faglia a piano orizzontale</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">razlom gorizontal'nyj</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">horisontalförkastning</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s79"><Data ss:Type="String">left_normal_fault</Data></Cell>
@@ -6479,6 +6638,18 @@
     <Cell ss:Index="9" ss:StyleID="s78"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/faulttype/0009</Data></Cell>
     <Cell ss:StyleID="s80"/>
     <Cell ss:StyleID="s80"/>
+    <Cell ss:Index="77" ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s79"><Data ss:Type="String">left_reverse_fault</Data></Cell>
@@ -6489,6 +6660,10 @@
     <Cell ss:Index="9" ss:StyleID="s78"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/faulttype/0010</Data></Cell>
     <Cell ss:StyleID="s80"/>
     <Cell ss:StyleID="s80"/>
+    <Cell ss:Index="77" ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s79"><Data ss:Type="String">low_angle_fault</Data></Cell>
@@ -6502,6 +6677,10 @@
     <Cell><Data ss:Type="String">thrust_fault</Data></Cell>
     <Cell><Data ss:Type="String">low_angle_normal_fault</Data></Cell>
     <Cell><Data ss:Type="String">horizontal_fault</Data></Cell>
+    <Cell ss:Index="77" ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s79"><Data ss:Type="String">low_angle_normal_fault</Data></Cell>
@@ -6514,6 +6693,10 @@
     <Cell ss:StyleID="s80"/>
     <Cell ss:StyleID="s80"/>
     <Cell><Data ss:Type="String">detachment_fault</Data></Cell>
+    <Cell ss:Index="77" ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s79"><Data ss:Type="String">mixed_extraction_fault</Data></Cell>
@@ -6536,6 +6719,44 @@
     <Cell ss:StyleID="s80"/>
     <Cell><Data ss:Type="String">high_angle_normal_fault</Data></Cell>
     <Cell><Data ss:Type="String">low_angle_normal_fault</Data></Cell>
+    <Cell ss:Index="39" ss:StyleID="s93"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/faulttype/normal_fault</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Abschiebung</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">falla normal</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">normaalisiirrokset</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">faille normale</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">sesar normal</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">faglia normale</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">正断層</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">bMNak;RsutFmµta</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">정단층</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">»º¨Àìˆº­ê¿´½©¾</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">sesar normal</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">sbros</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">normalförkastning</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">รอยเลื่อนปกติ</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">đứt gãy thuận</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">正断层</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s79"><Data ss:Type="String">oblique_slip_fault</Data></Cell>
@@ -6572,6 +6793,44 @@
     <Cell ss:StyleID="s80"/>
     <Cell><Data ss:Type="String">high_angle_reverse</Data></Cell>
     <Cell><Data ss:Type="String">thrust_fault</Data></Cell>
+    <Cell ss:Index="39" ss:StyleID="s93"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/faulttype/reverse_fault</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Aufschiebung</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">falla inversa</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">ka&quot;a&quot;nteissiirrokset</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">faille inverse</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">sesar kebalikan</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">faglia inversa</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">逆断層</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">bMNak;RsutbRB©aas;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">역단층</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">»º¨Àìˆº­¡ñ®</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">sesar songsang</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">sbros obrashchennyj</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">reversförkastning</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">รอยเลื่อนกลับ</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">đứt gãy ngược</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">逆断层</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s79"><Data ss:Type="String">right_normal_fault</Data></Cell>
@@ -6638,6 +6897,44 @@
     <Cell ss:StyleID="s78"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/faulttype/0023</Data></Cell>
     <Cell ss:StyleID="s80"/>
     <Cell ss:StyleID="s80"/>
+    <Cell ss:Index="39" ss:StyleID="s93"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/faulttype/thrust_fault</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">Ueberschiebung</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">falla cabalgamiento</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">tyo&quot;nto&quot;siirrokset</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">chevauchement</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">sesar sungkup</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">accavallamento</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">衝上断層&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">sñameRbHEdllyecjmkeRkA</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">쓰러스트단층&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">»º¨Àìˆº­´ø´ªÔ</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">sesar sungkup</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">nadvig</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">överskjutningsförkastning</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">รอยเลื่อนย้อนมุมต่ำ</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">đứt gãy nghịch chờm</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">冲断层&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">スラスト</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">충상단층</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">逆断层</Data></Cell>
+    <Cell ss:StyleID="s93"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s79"><Data ss:Type="String">wrench_fault</Data></Cell>
@@ -6649,6 +6946,44 @@
     <Cell ss:StyleID="s78"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/faulttype/0024</Data></Cell>
     <Cell ss:StyleID="s80"/>
     <Cell ss:StyleID="s80"/>
+    <Cell ss:Index="39" ss:StyleID="s93"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/faulttype/wrench_fault</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">steile Blattverschiebung</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">falla vertical desgarre</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">va&quot;a&quot;nto&quot;siirrokset</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">faille verticale décrochement</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">sesar memilin&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">faglia trascorrente verticale</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">レンチ断層</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">minRtUvKña ¬xusgaM¦</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">렌치단층</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">»º¨Àìˆº­À¡ó©µ¾¨¡ñ­Ä¯ª¾´Á­¸­º­</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">sesar rengkuh</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">sdvig po prostiraniyu</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">brant lateralförkastning</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">รอยเลื่อนเหลื่อมข้างแนวนอน</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">đứt gãy vặn</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">平搓断层&#10;</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">sesar merenggut</Data></Cell>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="String">走向滑断层</Data></Cell>
+    <Cell ss:StyleID="s93"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s88"/>
@@ -6849,17 +7184,17 @@
    <Zoom>90</Zoom>
    <Selected/>
    <SplitVertical>4485</SplitVertical>
-   <LeftColumnRightPane>3</LeftColumnRightPane>
+   <LeftColumnRightPane>38</LeftColumnRightPane>
+   <ActivePane>1</ActivePane>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>41</ActiveRow>
-     <ActiveCol>1</ActiveCol>
+     <ActiveRow>2</ActiveRow>
     </Pane>
     <Pane>
      <Number>1</Number>
-     <ActiveRow>40</ActiveRow>
-     <ActiveCol>9</ActiveCol>
+     <ActiveRow>23</ActiveRow>
+     <RangeSelection>R24C39:R25C78</RangeSelection>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -6870,137 +7205,137 @@
   <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="27" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
    <Column ss:Width="681"/>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:Collection rdf:about=&quot;&quot;&quot;&amp;FaultType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;FaultType_2016.xml!ConceptScheme_ID&amp;&quot;&quot;&quot;&quot;&amp;&quot;&gt;&quot;"><Data
       ss:Type="String">&lt;skos:Collection rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/faulttype&quot;&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;dcterms:title xml:lang=&quot;&quot;en&quot;&quot;&gt;&quot;&amp;FaultType_2016.xml!ConceptScheme_prefLabel&amp;&quot; - All Concepts&lt;/dcterms:title&gt;&quot;"><Data
       ss:Type="String">&lt;dcterms:title xml:lang=&quot;en&quot;&gt;Fault Type - All Concepts&lt;/dcterms:title&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;FaultType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;FaultType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/faulttype/detachment_fault&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;FaultType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;FaultType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/faulttype/dextral_strike_slip_fault&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;FaultType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;FaultType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/faulttype/extraction_fault&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;FaultType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;FaultType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/faulttype/fault&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;FaultType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;FaultType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/faulttype/high_angle_fault&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;FaultType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;FaultType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/faulttype/high_angle_normal_fault&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;FaultType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;FaultType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/faulttype/high_angle_reverse&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;FaultType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;FaultType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/faulttype/horizontal_fault&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;FaultType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;FaultType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/faulttype/left_normal_fault&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;FaultType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;FaultType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/faulttype/left_reverse_fault&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;FaultType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;FaultType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/faulttype/low_angle_fault&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;FaultType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;FaultType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/faulttype/low_angle_normal_fault&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;FaultType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;FaultType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/faulttype/mixed_extraction_fault&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;FaultType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;FaultType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/faulttype/normal_fault&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;FaultType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;FaultType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/faulttype/oblique_slip_fault&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;FaultType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;FaultType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/faulttype/pure_extraction_fault&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;FaultType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;FaultType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/faulttype/reverse_fault&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;FaultType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;FaultType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/faulttype/right_normal_fault&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;FaultType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;FaultType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/faulttype/right_reverse_fault&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;FaultType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;FaultType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/faulttype/scissor_fault&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;FaultType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;FaultType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/faulttype/sinistral_strike_slip_fault&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;FaultType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;FaultType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/faulttype/strike_slip_fault&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;FaultType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;FaultType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/faulttype/thrust_fault&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;FaultType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;FaultType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/faulttype/wrench_fault&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">&lt;/skos:Collection&gt;</Data></Cell>
    </Row>
   </Table>
@@ -7010,6 +7345,7 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
+   <Unsynced/>
    <Print>
     <ValidPrinterInfo/>
     <PaperSizeIndex>9</PaperSizeIndex>

@@ -10,13 +10,16 @@
   <LastAuthor>Ollie Raymond</LastAuthor>
   <Created>2012-03-28T18:35:34Z</Created>
   <LastSaved>2016-11-28T01:46:52Z</LastSaved>
-  <Version>14.00</Version>
+  <Version>16.00</Version>
  </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>6690</WindowHeight>
-  <WindowWidth>17205</WindowWidth>
-  <WindowTopX>270</WindowTopX>
-  <WindowTopY>60</WindowTopY>
+  <WindowHeight>12045</WindowHeight>
+  <WindowWidth>18270</WindowWidth>
+  <WindowTopX>930</WindowTopX>
+  <WindowTopY>0</WindowTopY>
   <ActiveSheet>1</ActiveSheet>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
@@ -358,6 +361,9 @@
    <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
    <Interior/>
    <NumberFormat ss:Format="m/d/yyyy;@"/>
+  </Style>
+  <Style ss:ID="s122">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Color="#000000"/>
   </Style>
  </Styles>
  <Names>
@@ -6422,37 +6428,45 @@
   </WorksheetOptions>
  </Worksheet>
  <Worksheet ss:Name="Vocabulary Terms">
-  <Table ss:ExpandedColumnCount="65" ss:ExpandedRowCount="69" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="100" ss:ExpandedRowCount="69" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s85" ss:DefaultColumnWidth="79.5"
    ss:DefaultRowHeight="15">
    <Column ss:StyleID="s85" ss:Width="145.5"/>
    <Column ss:StyleID="s85" ss:Width="143.25"/>
-   <Column ss:StyleID="s85" ss:AutoFitWidth="0" ss:Width="425.25"/>
-   <Column ss:StyleID="s86" ss:Width="216"/>
-   <Column ss:StyleID="s86" ss:Width="144"/>
-   <Column ss:StyleID="s86" ss:Width="51.75" ss:Span="1"/>
-   <Column ss:Index="8" ss:StyleID="s86" ss:Width="59.25"/>
-   <Column ss:StyleID="s85" ss:AutoFitWidth="0" ss:Width="47.25"/>
-   <Column ss:StyleID="s85" ss:Width="24.75"/>
-   <Column ss:StyleID="s87" ss:AutoFitWidth="0" ss:Width="11.25" ss:Span="3"/>
-   <Column ss:Index="15" ss:StyleID="s85" ss:Width="119.25"/>
-   <Column ss:StyleID="s85" ss:Width="120"/>
-   <Column ss:StyleID="s85" ss:Width="144"/>
-   <Column ss:StyleID="s85" ss:Width="114"/>
-   <Column ss:StyleID="s85" ss:Width="147.75"/>
-   <Column ss:StyleID="s85" ss:Width="82.5"/>
-   <Column ss:StyleID="s85" ss:Width="56.25"/>
-   <Column ss:StyleID="s85" ss:AutoFitWidth="0" ss:Width="60.75" ss:Span="3"/>
-   <Column ss:Index="26" ss:StyleID="s85" ss:AutoFitWidth="0" ss:Width="15"
-    ss:Span="12"/>
-   <Column ss:Index="39" ss:StyleID="s85" ss:AutoFitWidth="0" ss:Width="15.75"
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="425.25"/>
+   <Column ss:StyleID="s86" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="216"/>
+   <Column ss:StyleID="s86" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="144"/>
+   <Column ss:StyleID="s86" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="51.75"
+    ss:Span="1"/>
+   <Column ss:Index="8" ss:StyleID="s86" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="59.25"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="47.25"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="24.75"/>
+   <Column ss:StyleID="s87" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="11.25"
+    ss:Span="3"/>
+   <Column ss:Index="15" ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="119.25"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="120"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="144"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="114"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="147.75"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="82.5"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="56.25"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="60.75"
+    ss:Span="3"/>
+   <Column ss:Index="26" ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="15" ss:Span="12"/>
+   <Column ss:Index="39" ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="15.75" ss:Span="4"/>
+   <Column ss:Index="44" ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="81"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="105.75"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="108.75"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="53.25"
     ss:Span="4"/>
-   <Column ss:Index="44" ss:StyleID="s85" ss:Width="81"/>
-   <Column ss:StyleID="s85" ss:Width="105.75"/>
-   <Column ss:StyleID="s85" ss:Width="108.75"/>
-   <Column ss:StyleID="s85" ss:Width="53.25" ss:Span="4"/>
-   <Column ss:Index="52" ss:StyleID="s85" ss:Width="62.25"/>
-   <Column ss:StyleID="s85" ss:Width="88.5"/>
+   <Column ss:Index="52" ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0"
+    ss:Width="62.25"/>
+   <Column ss:StyleID="s85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="88.5"/>
    <Row ss:AutoFitHeight="0" ss:Height="19.5">
     <Cell ss:StyleID="s88"><Data ss:Type="String">ConceptID</Data></Cell>
     <Cell ss:StyleID="s89"><Data ss:Type="String">PrefLabel</Data></Cell>
@@ -6507,111 +6521,169 @@
     <Cell ss:StyleID="s89"><Data ss:Type="String">Synonym8</Data></Cell>
     <Cell ss:StyleID="s89"><Data ss:Type="String">PrefLabel_fr</Data></Cell>
     <Cell ss:StyleID="s89"><Data ss:Type="String">AbbreviatedLabel</Data></Cell>
-    <Cell ss:StyleID="s89"/>
-    <Cell ss:StyleID="s89"/>
-    <Cell ss:StyleID="s89"/>
-    <Cell ss:StyleID="s89"/>
-    <Cell ss:StyleID="s89"/>
-    <Cell ss:StyleID="s89"/>
-    <Cell ss:StyleID="s89"/>
-    <Cell ss:StyleID="s89"/>
-    <Cell ss:StyleID="s89"/>
-    <Cell ss:StyleID="s89"/>
-    <Cell ss:StyleID="s89"/>
-    <Cell ss:StyleID="s89"/>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">TARGET_CONCEPT</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">PrefLabel_De</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">PrefLabel_Es</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">PrefLabel_Fi</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">PrefLabel_Fr</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">PrefLabel_Id</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">PrefLabel_It</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">PrefLabel_Ja</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">PrefLabel_Km</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">PrefLabel_Ko</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">PrefLabel_Lo</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">PrefLabel_Ms</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">PrefLabel_Nl</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">PrefLabel_Ru</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">PrefLabel_Sv</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">PrefLabel_Th</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">PrefLabel_Us</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">PrefLabel_Vi</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">PrefLabel_Zh</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Synonym_De</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Synonym_Es</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Synonym_Fi</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Synonym_Fr</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Synonym_Id</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Synonym_It</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Synonym_Ja</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Synonym_Km</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Synonym_Ko</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Synonym_Lo</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Synonym_Ms</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Synonym_Nl</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Synonym_Ru</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Synonym_Sv</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Synonym_Th</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Synonym_Us</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Synonym_Vi</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Synonym_Zh</Data></Cell>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s95"><Data ss:Type="String">regional-reconnaissance</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">regional reconnaissance</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">Exploration over a large area (100-10000 km2) with widely spaced sampling or observation points.</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">this vocabulary</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">top</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">approximate-resource-calculation</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">approximate resource calculation</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Rough evaluation of the tonnage and grade essentially based on drill holes information, by correlation and interpolation of intersected mineralized sections.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">CGI/ERML 2.0</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">resource-assessment</Data></Cell>
     <Cell ss:StyleID="s96"/>
     <Cell ss:StyleID="s96"/>
     <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">01..</Data></Cell>
-    <Cell ss:StyleID="s97"/>
-    <Cell ss:Index="15" ss:StyleID="s95"><Data ss:Type="String">regional-geology</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">regional-geochemistry</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">regional-geophysics</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">regional-heavy-mineral-sampling</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">04.5..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s99"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s95"><Data ss:Type="String">regional-geology</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">regional geology</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">Geological observations that may lead to the compilation of a preliminary geological map of the main rock units, structures and known mineral occurrences.</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">auger-drilling</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">auger drilling</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Drilling with an auger in order to collect rock or soil samples, or to carry out a physical measurement or a geological observation.</Data></Cell>
     <Cell ss:StyleID="s96"><Data ss:Type="String">this vocabulary</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">regional-reconnaissance</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">subsurface-exploration</Data></Cell>
     <Cell ss:StyleID="s96"/>
     <Cell ss:StyleID="s96"/>
     <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">01.1..</Data></Cell>
-    <Cell ss:StyleID="s97"/>
-    <Cell ss:Index="15" ss:StyleID="s98"/>
-    <Cell ss:StyleID="s98"/>
-    <Cell ss:Index="44" ss:StyleID="s95"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="38.25">
-    <Cell ss:StyleID="s95"><Data ss:Type="String">regional-geochemistry</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">regional geochemistry</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">Wide-spaced systematic, commonly grid-based sampling and analysis of rock, soil, stream sediment, water, gas and vegetation for the detection of abnormal concentrations of chemical elements.</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">this vocabulary</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">regional-reconnaissance</Data></Cell>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">01.2..</Data></Cell>
-    <Cell ss:StyleID="s97"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">03.2..</Data></Cell>
     <Cell ss:Index="15" ss:StyleID="s95"/>
     <Cell ss:StyleID="s95"/>
     <Cell ss:StyleID="s95"/>
     <Cell ss:StyleID="s95"/>
     <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
     <Cell ss:Index="44" ss:StyleID="s95"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="38.25">
-    <Cell ss:StyleID="s95"><Data ss:Type="String">regional-geophysics</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">regional geophysics</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">Exploration technique over a wide area, using airborne, ground or ship-based equipment for the measurement of physical properties: electric conductivity, spontaneous or induced polarization, electromagnetism, magnetic intensity susceptibility, stray currents (magnetotelluric currents method), speed of transmission of shockwaves (seismic method), specific weight and gravity (gravimetric method), radioactivity, reflectance at various wave length (infrared, radar).</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">Dictionnaire thématique des mines et carrières, SIM Editor.</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">regional-reconnaissance</Data></Cell>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">01.3..</Data></Cell>
-    <Cell ss:StyleID="s97"/>
-    <Cell ss:Index="44" ss:StyleID="s95"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s95"><Data ss:Type="String">regional-heavy-mineral-sampling</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">regional  heavy mineral sampling</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">Wide-spaced sampling and analysis of the densest mineral fractions of stream sediment that may indicate the presence of a mineralization source upstream.</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">core-drilling</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">core drilling</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Drilling in order to collect intact rock sample cores, or to carry out a physical measurement or a geological observation. Can confirm results from obtained from percussion drilling.</Data></Cell>
     <Cell ss:StyleID="s96"><Data ss:Type="String">this vocabulary</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">regional-reconnaissance</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">subsurface-exploration</Data></Cell>
     <Cell ss:StyleID="s96"/>
     <Cell ss:StyleID="s96"/>
     <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">01.4..</Data></Cell>
-    <Cell ss:StyleID="s97"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">03.4..</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s98"/>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
+    <Cell ss:Index="54" ss:StyleID="s122"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/exploration-activity-type/core-drilling</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Kernbohrung</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">sondeo testigo</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">syda&quot;nkairaus</Data></Cell>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">carotaggio</Data></Cell>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">burenie kolonkovoe</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">kärnborrning</Data></Cell>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25">
+    <Cell ss:StyleID="s95"><Data ss:Type="String">core-drilling-assessment</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">core drilling assessment</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Drilling in order to collect intact rock sample cores, or to carry out a physical measurement or a geological observation. Can confirm results from obtained from percussion drilling.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">this vocabulary</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">resource-assessment</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">04.2..</Data></Cell>
     <Cell ss:Index="44" ss:StyleID="s95"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s95"><Data ss:Type="String">detailed-surface-exploration</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">detailed surface exploration</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">Exploration over a small area (1-100 km2), commonly identified from reconnaissance exploration, with closely spaced observation and sampling points.</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">core-drilling-systematic</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">core drilling systematic</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Close-spaced systematic drilling in order to collect intact rock sample cores, with the aim to get very detailed information on the whole deposit and first quality samples.</Data></Cell>
     <Cell ss:StyleID="s96"><Data ss:Type="String">CGI/ERML 2.0</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">top</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ore-deposit-evaluation</Data></Cell>
     <Cell ss:StyleID="s96"/>
     <Cell ss:StyleID="s96"/>
     <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">02..</Data></Cell>
-    <Cell ss:StyleID="s97"/>
-    <Cell ss:Index="15" ss:StyleID="s95"><Data ss:Type="String">detailed-geology</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">05.1..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><Data ss:Type="String">detailed-geochemistry</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">detailed-geophysics</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">detailed-heavy-mineral-sampling</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">detailed geochemistry</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Close-spaced systematic, commonly grid-based sampling and analysis of rock, soil, stream sediment, water, gas and vegetation for the detection of abnormal concentrations of chemical elements.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">this vocabulary</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">detailed-surface-exploration</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">02.2..</Data></Cell>
+    <Cell ss:StyleID="s97"/>
+    <Cell ss:Index="15" ss:StyleID="s98"/>
     <Cell ss:Index="44" ss:StyleID="s95"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
@@ -6627,20 +6699,6 @@
     <Cell ss:StyleID="s97"/>
     <Cell ss:Index="15" ss:StyleID="s98"/>
     <Cell ss:StyleID="s98"/>
-    <Cell ss:Index="44" ss:StyleID="s95"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s95"><Data ss:Type="String">detailed-geochemistry</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">detailed geochemistry</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">Close-spaced systematic, commonly grid-based sampling and analysis of rock, soil, stream sediment, water, gas and vegetation for the detection of abnormal concentrations of chemical elements.</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">this vocabulary</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">detailed-surface-exploration</Data></Cell>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">02.2..</Data></Cell>
-    <Cell ss:StyleID="s97"/>
-    <Cell ss:Index="15" ss:StyleID="s98"/>
     <Cell ss:Index="44" ss:StyleID="s95"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
@@ -6672,22 +6730,23 @@
     <Cell ss:Index="44" ss:StyleID="s95"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s95"><Data ss:Type="String">subsurface-exploration</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">subsurface exploration</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">Initial low cost techniques (trenching, destructive drilling, etc.) to constrain limits of possible in-ground resource.</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">this vocabulary</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">detailed-surface-exploration</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">detailed surface exploration</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Exploration over a small area (1-100 km2), commonly identified from reconnaissance exploration, with closely spaced observation and sampling points.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">CGI/ERML 2.0</Data></Cell>
     <Cell ss:StyleID="s96"><Data ss:Type="String">top</Data></Cell>
     <Cell ss:StyleID="s96"/>
     <Cell ss:StyleID="s96"/>
     <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">03..</Data></Cell>
-    <Cell ss:Index="15" ss:StyleID="s95"><Data ss:Type="String">excavation</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">auger-drilling</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">percussion-drilling</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">core-drilling</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">02..</Data></Cell>
+    <Cell ss:StyleID="s97"/>
+    <Cell ss:Index="15" ss:StyleID="s95"><Data ss:Type="String">detailed-geology</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">detailed-geochemistry</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">detailed-geophysics</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">detailed-heavy-mineral-sampling</Data></Cell>
     <Cell ss:Index="44" ss:StyleID="s95"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="38.25">
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:StyleID="s95"><Data ss:Type="String">excavation</Data></Cell>
     <Cell ss:StyleID="s95"><Data ss:Type="String">excavation</Data></Cell>
     <Cell ss:StyleID="s95"><Data ss:Type="String">Purposely dug shallow trench or pit from which samples can be taken.</Data></Cell>
@@ -6698,25 +6757,220 @@
     <Cell ss:StyleID="s96"/>
     <Cell ss:StyleID="s95"><Data ss:Type="String">03.1..</Data></Cell>
     <Cell ss:Index="44" ss:StyleID="s95"/>
+    <Cell ss:Index="54" ss:StyleID="s122"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/exploration-activity-type/excavation</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Ausschachtung</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">excavación</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">kaivannot</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">excavation</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">penggalian</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">scavo </Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">発掘&#10;</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">karCIkdI</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">굴착</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">¡¾­¢÷©</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">penggalian</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">ontgraving</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">vyemka grunta</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">schaktning</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">การขุดเอาแร่ออกมา</Data></Cell>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">công trình khai đào</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">挖掘&#10;</Data></Cell>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">洗掘</Data></Cell>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">掏蚀</Data></Cell>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="51">
-    <Cell ss:StyleID="s95"><Data ss:Type="String">auger-drilling</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">auger drilling</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">Drilling with an auger in order to collect rock or soil samples, or to carry out a physical measurement or a geological observation.</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">this vocabulary</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">subsurface-exploration</Data></Cell>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25">
+    <Cell ss:StyleID="s95"><Data ss:Type="String">feasibility-study</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">feasibility study</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Technical economic study aimed at assessing the possibility to launching a mine venture. When data are insufficiently precise, the study is said to be a pre-feasibility study.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">Dictionnaire thématique des mines et carrières, SIM Editor.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ore-deposit-evaluation</Data></Cell>
     <Cell ss:StyleID="s96"/>
     <Cell ss:StyleID="s96"/>
     <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">03.2..</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">05.4..</Data></Cell>
     <Cell ss:Index="15" ss:StyleID="s95"/>
     <Cell ss:StyleID="s95"/>
     <Cell ss:StyleID="s95"/>
     <Cell ss:StyleID="s95"/>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
+    <Cell ss:Index="54" ss:StyleID="s122"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/exploration-activity-type/feasibility-study</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Durchfuehrbarkeitsstudie</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">estudio factibilidad</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">toteutettavuustutkimukset</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">étude faisabilité</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">studi kelayakan</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">studio di fattibilita#</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">実行可能性理論</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">kasikSaBIPaBGaceFVI)an</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">타당성연구</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">¡¾­¦ô¡¦¾£¸¾´À¯ñ­Ä¯Ä©É</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">kajian kebolehlaksanaan</Data></Cell>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">obosnovanie tekhniko-ehkonomicheskoe</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">genomförbarhetsstudie</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">การศึกษาความเป็นไปได้</Data></Cell>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">nghiên cứu khả thi</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">远景评价&#10;</Data></Cell>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">前景评价</Data></Cell>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="51">
+    <Cell ss:StyleID="s95"><Data ss:Type="String">geological-interpretation</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">geological interpretation</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Compilation and synthesis of all the available geological information in order to get an as precise as possible model of the mineral resource including genesis, type, geometry, internal structure, distribution of grades, relationships with host rocks, etc.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">CGI/ERML 2.0</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">resource-assessment</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">04.3..</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s95"/>
     <Cell ss:StyleID="s95"/>
     <Cell ss:Index="44" ss:StyleID="s95"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s95"><Data ss:Type="String">geostatistical-estimates</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">geostatistical estimates</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Technique based on probability theory that is used to compute regionalized variables, the values of which depend on their position in space, such as the metal content or grade in a deposit.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">Dictionnaire thématique des mines et carrières, SIM Editor.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ore-deposit-evaluation</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">05.3..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s95"><Data ss:Type="String">mine-workings-reconnaissance</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">mine workings reconnaissance</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Reconnaissance workings aimed at getting a better understanding of the deposit, and allowing to get large ore samples for detailed beneficiation tests.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">CGI/ERML 2.0</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">ore-deposit-evaluation</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">05.2..</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s98"/>
+    <Cell ss:StyleID="s98"/>
+    <Cell ss:StyleID="s98"/>
+    <Cell ss:StyleID="s98"/>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s95"><Data ss:Type="String">mining-pilot</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">mining pilot</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Intermediate phase between laboratory tests and actual plant. In French, may refer to a stope as well as to a plant.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">Dictionnaire thématique des mines et carrières, SIM Editor.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">top</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">06..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s95"><Data ss:Type="String">ore-beneficiation-tests</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">ore beneficiation tests</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Technique designed to treat run of mine material. Its aim is to physically separate its constituents in order to produce a marketable product. Can be performed on core samples.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">Dictionnaire thématique des mines et carrières, SIM Editor + DC</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">resource-assessment</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">04.4..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s99"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s95"><Data ss:Type="String">ore-deposit-evaluation</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">ore deposit evaluation</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">This the final phase of evaluation. Knowledge of the deposit must be as precise as possible, hence systematic core drilling and eventually reconnaissance mining workings. This phase should lead on to a Go/No Go decision (possibly revisable, depending on e.g. prevailing economical conditions) based on a feasibility study report.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">CGI/ERML 2.0</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">top</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">05..</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s95"><Data ss:Type="String">core-drilling-systematic</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">mine-workings-reconnaissance</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">geostatistical-estimates</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">feasibility-study</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
+    <Cell ss:Index="54" ss:StyleID="s122"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/exploration-activity-type/ore-deposit-evaluation</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Lagerstaettenbewertung</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">evaluacio!n yacimiento</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">malmiarvio</Data></Cell>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">valutazione di giacimento</Data></Cell>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">otsenka mestorozhdeniya promyshlennaya</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">fyndighetsutvärdering</Data></Cell>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:StyleID="s95"><Data ss:Type="String">percussion-drilling</Data></Cell>
     <Cell ss:StyleID="s95"><Data ss:Type="String">percussion drilling</Data></Cell>
     <Cell ss:StyleID="s95"><Data ss:Type="String">Drilling with a rotary percussion tool in order to collect rock or soil samples, or to carry out a physical measurement or a geological observation.</Data></Cell>
@@ -6728,17 +6982,130 @@
     <Cell ss:StyleID="s95"><Data ss:Type="String">03.3..</Data></Cell>
     <Cell ss:Index="44" ss:StyleID="s95"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s95"><Data ss:Type="String">core-drilling</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">core drilling</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">Drilling in order to collect intact rock sample cores, or to carry out a physical measurement or a geological observation. Can confirm results from obtained from percussion drilling.</Data></Cell>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s95"><Data ss:Type="String">percussion-drilling-assessment</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">percussion drilling assessment</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Drilling with a rotary percussion tool in order to collect rock or soil samples to delineate an orebody.</Data></Cell>
     <Cell ss:StyleID="s96"><Data ss:Type="String">this vocabulary</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">subsurface-exploration</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">resource-assessment</Data></Cell>
     <Cell ss:StyleID="s96"/>
     <Cell ss:StyleID="s96"/>
     <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">03.4..</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">04.1..</Data></Cell>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s95"><Data ss:Type="String">regional-geochemistry</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">regional geochemistry</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Wide-spaced systematic, commonly grid-based sampling and analysis of rock, soil, stream sediment, water, gas and vegetation for the detection of abnormal concentrations of chemical elements.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">this vocabulary</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">regional-reconnaissance</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">01.2..</Data></Cell>
+    <Cell ss:StyleID="s97"/>
+    <Cell ss:Index="15" ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s95"><Data ss:Type="String">regional-geology</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">regional geology</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Geological observations that may lead to the compilation of a preliminary geological map of the main rock units, structures and known mineral occurrences.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">this vocabulary</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">regional-reconnaissance</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">01.1..</Data></Cell>
+    <Cell ss:StyleID="s97"/>
     <Cell ss:Index="15" ss:StyleID="s98"/>
+    <Cell ss:StyleID="s98"/>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
+    <Cell ss:Index="54" ss:StyleID="s122"><Data ss:Type="String">http://resource.geosciml.org/classifier/cgi/exploration-activity-type/regional-geology</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Regionalgeologie</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">geologi!a regional</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">aluegeologia</Data></Cell>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">geologia regionale</Data></Cell>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">geologiya regional'naya</Data></Cell>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">regionalgeologi</Data></Cell>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+    <Cell ss:StyleID="s122"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s95"><Data ss:Type="String">regional-geophysics</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">regional geophysics</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Exploration technique over a wide area, using airborne, ground or ship-based equipment for the measurement of physical properties: electric conductivity, spontaneous or induced polarization, electromagnetism, magnetic intensity susceptibility, stray currents (magnetotelluric currents method), speed of transmission of shockwaves (seismic method), specific weight and gravity (gravimetric method), radioactivity, reflectance at various wave length (infrared, radar).</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">Dictionnaire thématique des mines et carrières, SIM Editor.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">regional-reconnaissance</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">01.3..</Data></Cell>
+    <Cell ss:StyleID="s97"/>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s95"><Data ss:Type="String">regional-heavy-mineral-sampling</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">regional  heavy mineral sampling</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Wide-spaced sampling and analysis of the densest mineral fractions of stream sediment that may indicate the presence of a mineralization source upstream.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">this vocabulary</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">regional-reconnaissance</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">01.4..</Data></Cell>
+    <Cell ss:StyleID="s97"/>
+    <Cell ss:Index="44" ss:StyleID="s95"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:StyleID="s95"><Data ss:Type="String">regional-reconnaissance</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">regional reconnaissance</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Exploration over a large area (100-10000 km2) with widely spaced sampling or observation points.</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">this vocabulary</Data></Cell>
+    <Cell ss:StyleID="s96"><Data ss:Type="String">top</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">01..</Data></Cell>
+    <Cell ss:StyleID="s97"/>
+    <Cell ss:Index="15" ss:StyleID="s95"><Data ss:Type="String">regional-geology</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">regional-geochemistry</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">regional-geophysics</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">regional-heavy-mineral-sampling</Data></Cell>
     <Cell ss:Index="44" ss:StyleID="s95"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
@@ -6759,149 +7126,19 @@
     <Cell ss:Index="44" ss:StyleID="s95"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s95"><Data ss:Type="String">percussion-drilling-assessment</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">percussion drilling assessment</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">Drilling with a rotary percussion tool in order to collect rock or soil samples to delineate an orebody.</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">subsurface-exploration</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">subsurface exploration</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">Initial low cost techniques (trenching, destructive drilling, etc.) to constrain limits of possible in-ground resource.</Data></Cell>
     <Cell ss:StyleID="s96"><Data ss:Type="String">this vocabulary</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">resource-assessment</Data></Cell>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">04.1..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s95"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s95"><Data ss:Type="String">core-drilling-assessment</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">core drilling assessment</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">Drilling in order to collect intact rock sample cores, or to carry out a physical measurement or a geological observation. Can confirm results from obtained from percussion drilling.</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">this vocabulary</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">resource-assessment</Data></Cell>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">04.2..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s95"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s95"><Data ss:Type="String">geological-interpretation</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">geological interpretation</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">Compilation and synthesis of all the available geological information in order to get an as precise as possible model of the mineral resource including genesis, type, geometry, internal structure, distribution of grades, relationships with host rocks, etc.</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">CGI/ERML 2.0</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">resource-assessment</Data></Cell>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">04.3..</Data></Cell>
-    <Cell ss:Index="15" ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:Index="44" ss:StyleID="s95"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s95"><Data ss:Type="String">ore-beneficiation-tests</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">ore beneficiation tests</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">Technique designed to treat run of mine material. Its aim is to physically separate its constituents in order to produce a marketable product. Can be performed on core samples.</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">Dictionnaire thématique des mines et carrières, SIM Editor + DC</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">resource-assessment</Data></Cell>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">04.4..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s99"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s95"><Data ss:Type="String">approximate-resource-calculation</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">approximate resource calculation</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">Rough evaluation of the tonnage and grade essentially based on drill holes information, by correlation and interpolation of intersected mineralized sections.</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">CGI/ERML 2.0</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">resource-assessment</Data></Cell>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">04.5..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s99"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="45">
-    <Cell ss:StyleID="s95"><Data ss:Type="String">ore-deposit-evaluation</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">ore deposit evaluation</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">This the final phase of evaluation. Knowledge of the deposit must be as precise as possible, hence systematic core drilling and eventually reconnaissance mining workings. This phase should lead on to a Go/No Go decision (possibly revisable, depending on e.g. prevailing economical conditions) based on a feasibility study report.</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">CGI/ERML 2.0</Data></Cell>
     <Cell ss:StyleID="s96"><Data ss:Type="String">top</Data></Cell>
     <Cell ss:StyleID="s96"/>
     <Cell ss:StyleID="s96"/>
     <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">05..</Data></Cell>
-    <Cell ss:Index="15" ss:StyleID="s95"><Data ss:Type="String">core-drilling-systematic</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">mine-workings-reconnaissance</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">geostatistical-estimates</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">feasibility-study</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s95"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s95"><Data ss:Type="String">core-drilling-systematic</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">core drilling systematic</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">Close-spaced systematic drilling in order to collect intact rock sample cores, with the aim to get very detailed information on the whole deposit and first quality samples.</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">CGI/ERML 2.0</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">ore-deposit-evaluation</Data></Cell>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">05.1..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s95"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s95"><Data ss:Type="String">mine-workings-reconnaissance</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">mine workings reconnaissance</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">Reconnaissance workings aimed at getting a better understanding of the deposit, and allowing to get large ore samples for detailed beneficiation tests.</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">CGI/ERML 2.0</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">ore-deposit-evaluation</Data></Cell>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">05.2..</Data></Cell>
-    <Cell ss:Index="15" ss:StyleID="s98"/>
-    <Cell ss:StyleID="s98"/>
-    <Cell ss:StyleID="s98"/>
-    <Cell ss:StyleID="s98"/>
-    <Cell ss:Index="44" ss:StyleID="s95"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s95"><Data ss:Type="String">geostatistical-estimates</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">geostatistical estimates</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">Technique based on probability theory that is used to compute regionalized variables, the values of which depend on their position in space, such as the metal content or grade in a deposit.</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">Dictionnaire thématique des mines et carrières, SIM Editor.</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">ore-deposit-evaluation</Data></Cell>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">05.3..</Data></Cell>
-    <Cell ss:Index="44" ss:StyleID="s95"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s95"><Data ss:Type="String">feasibility-study</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">feasibility study</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">Technical economic study aimed at assessing the possibility to launching a mine venture. When data are insufficiently precise, the study is said to be a pre-feasibility study.</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">Dictionnaire thématique des mines et carrières, SIM Editor.</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">ore-deposit-evaluation</Data></Cell>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">05.4..</Data></Cell>
-    <Cell ss:Index="15" ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:StyleID="s95"/>
-    <Cell ss:Index="44" ss:StyleID="s95"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:StyleID="s95"><Data ss:Type="String">mining-pilot</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">mining pilot</Data></Cell>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">Intermediate phase between laboratory tests and actual plant. In French, may refer to a stope as well as to a plant.</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">Dictionnaire thématique des mines et carrières, SIM Editor.</Data></Cell>
-    <Cell ss:StyleID="s96"><Data ss:Type="String">top</Data></Cell>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s96"/>
-    <Cell ss:StyleID="s95"><Data ss:Type="String">06..</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">03..</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s95"><Data ss:Type="String">excavation</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">auger-drilling</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">percussion-drilling</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">core-drilling</Data></Cell>
     <Cell ss:Index="44" ss:StyleID="s95"/>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -7155,17 +7392,13 @@
    </Print>
    <Zoom>90</Zoom>
    <Selected/>
-   <SplitHorizontal>1605</SplitHorizontal>
-   <TopRowBottomPane>0</TopRowBottomPane>
-   <ActivePane>2</ActivePane>
+   <TopRowVisible>6</TopRowVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
-    </Pane>
-    <Pane>
-     <Number>2</Number>
-     <ActiveRow>15</ActiveRow>
-     <ActiveCol>1</ActiveCol>
+     <ActiveRow>22</ActiveRow>
+     <ActiveCol>53</ActiveCol>
+     <RangeSelection>R23C54:R23C94</RangeSelection>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
@@ -7176,152 +7409,152 @@
   <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="30" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
    <Column ss:Width="798.75"/>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:Collection rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;&quot;&quot;&quot;&amp;&quot;&gt;&quot;"><Data
       ss:Type="String">&lt;skos:Collection rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type&quot;&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;dcterms:title xml:lang=&quot;&quot;en&quot;&quot;&gt;&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_prefLabel&amp;&quot; - All Concepts&lt;/dcterms:title&gt;&quot;"><Data
       ss:Type="String">&lt;dcterms:title xml:lang=&quot;en&quot;&gt;Exploration Activity Type - All Concepts&lt;/dcterms:title&gt;</Data></Cell>
    </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/regional-reconnaissance&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/regional-geology&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/regional-geochemistry&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/regional-geophysics&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/regional-heavy-mineral-sampling&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/detailed-surface-exploration&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/detailed-geology&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/detailed-geochemistry&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/detailed-geophysics&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/detailed-heavy-mineral-sampling&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/subsurface-exploration&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/excavation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/auger-drilling&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/percussion-drilling&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/core-drilling&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/resource-assessment&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/percussion-drilling-assessment&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/core-drilling-assessment&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/geological-interpretation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
-    <Cell
-     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/ore-beneficiation-tests&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
-   </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/approximate-resource-calculation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/ore-deposit-evaluation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/auger-drilling&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/core-drilling&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/core-drilling-assessment&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/core-drilling-systematic&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/mine-workings-reconnaissance&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/detailed-geochemistry&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
-      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/geostatistical-estimates&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/detailed-geology&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/detailed-geophysics&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/detailed-heavy-mineral-sampling&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/detailed-surface-exploration&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/excavation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/feasibility-study&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/geological-interpretation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/geostatistical-estimates&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/mine-workings-reconnaissance&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell
      ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
       ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/mining-pilot&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/ore-beneficiation-tests&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/ore-deposit-evaluation&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/percussion-drilling&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/percussion-drilling-assessment&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/regional-geochemistry&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/regional-geology&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/regional-geophysics&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/regional-heavy-mineral-sampling&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/regional-reconnaissance&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/resource-assessment&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell
+     ss:Formula="=&quot;&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;&quot;&quot;&amp;ExplorationActivityType_2016.xml!Classifier_Prefix&amp;&quot;/&quot;&amp;ExplorationActivityType_2016.xml!ConceptScheme_ID&amp;&quot;/&quot;&amp;'Vocabulary Terms'!R[-1]C&amp;&quot;&quot;&quot;&quot;&amp;&quot;/&gt;&lt;/skos:member&gt;&quot;"><Data
+      ss:Type="String">&lt;skos:member&gt;&lt;skos:Concept rdf:about=&quot;http://resource.geosciml.org/classifier/cgi/exploration-activity-type/subsurface-exploration&quot;/&gt;&lt;/skos:member&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">&lt;/skos:Collection&gt;</Data></Cell>
    </Row>
   </Table>
@@ -7331,6 +7564,7 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
+   <Unsynced/>
    <Print>
     <ValidPrinterInfo/>
     <PaperSizeIndex>9</PaperSizeIndex>
