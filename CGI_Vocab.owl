@@ -60,6 +60,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_00c431b4_f29c_454a_b188_185543881b7b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_00c431b4_f29c_454a_b188_185543881b7b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b80f229d_2f85_45d0_bc5b_552b1a7c5811"/>
+        <rdfs:comment xml:lang="en">A body of mineralisation confined to a single stratigraphic unit.  A stratabound deposit may contain discordant internal structures (eg, brecciation)</rdfs:comment>
+        <rdfs:label xml:lang="en">Stratabound</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_010e9084_9e20_456c_90de_e011b58e75af -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_010e9084_9e20_456c_90de_e011b58e75af">
@@ -256,6 +266,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_0c05846b_9c35_493c_84cf_d874199f4d9d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_0c05846b_9c35_493c_84cf_d874199f4d9d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_39585b87_6be8_435d_bf41_96a1a9ac8aff"/>
+        <rdfs:comment xml:lang="en">Having a curved form like a fold hinge</rdfs:comment>
+        <rdfs:label xml:lang="en">Saddle_Shaped</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_0c3da41b_91d2_4114_8dfb_f12f49634eac -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_0c3da41b_91d2_4114_8dfb_f12f49634eac">
@@ -344,6 +364,26 @@
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_1077f97b_f78c_4ea7_825e_08e88d83c2c2">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ca248fd8_1d04_4e9f_adf7_6626ec6fd832"/>
         <rdfs:label xml:lang="en">Apatite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_1147e217_13e3_4761_bde0_cfca0ce31a1b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_1147e217_13e3_4761_bde0_cfca0ce31a1b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_19445664_142f_4fea_a89e_7a198514d1a9"/>
+        <rdfs:comment xml:lang="en">The rock adjacent to, enclosing, or including a vein, layer, or dissemination of ore minerals. It is commonly altered by epigenetic processes. The term implies more specific adjacency than host rock or country rock.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Glossary of Geology. 5th Edition, AGI - online</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Wall_Rock</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_118d8aa4_c8df_45bf_99b2_86ba82395606 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_118d8aa4_c8df_45bf_99b2_86ba82395606">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_f195f874_70d8_4947_868e_77836751d22d"/>
+        <rdfs:label xml:lang="en">Resource_Form</rdfs:label>
     </owl:Class>
     
 
@@ -460,11 +500,31 @@
     
 
 
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_19445664_142f_4fea_a89e_7a198514d1a9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_19445664_142f_4fea_a89e_7a198514d1a9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_f195f874_70d8_4947_868e_77836751d22d"/>
+        <rdfs:label xml:lang="en">Material_Role</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_1a234cb7_5ff4_462f_91b0_a11ee2948a42 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_1a234cb7_5ff4_462f_91b0_a11ee2948a42">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_16656947_a6fd_47af_aefc_6ed4434d5bab"/>
         <rdfs:label xml:lang="en">Promethium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_1b1a06ae_40f3_4a6a_880f_f924ad576446 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_1b1a06ae_40f3_4a6a_880f_f924ad576446">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ba9dbdc6_d9ae_4c6b_a8cc_49798e250eec"/>
+        <rdfs:comment xml:lang="en">The Earth resource, concealed or exposed, has an anomalous geophysical signature.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Australia/New Zealand Government Geoscience Information Committee (GGIC)</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Geophysical_Anomaly</rdfs:label>
     </owl:Class>
     
 
@@ -541,6 +601,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_2065a57d_8afc_47a3_bab7_c5281cc8b9ac -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_2065a57d_8afc_47a3_bab7_c5281cc8b9ac">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_118d8aa4_c8df_45bf_99b2_86ba82395606"/>
+        <rdfs:comment xml:lang="en">The form of the mineral deposit is controlled by an igneous intrusive contact</rdfs:comment>
+        <rdfs:label xml:lang="en">Intrusive_Contact_Related</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_22c5c26b_aff9_45d6_863d_7dbd8f99ce15 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_22c5c26b_aff9_45d6_863d_7dbd8f99ce15">
@@ -564,6 +634,18 @@
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_232330d6_1552_4f28_96af_6ce2e3030bcf">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_16656947_a6fd_47af_aefc_6ed4434d5bab"/>
         <rdfs:label xml:lang="en">Samarium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_2342278e_39ac_4bcd_89bc_2ae61f151363 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_2342278e_39ac_4bcd_89bc_2ae61f151363">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ba9dbdc6_d9ae_4c6b_a8cc_49798e250eec"/>
+        <rdfs:comment xml:lang="en">The Earth resource, concealed or exposed, has an anomalous botanical signature (eg, particular plant growth or absence of plants).</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Australia/New Zealand Government Geoscience Information Committee (GGIC)</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Botanical_Anomaly</rdfs:label>
+        <skos:altLabel xml:lang="en">Vegetation Anomaly</skos:altLabel>
     </owl:Class>
     
 
@@ -651,6 +733,27 @@
     
 
 
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_2afc3017_08c6_4a98_97c5_5cc982a1e8af -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_2afc3017_08c6_4a98_97c5_5cc982a1e8af">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_118d8aa4_c8df_45bf_99b2_86ba82395606"/>
+        <rdfs:comment xml:lang="en">A mineral deposit whose location and form are related to an unconformity between sedimentary host rocks</rdfs:comment>
+        <rdfs:label xml:lang="en">Unconformity_Related</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_2b4d660c_db50_4335_b3c6_6004f4462941 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_2b4d660c_db50_4335_b3c6_6004f4462941">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_39585b87_6be8_435d_bf41_96a1a9ac8aff"/>
+        <rdfs:comment xml:lang="en">A body bounded by converging surfaces (at least one of which is curved), thick in the middle and thinning out toward the edges, resembling a convex lens.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Glossary of Geology. 4th Edition, AGI + DC, adapted from</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Lensoidal</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_2c28ee30_2d3d_4010_bb3e_4dc3129dfb67 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_2c28ee30_2d3d_4010_bb3e_4dc3129dfb67">
@@ -702,6 +805,17 @@
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_305f9892_096a_4ee8_8991_316c54c4a1bd">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ca248fd8_1d04_4e9f_adf7_6626ec6fd832"/>
         <rdfs:label xml:lang="en">Garnet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_30af1619_84ea_44c3_9102_e922851c62b7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_30af1619_84ea_44c3_9102_e922851c62b7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ba9dbdc6_d9ae_4c6b_a8cc_49798e250eec"/>
+        <rdfs:comment xml:lang="en">The Earth resource, concealed or exposed, has an anomalous rock alteration halo.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Australia/New Zealand Government Geoscience Information Committee (GGIC)</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Alteration_Halo</rdfs:label>
     </owl:Class>
     
 
@@ -853,6 +967,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_39585b87_6be8_435d_bf41_96a1a9ac8aff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_39585b87_6be8_435d_bf41_96a1a9ac8aff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_f195f874_70d8_4947_868e_77836751d22d"/>
+        <rdfs:label xml:lang="en">Resource_Shape</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_398e4de1_cdec_488c_854b_078eba7cb26d -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_398e4de1_cdec_488c_854b_078eba7cb26d">
@@ -949,6 +1072,28 @@
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_40f644ed_d887_4a5f_b081_f132baa0f69b">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a6aee9ab_794e_43cb_9823_ef302c260278"/>
         <rdfs:label xml:lang="en">Deuteric_Alteration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_40ffc78a_5300_4114_b597_935895ff60fa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_40ffc78a_5300_4114_b597_935895ff60fa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_39585b87_6be8_435d_bf41_96a1a9ac8aff"/>
+        <rdfs:comment xml:lang="en">A body having two dimensions that are much larger or longer than the third, e.g. a dyke-hosted or bed-hosted deposit</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Dictionary of Mining 2nd ed, AGI 1997, adapted from</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Tabular</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_42f4a13f_16d9_4539_8e05_6daafb7a9c69 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_42f4a13f_16d9_4539_8e05_6daafb7a9c69">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_19445664_142f_4fea_a89e_7a198514d1a9"/>
+        <rdfs:comment xml:lang="en">(a) Any change in the mineralogic composition of a rock brought about by physical or chemical means, esp. by the action of hydrothermal solutions; also, a secondary, i.e. supergene, change in a rock or mineral. (b) Changes in the chemical or mineralogical composition of a rock produced by weathering.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Glossary of Geology. 5th Edition, AGI - online</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Alteration_Product</rdfs:label>
     </owl:Class>
     
 
@@ -1084,6 +1229,16 @@
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_4ae04be5_029e_44b6_8b60_5e03d2a79aa8"/>
         <rdfs:comment xml:lang="en">Mechanical tools use hollow rotary drills to cut and then pull out core plugs. Up to 75 plugs can be recovered on one run. With full recovery, cores from typical percussion tools are 2.5 cm in diameter by 4.4 cm long, while those from mechanical tools are 2.3 cm in diameter by 5 cm long. The latter are also known as rotary sidewall cores.</rdfs:comment>
         <rdfs:label xml:lang="en">Sidewell_Core_Mechanical_Drilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_48161e91_0e4f_4cf7_99c3_3460c35c2680 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_48161e91_0e4f_4cf7_99c3_3460c35c2680">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_118d8aa4_c8df_45bf_99b2_86ba82395606"/>
+        <rdfs:comment xml:lang="en">A mineral deposit forming a surficial layer in or on its host rocks</rdfs:comment>
+        <rdfs:label xml:lang="en">Surficial</rdfs:label>
     </owl:Class>
     
 
@@ -1457,6 +1612,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_626c7315_d5f3_47f6_89c7_b95276f37ebc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_626c7315_d5f3_47f6_89c7_b95276f37ebc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_00c431b4_f29c_454a_b188_185543881b7b"/>
+        <rdfs:comment xml:lang="en">A type of stratabound mineral deposit that is strictly coextensive with one or more sedimentary, metamorphic or igneous layers</rdfs:comment>
+        <rdfs:label xml:lang="en">Stratiform</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_62b0a54c_9810_47a3_9d32_4b81c4a1bb9c -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_62b0a54c_9810_47a3_9d32_4b81c4a1bb9c">
@@ -1734,6 +1899,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_7cabe3fa_a286_4011_8aa1_b5e5e88d385a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_7cabe3fa_a286_4011_8aa1_b5e5e88d385a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_19445664_142f_4fea_a89e_7a198514d1a9"/>
+        <rdfs:comment xml:lang="en">The valueless rock or mineral aggregates in an ore; that part of an ore that is not economically desirable but cannot be avoided in mining. It is separated from the ore minerals during concentration</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Glossary of Geology. 5th Edition, AGI - online</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Gangue</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_7d4b75fd_2d56_4c73_8699_0c2ac05807a6 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_7d4b75fd_2d56_4c73_8699_0c2ac05807a6">
@@ -1752,11 +1928,44 @@
     
 
 
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_7d88afc7_74f2_4849_92b5_ba869782c220 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_7d88afc7_74f2_4849_92b5_ba869782c220">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ba9dbdc6_d9ae_4c6b_a8cc_49798e250eec"/>
+        <rdfs:comment xml:lang="en">The Earth resource is exposed at the Earth&apos;s surface.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Australia/New Zealand Government Geoscience Information Committee (GGIC)</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Exposed</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_7e66b61d_ab63_4f5e_892f_9f2083d1991a -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_7e66b61d_ab63_4f5e_892f_9f2083d1991a">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_c3e28d7c_747b_4760_ab61_993e0b224923"/>
         <rdfs:label xml:lang="en">Citrine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_7e7882e6_dfc9_4415_8bef_082006044eed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_7e7882e6_dfc9_4415_8bef_082006044eed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_39585b87_6be8_435d_bf41_96a1a9ac8aff"/>
+        <rdfs:comment xml:lang="en">Having the shape of a nodule or occurring in the form of nodules; e.g. &quot;nodular ore&quot; such as a colloform mineral aggregate with a bulbed surface.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Glossary of Geology. 5th Edition, AGI, definition (b)</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Nodular</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_7efcc98c_8c78_4a22_bdc4_0e8fc74367ff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_7efcc98c_8c78_4a22_bdc4_0e8fc74367ff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_39585b87_6be8_435d_bf41_96a1a9ac8aff"/>
+        <rdfs:comment xml:lang="en">A roughly cylindrical body, which may reduce in diameter at one end like a funnel</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">BGS Mineral Occurrence Database</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Cylindrical</rdfs:label>
     </owl:Class>
     
 
@@ -1804,6 +2013,17 @@
         <rdfs:comment xml:lang="en">The Code for Reporting on Mineral Resources and Ore Reserves has the purpose to set out the minimum standards, recommendations and guidelines to be complied with the presentation of Public Reports which are the basis from which to have access to the Venture Capital Segment of the Lima Stock Exchange. These reports will sustain the results on mineral exploration, of Mineral Resources and Ore Reserves.  This Code was prepared by a Joint Committee formed by members of the Lima Stock Exchange and by professionals dedicated to the exploration and evaluation of mineral resources. This Code is based on and follows the example of the 1999 JORC CODE of Australasia which was prepared to ensure compliance with its guidelines in every Public Report on mineral explorations and evaluation results, as well as with similar codes and translations in use such as Canada (CIMVal 2001), United States of America (US Bureau of Mines, USGS Circular 831, Principles of Resource and Reserve Classification for Minerals), South Africa (The SAMREC Code), England (The UKIMM), and Australia (The AusIMM The Valmin Code).</rdfs:comment>
         <rdfs:isDefinedBy xml:lang="en">http://www.bvl.com.pe/scr/english/doc-reglamentos/Code%20for%20reporting%20of%20minerals.pdf</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Peruvian_Code</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_82c07067_5cbd_49ac_bfc8_ba841b37baaf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_82c07067_5cbd_49ac_bfc8_ba841b37baaf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_19445664_142f_4fea_a89e_7a198514d1a9"/>
+        <rdfs:comment xml:lang="en">Rocks of which the constituents are newly formed particles that have never been constituents of previously formed rocks and that are not the products of alteration or replacement, esp. igneous rocks formed directly by solidification from a magma</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Glossary of Geology. 5th Edition, AGI - online</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Primary</rdfs:label>
     </owl:Class>
     
 
@@ -2187,6 +2407,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a54e760a_12d6_4838_b2b7_e809ae34ee05 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a54e760a_12d6_4838_b2b7_e809ae34ee05">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_19445664_142f_4fea_a89e_7a198514d1a9"/>
+        <rdfs:comment xml:lang="en">The naturally occurring material from which a mineral or minerals of economic value can be extracted at a reasonable profit. Also, the mineral(s) thus extracted. The term is generally but not always used to refer to metalliferous material, and is often modified by the name of the valuable constituent, e.g., &quot;iron ore&quot;.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Glossary of Geology. 5th Edition, AGI - online</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Ore</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a5cf92f4_0323_43a8_80cc_a586491847de -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a5cf92f4_0323_43a8_80cc_a586491847de">
@@ -2220,6 +2451,17 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_995d1f2c_25f2_4829_b98e_8f2197d655b3"/>
         <rdfs:comment xml:lang="en">Rock is altered, but type not specified. Any alteration type allowed.</rdfs:comment>
         <rdfs:label xml:lang="en">Alteration_Not_Specified</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a6e924f2_7080_4d78_bbb8_5e58f4a8c6ae -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a6e924f2_7080_4d78_bbb8_5e58f4a8c6ae">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_39585b87_6be8_435d_bf41_96a1a9ac8aff"/>
+        <rdfs:comment xml:lang="en">A roughly cylindrical body having a diameter that decreases to zero at both ends like a cigar or a potato.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Dictionary of Mining 2nd ed, AGI 1997, adapted from</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Podiform</rdfs:label>
     </owl:Class>
     
 
@@ -2323,6 +2565,17 @@
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_aa493bda_144c_4431_8dce_4831be84fdaf">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_9f35601d_4ed1_475e_97e9_605cd887ad72"/>
         <rdfs:label xml:lang="en">Ruthenium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ab58ba9f_d1de_4892_8be3_c5e0622cd0e1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ab58ba9f_d1de_4892_8be3_c5e0622cd0e1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_19445664_142f_4fea_a89e_7a198514d1a9"/>
+        <rdfs:comment xml:lang="en">Rocks composed of particles derived from the erosion or weathering of pre-existing rocks, such as residual, chemical, or organic rocks formed of detrital, precipitated, or organically accumulated materials; specif. clastic sedimentary rocks.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Glossary of Geology. 5th Edition, AGI - online</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Secondary</rdfs:label>
     </owl:Class>
     
 
@@ -2438,6 +2691,16 @@ In rare cases, specially-shaped bits are used to cut holes of non-circular cross
     
 
 
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b1d23e6a_7b7d_44a0_8214_6fb600498201 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b1d23e6a_7b7d_44a0_8214_6fb600498201">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_118d8aa4_c8df_45bf_99b2_86ba82395606"/>
+        <rdfs:comment xml:lang="en">A mineral deposit which crosscuts stratigraphic contacts or internal structures (eg, bedding, foliation) within its host rocks (eg, vein, reef, mass, lens, pipe, column, etc.)</rdfs:comment>
+        <rdfs:label xml:lang="en">Discordant</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b1d9c158_7ed6_4e77_9660_08f0ffede6a2 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b1d9c158_7ed6_4e77_9660_08f0ffede6a2">
@@ -2511,6 +2774,16 @@ In rare cases, specially-shaped bits are used to cut holes of non-circular cross
     
 
 
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b80f229d_2f85_45d0_bc5b_552b1a7c5811 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b80f229d_2f85_45d0_bc5b_552b1a7c5811">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_118d8aa4_c8df_45bf_99b2_86ba82395606"/>
+        <rdfs:comment xml:lang="en">A concordant or nearly concordant mineral deposit lies parallel or nearly parallel to wallrocks contacts or internal structures (bedding, foliation, etc.)</rdfs:comment>
+        <rdfs:label xml:lang="en">Concordant</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b815a1ce_68dd_45e0_8ae1_3bb1298647b4 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b815a1ce_68dd_45e0_8ae1_3bb1298647b4">
@@ -2561,6 +2834,15 @@ In rare cases, specially-shaped bits are used to cut holes of non-circular cross
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ba93155d_60b6_4efa_9271_85e1d74ffcb5">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_37a3ec2c_6e22_4f31_b254_ef4669b8377c"/>
         <rdfs:label xml:lang="en">Gypsum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ba9dbdc6_d9ae_4c6b_a8cc_49798e250eec -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ba9dbdc6_d9ae_4c6b_a8cc_49798e250eec">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_f195f874_70d8_4947_868e_77836751d22d"/>
+        <rdfs:label xml:lang="en">Resource_Surface_Expression</rdfs:label>
     </owl:Class>
     
 
@@ -2759,11 +3041,32 @@ In rare cases, specially-shaped bits are used to cut holes of non-circular cross
     
 
 
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_c9095b4b_db6f_4821_b69d_7329447e8222 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_c9095b4b_db6f_4821_b69d_7329447e8222">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ba9dbdc6_d9ae_4c6b_a8cc_49798e250eec"/>
+        <rdfs:comment xml:lang="en">The Earth resource, concealed or exposed, has an anomalous geochemical signature.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Australia/New Zealand Government Geoscience Information Committee (GGIC)</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Geochemical_Anomaly</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ca248fd8_1d04_4e9f_adf7_6626ec6fd832 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ca248fd8_1d04_4e9f_adf7_6626ec6fd832">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b5cc312b_8b93_49ff_937e_16578da928d1"/>
         <rdfs:label xml:lang="en">Industrial_Mineral</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ca995f20_f27e_4d5a_bdb9_1886c1f40791 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ca995f20_f27e_4d5a_bdb9_1886c1f40791">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_118d8aa4_c8df_45bf_99b2_86ba82395606"/>
+        <rdfs:comment xml:lang="en">The mineral deposit is hosted within a fault or shear zone.</rdfs:comment>
+        <rdfs:label xml:lang="en">Fault_Hosted</rdfs:label>
     </owl:Class>
     
 
@@ -2818,6 +3121,17 @@ In rare cases, specially-shaped bits are used to cut holes of non-circular cross
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_cd27408b_354d_4262_aa6e_d649b6d56056">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_7bfd3615_a60e_4e62_92fd_af5404f22378"/>
         <rdfs:label xml:lang="en">Opal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ce8f286d_28d8_4aa7_bb04_df693fee0d98 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ce8f286d_28d8_4aa7_bb04_df693fee0d98">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_39585b87_6be8_435d_bf41_96a1a9ac8aff"/>
+        <rdfs:comment xml:lang="en">Body geometry is irregular and can not be characterized using terminology.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">From CGI GeologicUnitMorphology vocabulary</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Irregular</rdfs:label>
     </owl:Class>
     
 
@@ -2989,6 +3303,17 @@ In rare cases, specially-shaped bits are used to cut holes of non-circular cross
     
 
 
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_d936da5c_0e73_402f_91cf_3aca4b2bcc84 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_d936da5c_0e73_402f_91cf_3aca4b2bcc84">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_7d88afc7_74f2_4849_92b5_ba869782c220"/>
+        <rdfs:comment xml:lang="en">The surface expression of the Earth Resource is as highly weathered (oxidized) outcrop.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Australia/New Zealand Government Geoscience Information Committee (GGIC)</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Gossan</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_d936e977_83a0_4203_8cde_af1d4a997226 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_d936e977_83a0_4203_8cde_af1d4a997226">
@@ -3102,6 +3427,16 @@ In rare cases, specially-shaped bits are used to cut holes of non-circular cross
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_dd974db8_a030_49c7_acf4_10f589d1d236">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_46a1a4cd_cfaf_4df0_ba02_d335ee476f32"/>
         <rdfs:label xml:lang="en">Uranium_Oxide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_de66c961_c165_432e_8c08_304bdfaa96de -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_de66c961_c165_432e_8c08_304bdfaa96de">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_118d8aa4_c8df_45bf_99b2_86ba82395606"/>
+        <rdfs:comment xml:lang="en">A subconcordant body in some places lies parallel to, and in other places crosscuts, wallrock contacts or internal structures (eg, bedding, foliation)</rdfs:comment>
+        <rdfs:label xml:lang="en">Mixed_Concordant_Discordant</rdfs:label>
     </owl:Class>
     
 
@@ -3270,6 +3605,17 @@ In rare cases, specially-shaped bits are used to cut holes of non-circular cross
     
 
 
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_e8012aab_a00e_45fb_be88_d122abd480cc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_e8012aab_a00e_45fb_be88_d122abd480cc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_19445664_142f_4fea_a89e_7a198514d1a9"/>
+        <rdfs:comment xml:lang="en">A body of rock serving as a host for other rocks or for mineral deposits; e.g. a pluton containing xenoliths, or any rock in which ore deposits occur. It is a somewhat more specific term than country rock.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Glossary of Geology. 5th Edition, AGI - online</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Host_rock</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_e906de4d_275e_491b_89d8_3510b93fc1b9 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_e906de4d_275e_491b_89d8_3510b93fc1b9">
@@ -3303,6 +3649,17 @@ In rare cases, specially-shaped bits are used to cut holes of non-circular cross
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ae3532bc_69a8_476a_a85b_25597333e646"/>
         <rdfs:comment xml:lang="en">Core drilling using a diamond or tungsten carbide bit and a core barrel with fibreglass inner sleeves. To retrieve the core samples, the complete rod string and core barrel assembly has to be removed from the hole. Conventional coring is much more time consuming than wireline coring, as each rod has to be removed from the hole individually, then lowered back into the hole to continue to advance the boring and collect the next core sample.  Used in the oil industry.</rdfs:comment>
         <rdfs:label xml:lang="en">Conventional_Core_Drilling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_eb1cb9b9_1fb2_49bb_a6cd_ff3f0ba23286 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_eb1cb9b9_1fb2_49bb_a6cd_ff3f0ba23286">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ba9dbdc6_d9ae_4c6b_a8cc_49798e250eec"/>
+        <rdfs:comment xml:lang="en">The Earth resource is not exposed at the Earth&apos;s surface.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">Australia/New Zealand Government Geoscience Information Committee (GGIC)</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Concealed</rdfs:label>
     </owl:Class>
     
 
@@ -3599,6 +3956,16 @@ In rare cases, specially-shaped bits are used to cut holes of non-circular cross
     
 
 
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_fe1881f9_89ad_42e0_83d1_fbbda46a8a9d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_fe1881f9_89ad_42e0_83d1_fbbda46a8a9d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_118d8aa4_c8df_45bf_99b2_86ba82395606"/>
+        <rdfs:comment xml:lang="en">The form of the mineral deposit has been significantly modified by post-mineralization structural modification.</rdfs:comment>
+        <rdfs:label xml:lang="en">Structurally_Transposed</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -3849,6 +4216,18 @@ In rare cases, specially-shaped bits are used to cut holes of non-circular cross
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_0c05846b_9c35_493c_84cf_d874199f4d9d"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_2b4d660c_db50_4335_b3c6_6004f4462941"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_40ffc78a_5300_4114_b597_935895ff60fa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_7e7882e6_dfc9_4415_8bef_082006044eed"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_7efcc98c_8c78_4a22_bdc4_0e8fc74367ff"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a6e924f2_7080_4d78_bbb8_5e58f4a8c6ae"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ce8f286d_28d8_4aa7_bb04_df693fee0d98"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_0c6ed2d2_d8a8_420c_9eec_b75a4b8d4844"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_46a1a4cd_cfaf_4df0_ba02_d335ee476f32"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_8febd0dc_6f1c_4301_be98_eddbe645c13d"/>
@@ -3874,6 +4253,51 @@ In rare cases, specially-shaped bits are used to cut holes of non-circular cross
             <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_46af1872_f34e_4f44_8b16_b2cf3539f5ec"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_58f773ab_ad88_4a82_ade0_e92027f516e6"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_72fc76cd_54c4_4ee0_977f_1a9490e9a16e"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_1147e217_13e3_4761_bde0_cfca0ce31a1b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_42f4a13f_16d9_4539_8e05_6daafb7a9c69"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_7cabe3fa_a286_4011_8aa1_b5e5e88d385a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_82c07067_5cbd_49ac_bfc8_ba841b37baaf"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a54e760a_12d6_4838_b2b7_e809ae34ee05"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ab58ba9f_d1de_4892_8be3_c5e0622cd0e1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_e8012aab_a00e_45fb_be88_d122abd480cc"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_118d8aa4_c8df_45bf_99b2_86ba82395606"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_15e895ef_bf8f_483c_81e6_31fc73cb40b0"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_19445664_142f_4fea_a89e_7a198514d1a9"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_39585b87_6be8_435d_bf41_96a1a9ac8aff"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_995d1f2c_25f2_4829_b98e_8f2197d655b3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b91f7da7_d0f2_4cde_bda3_817b314ac027"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ba9dbdc6_d9ae_4c6b_a8cc_49798e250eec"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_118d8aa4_c8df_45bf_99b2_86ba82395606"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_15e895ef_bf8f_483c_81e6_31fc73cb40b0"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_19445664_142f_4fea_a89e_7a198514d1a9"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_995d1f2c_25f2_4829_b98e_8f2197d655b3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b91f7da7_d0f2_4cde_bda3_817b314ac027"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ba9dbdc6_d9ae_4c6b_a8cc_49798e250eec"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_118d8aa4_c8df_45bf_99b2_86ba82395606"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_15e895ef_bf8f_483c_81e6_31fc73cb40b0"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_995d1f2c_25f2_4829_b98e_8f2197d655b3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b91f7da7_d0f2_4cde_bda3_817b314ac027"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ba9dbdc6_d9ae_4c6b_a8cc_49798e250eec"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
@@ -3923,6 +4347,15 @@ In rare cases, specially-shaped bits are used to cut holes of non-circular cross
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_15e895ef_bf8f_483c_81e6_31fc73cb40b0"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_995d1f2c_25f2_4829_b98e_8f2197d655b3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b91f7da7_d0f2_4cde_bda3_817b314ac027"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ba9dbdc6_d9ae_4c6b_a8cc_49798e250eec"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_1886fb80_a5e8_4cbc_9e00_55aeca30ba20"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_4f9d6a2c_bfc4_4691_a96d_82392753e31e"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ad621389_1a79_4b13_aa90_e35e491e906f"/>
@@ -3943,6 +4376,17 @@ In rare cases, specially-shaped bits are used to cut holes of non-circular cross
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_1b1a06ae_40f3_4a6a_880f_f924ad576446"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_2342278e_39ac_4bcd_89bc_2ae61f151363"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_30af1619_84ea_44c3_9102_e922851c62b7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_7d88afc7_74f2_4849_92b5_ba869782c220"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_c9095b4b_db6f_4821_b69d_7329447e8222"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_eb1cb9b9_1fb2_49bb_a6cd_ff3f0ba23286"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_1d46436f_03ba_4f38_9c15_8c009c1f8024"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_898be6cb_ff5e_407a_a51f_4a8886e3cfdb"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_9bded3b0_d9bd_490e_8cdb_628b5dd5dfde"/>
@@ -3955,6 +4399,19 @@ In rare cases, specially-shaped bits are used to cut holes of non-circular cross
             <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_4ce13001_6fae_4553_8698_6861f21eab71"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_7e66b61d_ab63_4f5e_892f_9f2083d1991a"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_836af1cd_d63a_4853_a9cb_5c4e09cb4c12"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_2065a57d_8afc_47a3_bab7_c5281cc8b9ac"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_2afc3017_08c6_4a98_97c5_5cc982a1e8af"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_48161e91_0e4f_4cf7_99c3_3460c35c2680"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b1d23e6a_7b7d_44a0_8214_6fb600498201"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b80f229d_2f85_45d0_bc5b_552b1a7c5811"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ca995f20_f27e_4d5a_bdb9_1886c1f40791"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_de66c961_c165_432e_8c08_304bdfaa96de"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_fe1881f9_89ad_42e0_83d1_fbbda46a8a9d"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
