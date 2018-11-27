@@ -406,6 +406,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_1209f0f5_dffd_4b73_bfe2_bf7eefdc4182 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_1209f0f5_dffd_4b73_bfe2_bf7eefdc4182">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ae139797_53c0_4d45_9b17_92825c1b3324"/>
+        <rdfs:comment xml:lang="en">Ore concentrate of specified metal</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">BGS Mines and Quarries Database</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Metal-Ore</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_130e930b_9d79_412f_a023_e0fc0f0d03f6 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_130e930b_9d79_412f_a023_e0fc0f0d03f6">
@@ -629,6 +640,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_230d98d4_d7cd_4df8_97d0_d5eabd33fc8d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_230d98d4_d7cd_4df8_97d0_d5eabd33fc8d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ee962f16_00bd_4cde_bb46_011fc8802e04"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_bcbbcdfd_24aa_4b5a_a254_1e7c8da88d48"/>
+        <rdfs:comment xml:lang="en">Material has potential for energy production through burning</rdfs:comment>
+        <rdfs:label xml:lang="en">Fossil_Fuel_Use</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_232330d6_1552_4f28_96af_6ce2e3030bcf -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_232330d6_1552_4f28_96af_6ce2e3030bcf">
@@ -714,12 +736,34 @@
     
 
 
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_26da2945_a613_49fe_86c6_a830c4d47a3e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_26da2945_a613_49fe_86c6_a830c4d47a3e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_2bc005a4_d30b_420a_9518_aa2afc1ac142"/>
+        <rdfs:comment xml:lang="en">Material used as a raw material for the manufacture of structural clay products, i.e. Bricks, pipes and tiles.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">BGS Mines and Quarries Database</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Structural_Clay_Products</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_281f4a81_09db_4ed6_98fc_037550422052 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_281f4a81_09db_4ed6_98fc_037550422052">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b91f7da7_d0f2_4cde_bda3_817b314ac027"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b5cc312b_8b93_49ff_937e_16578da928d1"/>
         <rdfs:label xml:lang="en">Produced_Commodity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_28c49d76_5ea5_4ca8_8d89_533db5887d92 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_28c49d76_5ea5_4ca8_8d89_533db5887d92">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_6e21b3f7_b592_4f74_83ae_ee91581cca28"/>
+        <rdfs:comment xml:lang="en">Soil and aggregates used for landscaping</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">BGS Mines and Quarries Database</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Landscaping</rdfs:label>
     </owl:Class>
     
 
@@ -750,6 +794,17 @@
         <rdfs:comment xml:lang="en">A body bounded by converging surfaces (at least one of which is curved), thick in the middle and thinning out toward the edges, resembling a convex lens.</rdfs:comment>
         <rdfs:isDefinedBy xml:lang="en">Glossary of Geology. 4th Edition, AGI + DC, adapted from</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Lensoidal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_2bc005a4_d30b_420a_9518_aa2afc1ac142 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_2bc005a4_d30b_420a_9518_aa2afc1ac142">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_6612fa34_1a64_4646_8ba9_9d16e9d9ed1f"/>
+        <rdfs:comment xml:lang="en">Material used in the construction industry. Includes aggregate, dimension &amp; ornamental stones (granite, gabbro, travertine, etc.), gypsum, anhydrite, cement limestone, limestone for lime, marble, sand and gravel.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">ProMine EU FP7 project, BGS Mines and Quarries Database</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Construction</rdfs:label>
     </owl:Class>
     
 
@@ -1049,6 +1104,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_3f937616_0f48_4cba_9db7_33d84c95410f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_3f937616_0f48_4cba_9db7_33d84c95410f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_2bc005a4_d30b_420a_9518_aa2afc1ac142"/>
+        <rdfs:comment xml:lang="en">Natural Stone used in a block, flag or slate form for construction or decorative purposes, or artifacts, e.g. millstones.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">BGS Mines and Quarries Database</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Building_and_Dimension_Stone</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_403bdccb_9505_474d_ab57_bfb84e1d603b -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_403bdccb_9505_474d_ab57_bfb84e1d603b">
@@ -1165,6 +1231,17 @@
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_45707e57_0886_40a5_b257_b3eb58e4deb4">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_4ab393b9_33eb_450a_a2a5_a0899e032c95"/>
         <rdfs:label xml:lang="en">Riprap</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_45723854_2c7b_4fb6_9347_36e09862b202 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_45723854_2c7b_4fb6_9347_36e09862b202">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a285d684_c3ee_440a_83f5_ded316470bfb"/>
+        <rdfs:comment xml:lang="en">Material has potential for use in borehole drilling processes, e.g. as a mud weight or viscosity additive.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">BGS Mines and Quarries Database</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Drilling_Minerals</rdfs:label>
     </owl:Class>
     
 
@@ -1360,6 +1437,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_4e69af0b_4d88_482f_afd6_906a557740ca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_4e69af0b_4d88_482f_afd6_906a557740ca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a285d684_c3ee_440a_83f5_ded316470bfb"/>
+        <rdfs:comment xml:lang="en">Material used as a part of the process in the manufacture of a metallic product.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">BGS Mines and Quarries Database</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Foundry_Minerals</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_4e8ddfb2_ecca_4261_9d46_c63347d99379 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_4e8ddfb2_ecca_4261_9d46_c63347d99379">
@@ -1411,6 +1499,17 @@
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_4fe62869_1be7_492e_adde_d67f9a08893d">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_3244211f_db36_471e_9cdc_2afa794f741c"/>
         <rdfs:label xml:lang="en">Niobium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_5044bc9a_09c9_4297_af8b_7dae9b235c12 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_5044bc9a_09c9_4297_af8b_7dae9b235c12">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a285d684_c3ee_440a_83f5_ded316470bfb"/>
+        <rdfs:comment xml:lang="en">Naturally occurring abrasives.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">BGS Mines and Quarries Database</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Abrasive_Minerals</rdfs:label>
     </owl:Class>
     
 
@@ -1641,11 +1740,42 @@
     
 
 
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_64ad39ff_1f37_4fde_99a9_47e5a4a8d735 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_64ad39ff_1f37_4fde_99a9_47e5a4a8d735">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_2bc005a4_d30b_420a_9518_aa2afc1ac142"/>
+        <rdfs:comment xml:lang="en">Material directly used in the manufacture of a plaster or plasterboard.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">BGS Mines and Quarries Database</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Plaster_And_Plasterboard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_6525a9c0_4ef5_4f41_9ce2_824ef5ace6da -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_6525a9c0_4ef5_4f41_9ce2_824ef5ace6da">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a285d684_c3ee_440a_83f5_ded316470bfb"/>
+        <rdfs:comment xml:lang="en">Material directly used in the treatment or enhancement of an industrial product, i.e. paper coatings.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">BGS Mines and Quarries Database</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Industrial_Product_Treatment</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_65e8f270_afee_4b81_8654_0adc2f6c79d7 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_65e8f270_afee_4b81_8654_0adc2f6c79d7">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a6aee9ab_794e_43cb_9823_ef302c260278"/>
         <rdfs:label xml:lang="en">Pyritic_Alteration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_6612fa34_1a64_4646_8ba9_9d16e9d9ed1f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_6612fa34_1a64_4646_8ba9_9d16e9d9ed1f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_f195f874_70d8_4947_868e_77836751d22d"/>
+        <rdfs:label xml:lang="en">End_Use_Potential</rdfs:label>
     </owl:Class>
     
 
@@ -1700,6 +1830,17 @@
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_6c7fb7dd_2322_4b82_8cb3_eb3de0c9f334">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ca248fd8_1d04_4e9f_adf7_6626ec6fd832"/>
         <rdfs:label xml:lang="en">Silica</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_6e21b3f7_b592_4f74_83ae_ee91581cca28 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_6e21b3f7_b592_4f74_83ae_ee91581cca28">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a3cfa5b3_4bb1_4309_aefc_b4b31e77cd80"/>
+        <rdfs:comment xml:lang="en">Material used for agricultural or horticultural purposes as a fertiliser, soil conditioner or improver.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">BGS Mines and Quarries Database</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Agriculture</rdfs:label>
     </owl:Class>
     
 
@@ -2046,6 +2187,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_8378ae12_fbfa_4815_9105_31d50facca50 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_8378ae12_fbfa_4815_9105_31d50facca50">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a3cfa5b3_4bb1_4309_aefc_b4b31e77cd80"/>
+        <rdfs:comment xml:lang="en">Resource end use is for sale to collectors and for education</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">this vocabulary</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Mineral_Specimens</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_839908ef_49ea_4122_85ba_72518d90949b -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_839908ef_49ea_4122_85ba_72518d90949b">
@@ -2315,6 +2467,17 @@
     
 
 
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_99b19bdb_effe_4eb4_95b9_b71380ddd2d8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_99b19bdb_effe_4eb4_95b9_b71380ddd2d8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a285d684_c3ee_440a_83f5_ded316470bfb"/>
+        <rdfs:comment xml:lang="en">General use in the glass making industry, including fluxes.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">BGS Mines and Quarries Database</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Glass_Manufacturing_Minerals</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_9a5a391b_13fb_419a_bdba_84368de0ccb2 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_9a5a391b_13fb_419a_bdba_84368de0ccb2">
@@ -2396,6 +2559,28 @@
     
 
 
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a285d684_c3ee_440a_83f5_ded316470bfb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a285d684_c3ee_440a_83f5_ded316470bfb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a3cfa5b3_4bb1_4309_aefc_b4b31e77cd80"/>
+        <rdfs:comment xml:lang="en">Includes abrasives: garnet, staurolite, corundum; asbestos (antophyllite, chrysotile, crocidolite); attapulgite, sepiolite (clay); bentonite (clay); limestone, calcite (filler); diatomite (kieselguhr);  graphite; mica; perlite; quartz (massive / block for ferrosilicon); quartz (for optical and piezoelectrical use); silica sand; talc, pyrophyllite; vermiculite; wollastonite.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">ProMine EU FP7 project</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Speciality_and_Other_Industrial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a3cfa5b3_4bb1_4309_aefc_b4b31e77cd80 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a3cfa5b3_4bb1_4309_aefc_b4b31e77cd80">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_6612fa34_1a64_4646_8ba9_9d16e9d9ed1f"/>
+        <rdfs:comment xml:lang="en">Material used in the manufacture of a product by an industrial process, or in the treatment of a product</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">BGS Mines and Quarries Database</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Industrial_Minerals</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a418904a_d222_4821_abfc_8f32ddf974f2 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a418904a_d222_4821_abfc_8f32ddf974f2">
@@ -2441,6 +2626,17 @@
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a5e81d4c_92eb_4d70_9818_2873916fa258">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_9f35601d_4ed1_475e_97e9_605cd887ad72"/>
         <rdfs:label xml:lang="en">Iridium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a6431026_6dc3_42b5_8b78_4821bd955a1f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a6431026_6dc3_42b5_8b78_4821bd955a1f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_6e21b3f7_b592_4f74_83ae_ee91581cca28"/>
+        <rdfs:comment xml:lang="en">Horticultural uses e.g. sand for top dressing, peat</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">BGS Mines and Quarries Database</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Horticultural</rdfs:label>
     </owl:Class>
     
 
@@ -2527,7 +2723,10 @@
     <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a99ae89c_4762_4272_ba5c_d0d8bfb82fb7 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a99ae89c_4762_4272_ba5c_d0d8bfb82fb7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a3cfa5b3_4bb1_4309_aefc_b4b31e77cd80"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b5cc312b_8b93_49ff_937e_16578da928d1"/>
+        <rdfs:comment xml:lang="en">Precious or semi precious stones or metals for use in jewellery or decorative work</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">BGS Mines and Quarries Database</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Gemstone</rdfs:label>
     </owl:Class>
     
@@ -2619,6 +2818,17 @@ In rare cases, specially-shaped bits are used to cut holes of non-circular cross
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_adf6c201_d67e_4340_a8f8_7fb5122b8fb8">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ca248fd8_1d04_4e9f_adf7_6626ec6fd832"/>
         <rdfs:label xml:lang="en">Corundum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ae139797_53c0_4d45_9b17_92825c1b3324 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ae139797_53c0_4d45_9b17_92825c1b3324">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_6612fa34_1a64_4646_8ba9_9d16e9d9ed1f"/>
+        <rdfs:comment xml:lang="en">Metal ore directly used to produce metals and minerals used in their processing</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">BGS Mines and Quarries Database</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Metal-Industry</rdfs:label>
     </owl:Class>
     
 
@@ -2774,6 +2984,17 @@ In rare cases, specially-shaped bits are used to cut holes of non-circular cross
     
 
 
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b751506f_b8fe_469e_bdbd_5951dca72210 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b751506f_b8fe_469e_bdbd_5951dca72210">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a3cfa5b3_4bb1_4309_aefc_b4b31e77cd80"/>
+        <rdfs:comment xml:lang="en">Materials recycled for either remanufacture of a similar product or for use in a different product or manner</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">BGS Mines and Quarries Database</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Recycling</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b80f229d_2f85_45d0_bc5b_552b1a7c5811 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b80f229d_2f85_45d0_bc5b_552b1a7c5811">
@@ -2863,6 +3084,16 @@ In rare cases, specially-shaped bits are used to cut holes of non-circular cross
         <rdfs:comment xml:lang="en">The United Nations Framework Classification for Fossil Energy and Mineral Reserves and Resources 2009 (UNFC-2009) is a universally applicable scheme for classifying/evaluating energy and mineral reserves and resources - it is the successor to UNFC-2004. Designed as an all-encompassing framework, it enables the incorporation and unification of existing national systems, while allowing their classification units and glossary to be retained. The principal objective of UNFC-2009 is to enhance international communication by providing a simple, user-friendly and uniform format for the reporting of energy reserves and resources, using market-based economic criteria. It has been developed to meet, to the extent possible, the needs of applications pertaining to international energy and mineral studies, government resource management functions, corporate business processes and financial reporting standards</rdfs:comment>
         <rdfs:isDefinedBy xml:lang="en">http://www.unece.org/energy/se/reserves.html</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">UNFC_Code</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_bcbbcdfd_24aa_4b5a_a254_1e7c8da88d48 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_bcbbcdfd_24aa_4b5a_a254_1e7c8da88d48">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ee962f16_00bd_4cde_bb46_011fc8802e04"/>
+        <rdfs:comment xml:lang="en">Material has potential for energy production through use in nuclear reactor</rdfs:comment>
+        <rdfs:label xml:lang="en">Nuclear_Energy_Source</rdfs:label>
     </owl:Class>
     
 
@@ -3125,6 +3356,17 @@ In rare cases, specially-shaped bits are used to cut holes of non-circular cross
     
 
 
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_cd73cc21_e42c_4d48_bba2_01f0a06803b9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_cd73cc21_e42c_4d48_bba2_01f0a06803b9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_6e21b3f7_b592_4f74_83ae_ee91581cca28"/>
+        <rdfs:comment xml:lang="en">Direct application of chalk, limestone or dolomite for soil conditioning</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">BGS Mines and Quarries Database</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Agricultural_Lime</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ce8f286d_28d8_4aa7_bb04_df693fee0d98 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ce8f286d_28d8_4aa7_bb04_df693fee0d98">
@@ -3179,6 +3421,16 @@ In rare cases, specially-shaped bits are used to cut holes of non-circular cross
         <rdfs:comment xml:lang="en">Certification Code for Exploration Prospects, Mineral Resources &amp; Ore Reserves.  This Code is the result of a Collaboration Agreement between the Institution of Mining Engineers of Chile (IIMCh) and the Ministry of Mining.</rdfs:comment>
         <rdfs:isDefinedBy xml:lang="en">http://www.cim.org/standards/documents/Block470_Doc26.pdf</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">IIMCH_Code</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_d4b370c6_cce5_4b97_aebb_04c74a4b7e31 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_d4b370c6_cce5_4b97_aebb_04c74a4b7e31">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a3cfa5b3_4bb1_4309_aefc_b4b31e77cd80"/>
+        <rdfs:comment xml:lang="en">resource end use is extraction of non-metal elements for direct use, e.g. flourine, bromine, iodine, boron</rdfs:comment>
+        <rdfs:label xml:lang="en">Non-Metal_Ore</rdfs:label>
     </owl:Class>
     
 
@@ -3266,6 +3518,17 @@ In rare cases, specially-shaped bits are used to cut holes of non-circular cross
     
 
 
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_d7ec49b9_d4af_4e3d_9cb0_d4900ad8042e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_d7ec49b9_d4af_4e3d_9cb0_d4900ad8042e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a3cfa5b3_4bb1_4309_aefc_b4b31e77cd80"/>
+        <rdfs:comment xml:lang="en">Material directly used in the manufacture of a product by an industrial chemical process. Includes borates, barite, fluorite, magnesium (magnesite), sodium sulphate, sodium carbonate (trona), pyrite, sulphur, rock salt, strontium, zeolites.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">ProMine EU FP7 project, BGS Mines and Quarries Database</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Chemicals</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_d83517a9_da07_41a5_8616_a93eb0e85af4 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_d83517a9_da07_41a5_8616_a93eb0e85af4">
@@ -3328,6 +3591,17 @@ In rare cases, specially-shaped bits are used to cut holes of non-circular cross
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_da7f57f5_219b_441e_b212_78d710915e05">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ca248fd8_1d04_4e9f_adf7_6626ec6fd832"/>
         <rdfs:label xml:lang="en">Magnesite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_dac63fae_0d2a_42dc_884c_ce5450599b98 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_dac63fae_0d2a_42dc_884c_ce5450599b98">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_2bc005a4_d30b_420a_9518_aa2afc1ac142"/>
+        <rdfs:comment xml:lang="en">Material directly used in the manufacture of cement or mortar.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">BGS Mines and Quarries Database</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Cement_Making_Material</rdfs:label>
     </owl:Class>
     
 
@@ -3625,6 +3899,17 @@ In rare cases, specially-shaped bits are used to cut holes of non-circular cross
     
 
 
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_e9194f72_57e5_4cd4_9431_f08bfd5af1fc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_e9194f72_57e5_4cd4_9431_f08bfd5af1fc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a3cfa5b3_4bb1_4309_aefc_b4b31e77cd80"/>
+        <rdfs:comment xml:lang="en">Material used as a raw material for the manufacture of ceramics and refractories, i.e. whiteware or pottery. Excludes bricks, tiles, pipes and pottery.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">BGS Mines and Quarries Database</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Ceramic_and_Refactory</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_e95be9c5_0f69_4b5c_ad02_9f1b56262866 -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_e95be9c5_0f69_4b5c_ad02_9f1b56262866">
@@ -3714,6 +3999,28 @@ In rare cases, specially-shaped bits are used to cut holes of non-circular cross
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ee67e63c_9e34_41f6_9f40_e534ab7fd1d2">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_37a3ec2c_6e22_4f31_b254_ef4669b8377c"/>
         <rdfs:label xml:lang="en">Anhydrite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ee962f16_00bd_4cde_bb46_011fc8802e04 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ee962f16_00bd_4cde_bb46_011fc8802e04">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a3cfa5b3_4bb1_4309_aefc_b4b31e77cd80"/>
+        <rdfs:comment xml:lang="en">Raw materials in the energy industry. Includes oil, gas, bituminous sandstone and limestone, oil shale, coal, lignite, peat, thorium, uranium.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">ProMine EU FP7 project, BGS Mines and Quarries Database</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Energy_Minerals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_eecdfc0a_7c6e_463d_91a3_1460e9ea404a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_eecdfc0a_7c6e_463d_91a3_1460e9ea404a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_2bc005a4_d30b_420a_9518_aa2afc1ac142"/>
+        <rdfs:comment xml:lang="en">Clay or shale with particular properties, used for a civil engineering purpose other than as a fill, e.g. liner for landfill, flood defence</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">BGS Mines and Quarries Database</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Engineering_Clay</rdfs:label>
     </owl:Class>
     
 
@@ -3824,6 +4131,17 @@ In rare cases, specially-shaped bits are used to cut holes of non-circular cross
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_f72a62cb_fe30_438c_94f0_7b309e50f6a4">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a6aee9ab_794e_43cb_9823_ef302c260278"/>
         <rdfs:label xml:lang="en">Propylitic_Alteration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_f7f5b883_5576_4776_9a8d_fff6a7efabb3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_f7f5b883_5576_4776_9a8d_fff6a7efabb3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_2bc005a4_d30b_420a_9518_aa2afc1ac142"/>
+        <rdfs:comment xml:lang="en">Any of several hard, inert materials, such as sand, gravel, slag, or crushed stone, used for mixing with a cementing or bituminous material to form concrete or asphalt or used alone, as in railroad ballast or graded fill. Excludes materials for cement making and plaster making.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">adapted from Glossary of Geology. 4th Edition, AGI</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Aggregates</rdfs:label>
     </owl:Class>
     
 
@@ -3943,6 +4261,17 @@ In rare cases, specially-shaped bits are used to cut holes of non-circular cross
     <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_fcf44b28_9ad9_4816_8384_1e58cd7ede9c">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_7658f858_4b0e_4499_bf5f_a7133c7ad64c"/>
         <rdfs:label xml:lang="en">Slate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_fcff4e77_16ed_46f3_b2ae_8b8c16c6c7dd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_fcff4e77_16ed_46f3_b2ae_8b8c16c6c7dd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_6e21b3f7_b592_4f74_83ae_ee91581cca28"/>
+        <rdfs:comment xml:lang="en">Direct application K- or P-bearing rock as a fertiliser; rock used for chemical fertiliser production e.g. phosphate; mineral used to prevent caking of fertilizer granules</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">ProMine EU FP7 project, BGS Mines and Quarries Database</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Fertilizers</rdfs:label>
     </owl:Class>
     
 
@@ -4274,6 +4603,19 @@ In rare cases, specially-shaped bits are used to cut holes of non-circular cross
             <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_15e895ef_bf8f_483c_81e6_31fc73cb40b0"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_19445664_142f_4fea_a89e_7a198514d1a9"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_39585b87_6be8_435d_bf41_96a1a9ac8aff"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_6612fa34_1a64_4646_8ba9_9d16e9d9ed1f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_995d1f2c_25f2_4829_b98e_8f2197d655b3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b91f7da7_d0f2_4cde_bda3_817b314ac027"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ba9dbdc6_d9ae_4c6b_a8cc_49798e250eec"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_118d8aa4_c8df_45bf_99b2_86ba82395606"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_15e895ef_bf8f_483c_81e6_31fc73cb40b0"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_19445664_142f_4fea_a89e_7a198514d1a9"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_39585b87_6be8_435d_bf41_96a1a9ac8aff"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_995d1f2c_25f2_4829_b98e_8f2197d655b3"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b91f7da7_d0f2_4cde_bda3_817b314ac027"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ba9dbdc6_d9ae_4c6b_a8cc_49798e250eec"/>
@@ -4464,6 +4806,34 @@ In rare cases, specially-shaped bits are used to cut holes of non-circular cross
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_26da2945_a613_49fe_86c6_a830c4d47a3e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_3f937616_0f48_4cba_9db7_33d84c95410f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_64ad39ff_1f37_4fde_99a9_47e5a4a8d735"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_dac63fae_0d2a_42dc_884c_ce5450599b98"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_eecdfc0a_7c6e_463d_91a3_1460e9ea404a"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_f7f5b883_5576_4776_9a8d_fff6a7efabb3"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_28c49d76_5ea5_4ca8_8d89_533db5887d92"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a6431026_6dc3_42b5_8b78_4821bd955a1f"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_cd73cc21_e42c_4d48_bba2_01f0a06803b9"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_fcff4e77_16ed_46f3_b2ae_8b8c16c6c7dd"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_2bc005a4_d30b_420a_9518_aa2afc1ac142"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a3cfa5b3_4bb1_4309_aefc_b4b31e77cd80"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ae139797_53c0_4d45_9b17_92825c1b3324"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_2c97561a_9c53_438e_87a8_38f09b8d58e2"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_4ab393b9_33eb_450a_a2a5_a0899e032c95"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b1d9c158_7ed6_4e77_9660_08f0ffede6a2"/>
@@ -4519,6 +4889,16 @@ In rare cases, specially-shaped bits are used to cut holes of non-circular cross
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_45723854_2c7b_4fb6_9347_36e09862b202"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_4e69af0b_4d88_482f_afd6_906a557740ca"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_5044bc9a_09c9_4297_af8b_7dae9b235c12"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_6525a9c0_4ef5_4f41_9ce2_824ef5ace6da"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_99b19bdb_effe_4eb4_95b9_b71380ddd2d8"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_498edcac_10e0_49bd_90d1_fa2fda08fb58"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_5d679f2b_ce1b_498c_8186_921b8ad116d4"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a5e81d4c_92eb_4d70_9818_2873916fa258"/>
@@ -4552,6 +4932,20 @@ In rare cases, specially-shaped bits are used to cut holes of non-circular cross
             <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_d5493410_1b24_4097_b614_f9ad45b45bc4"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_d7caac3f_a15c_4762_999f_59e675bd0cea"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ee67e63c_9e34_41f6_9f40_e534ab7fd1d2"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_6e21b3f7_b592_4f74_83ae_ee91581cca28"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_8378ae12_fbfa_4815_9105_31d50facca50"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a285d684_c3ee_440a_83f5_ded316470bfb"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_a99ae89c_4762_4272_ba5c_d0d8bfb82fb7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_b751506f_b8fe_469e_bdbd_5951dca72210"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_d4b370c6_cce5_4b97_aebb_04c74a4b7e31"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_d7ec49b9_d4af_4e3d_9cb0_d4900ad8042e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_e9194f72_57e5_4cd4_9431_f08bfd5af1fc"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/edlew/ontologies/2018/10/CGI_Vocab#OWLClass_ee962f16_00bd_4cde_bb46_011fc8802e04"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
